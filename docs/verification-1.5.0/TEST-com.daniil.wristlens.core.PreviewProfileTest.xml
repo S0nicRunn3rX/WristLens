@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.PreviewProfileTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-25T20:43:12.670Z" hostname="9173a49ae6e1" time="0.001">
+  <properties/>
+  <testcase name="presetsHaveMeaningfullyDifferentRateAndCompression" classname="com.daniil.wristlens.core.PreviewProfileTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
