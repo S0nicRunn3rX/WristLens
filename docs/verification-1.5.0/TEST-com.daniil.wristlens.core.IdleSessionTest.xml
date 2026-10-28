@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.IdleSessionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-25T20:43:12.668Z" hostname="9173a49ae6e1" time="0.001">
+  <properties/>
+  <testcase name="foregroundReturnResetsTheWholeMinute" classname="com.daniil.wristlens.core.IdleSessionTest" time="0.0"/>
+  <testcase name="expiresAtOneFullMinuteButNotBefore" classname="com.daniil.wristlens.core.IdleSessionTest" time="0.0"/>
+  <testcase name="longBackgroundCaptureIsProtectedAndRestartsIdleMinute" classname="com.daniil.wristlens.core.IdleSessionTest" time="0.0"/>
+  <testcase name="newCaptureAtDeadlinePreventsShutdown" classname="com.daniil.wristlens.core.IdleSessionTest" time="0.0"/>
+  <testcase name="foregroundWatchIncludingMenusNeverExpires" classname="com.daniil.wristlens.core.IdleSessionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

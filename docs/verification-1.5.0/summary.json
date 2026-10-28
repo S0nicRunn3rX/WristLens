@@ -1,0 +1,59 @@
+{
+  "version": "1.5.0",
+  "tests": {
+    "core": {
+      "tests": 38,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "phone": {
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "wear": {
+      "tests": 54,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "lint": {
+    "phone": {
+      "errors": 0,
+      "warnings": 1,
+      "ids": [
+        "NewerVersionAvailable"
+      ]
+    },
+    "wear": {
+      "errors": 0,
+      "warnings": 3,
+      "ids": [
+        "NewerVersionAvailable",
+        "SetTextI18n",
+        "SetTextI18n"
+      ]
+    }
+  },
+  "apks": {
+    "phone": {
+      "file": "WristLens-phone-1.5.0-release.apk",
+      "versionCode": 1500,
+      "bytes": 13580569,
+      "sha256": "5e8cbcf4d1312f4f398a0e1264693d55e7181a4a2c232be7c67dedb2e607acc7",
+      "certificate_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+      "debuggable": false
+    },
+    "wear": {
+      "file": "WristLens-wear-1.5.0-release.apk",
+      "versionCode": 1501,
+      "bytes": 7115249,
+      "sha256": "0f8559c56adf7ef8561d948b89921887e4174d26d9d25770071818593c47e647",
+      "certificate_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+      "debuggable": false
+    }
+  }
+}

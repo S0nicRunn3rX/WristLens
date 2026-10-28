@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.GallerySettingsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-26T00:58:54.233Z" hostname="618265089a79" time="1.471">
+  <properties/>
+  <testcase name="batchDownloadReportsCountOnce" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.309"/>
+  <testcase name="englishIsFallbackAndRussianOnlyForPrimaryRussian" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.106"/>
+  <testcase name="multiSelectionSharesBothAndLayoutStaysOpen" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.209"/>
+  <testcase name="clockOverlaysMenuWithoutReservedTopRow" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.15"/>
+  <testcase name="downloadReportsSuccessAndFailureWithoutClosingDetail" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.206"/>
+  <testcase name="failedSettingRollsBackWithoutClosing" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.142"/>
+  <testcase name="accessibilityCaptureCanStopVideoWithoutChangingTouchSnapshot" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.047"/>
+  <testcase name="settingsRemainOpenAndReflectConfirmedState" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.141"/>
+  <testcase name="deletingDetailRefreshesUnderlyingGallery" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.16"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>
