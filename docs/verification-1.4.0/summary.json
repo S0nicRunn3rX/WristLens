@@ -1,0 +1,153 @@
+{
+  "version": "1.4.0",
+  "unit_tests": 95,
+  "failures": 0,
+  "suites": [
+    {
+      "suite": "com.daniil.wristlens.core.CaptureReleaseTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.core.CopyTransferTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.core.PreviewProfileTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.core.ProtocolTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.core.UpgradeTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.phone.CaptureOptionsTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.phone.CopyExporterTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.phone.MediaJournalTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.phone.SavedWatermarkTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.GallerySelectionTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.GallerySettingsTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.MenuInputTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.OriginalCopiesTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.RoundMenuTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.WatchLayoutTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.WatchPreferencesTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "lint": {
+    "phone": {
+      "errors": 0,
+      "warnings": []
+    },
+    "wear": {
+      "errors": 0,
+      "warnings": [
+        "GradleDependency",
+        "NewerVersionAvailable",
+        "SetTextI18n",
+        "SetTextI18n"
+      ]
+    }
+  },
+  "apks": [
+    {
+      "file": "WristLens-phone-1.4.0-release.apk",
+      "versionCode": 1400,
+      "debuggable": false,
+      "bytes": 13569909,
+      "sha256": "f54ed43267e09610451b1ccc2d2e15445df89a6364499a2a5ff1520a006d071d"
+    },
+    {
+      "file": "WristLens-wear-1.4.0-release.apk",
+      "versionCode": 1401,
+      "debuggable": false,
+      "bytes": 7105025,
+      "sha256": "58a2d86311589191978acabe9c6e1bf5d9c0db52d7d22795a39acd34625df519"
+    }
+  ],
+  "certificate_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+  "physical_devices_tested": false,
+  "video_hardware_transcoding_tested": false
+}

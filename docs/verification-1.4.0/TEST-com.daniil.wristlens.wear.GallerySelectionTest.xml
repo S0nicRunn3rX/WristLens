@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.GallerySelectionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-25T19:11:42.562Z" hostname="b1b672f9f103" time="4.45">
+  <properties/>
+  <testcase name="lateSelectAllCannotOverrideClearSelection" classname="com.daniil.wristlens.wear.GallerySelectionTest" time="3.751"/>
+  <testcase name="deletingAllUsesBatchesAndRefreshesCount" classname="com.daniil.wristlens.wear.GallerySelectionTest" time="0.441"/>
+  <testcase name="countIncludesUnloadedFilesAndSelectAllIncludesAllPages" classname="com.daniil.wristlens.wear.GallerySelectionTest" time="0.258"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

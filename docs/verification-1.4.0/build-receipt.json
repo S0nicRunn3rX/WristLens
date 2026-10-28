@@ -1,0 +1,1 @@
+{"exit_code": 0, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "/workspace/scratch/18f0476b7b06/toolchain/run_gradle.py", "clean", ":phone:assembleRelease", ":wear:assembleRelease", ":core:test", ":phone:testReleaseUnitTest", ":wear:testReleaseUnitTest", ":phone:lintRelease", ":wear:lintRelease"]}

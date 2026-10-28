@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.ProtocolTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-25T19:10:09.469Z" hostname="b1b672f9f103" time="0.006">
+  <properties/>
+  <testcase name="retriesAreRememberedAndBounded" classname="com.daniil.wristlens.core.ProtocolTest" time="0.003"/>
+  <testcase name="rejectsTruncation" classname="com.daniil.wristlens.core.ProtocolTest" time="0.001"/>
+  <testcase name="rejectsOversizedFrame" classname="com.daniil.wristlens.core.ProtocolTest" time="0.0"/>
+  <testcase name="orientationAndCountdown" classname="com.daniil.wristlens.core.ProtocolTest" time="0.001"/>
+  <testcase name="frameRoundTrip" classname="com.daniil.wristlens.core.ProtocolTest" time="0.0"/>
+  <testcase name="invalidZoomRejected" classname="com.daniil.wristlens.core.ProtocolTest" time="0.0"/>
+  <testcase name="sensorMappingAccountsForStreamCrop" classname="com.daniil.wristlens.core.ProtocolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

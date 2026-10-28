@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.WatchLayoutTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-25T19:11:54.829Z" hostname="b1b672f9f103" time="0.981">
+  <properties/>
+  <testcase name="offlineFirstTraversalHasOnlyOpenPhoneAndMenu" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.077"/>
+  <testcase name="reconnectRecordPauseCountdownAndDisconnectKeepLayout" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.132"/>
+  <testcase name="lowerDensityRoundScreenWorks" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.045"/>
+  <testcase name="largeFontKeepsHudStatusAndCountdownVisible" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.14"/>
+  <testcase name="explicitDisconnectClearsSessionAndBlocksAutomaticReconnect" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.039"/>
+  <testcase name="offlineMenuOpensAfterRecordingConnectionIsLost" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.088"/>
+  <testcase name="curvedTextIsCenteredAboveDial" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.102"/>
+  <testcase name="allButtonsAndPreviewReceiveTheirOwnTouches" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.089"/>
+  <testcase name="menuHasClockHelpDisconnectAndNoCancelButton" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.089"/>
+  <testcase name="hudLeavesPreviewTransparentOutsideGlyphs" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.039"/>
+  <testcase name="onlineFirstTraversalHasSmallNonOverlappingControls" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.045"/>
+  <testcase name="resizeRepositionsControlsBeforeMeasuring" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.096"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>
