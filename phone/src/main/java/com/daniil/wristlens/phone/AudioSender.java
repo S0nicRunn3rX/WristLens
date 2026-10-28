@@ -1,0 +1,10 @@
+package com.daniil.wristlens.phone;
+import com.google.android.gms.wearable.ChannelClient;import com.google.android.gms.tasks.Tasks;import com.daniil.wristlens.core.AudioPacket;import android.os.SystemClock;import java.io.*;import java.util.concurrent.*;import java.util.function.Consumer;
+final class AudioSender implements MicrophoneHub.Sink {
+ private final MicrophoneHub hub;private final ChannelClient channels;private final ChannelClient.Channel channel;private final Consumer<Exception> failure;private final BlockingQueue<short[]> queue=new ArrayBlockingQueue<>(1);private volatile boolean closed;volatile long inFlightSince;private short[] frame=new short[AudioPacket.MAX];private int used;private long sequence;private final Thread worker;
+ AudioSender(MicrophoneHub hub,ChannelClient channels,ChannelClient.Channel channel,Consumer<Exception> failure)throws Exception{this.hub=hub;this.channels=channels;this.channel=channel;this.failure=failure;hub.add(this,this);worker=new Thread(this::run,"audio-send");worker.start();}
+ public synchronized void pcm(long time,short[] pcm){if(closed)return;for(int i=0;i+2<pcm.length;i+=3){frame[used++]=(short)((pcm[i]+pcm[i+1]+pcm[i+2])/3);if(used==frame.length){queue.poll();queue.offer(frame);frame=new short[AudioPacket.MAX];used=0;}}}
+ public void error(Exception e){if(!closed)failure.accept(e);}
+ private void run(){try(DataOutputStream out=new DataOutputStream(Tasks.await(channels.getOutputStream(channel),10,TimeUnit.SECONDS));DataInputStream ack=new DataInputStream(Tasks.await(channels.getInputStream(channel),10,TimeUnit.SECONDS))){while(!closed){short[] data=queue.poll(1,TimeUnit.SECONDS);if(data==null)continue;long id=++sequence;inFlightSince=SystemClock.elapsedRealtime();AudioPacket.write(out,id,data);out.flush();if(ack.readLong()!=id)throw new IOException("Invalid audio acknowledgement");inFlightSince=0;}}catch(Exception e){if(!closed)failure.accept(e);}finally{close();}}
+ void close(){closed=true;hub.remove(this);channels.close(channel);queue.clear();}
+}
