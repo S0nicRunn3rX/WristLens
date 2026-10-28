@@ -1,0 +1,13 @@
+/workspace/scratch/18f0476b7b06/WristLens/phone/build.gradle:33: Warning: A newer version of org.robolectric:robolectric than 4.16.1 is available: 4.17 [NewerVersionAvailable]
+    testImplementation 'org.robolectric:robolectric:4.16.1'
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NewerVersionAvailable":
+   This detector checks with a central repository to see if there are newer
+   versions available for the dependencies used by this project. This is
+   similar to the GradleDependency check, which checks for newer versions
+   available in the Android SDK tools and libraries, but this works with any
+   MavenCentral dependency, and connects to the library every time, which
+   makes it more flexible but also much slower.
+
+0 errors, 1 warning

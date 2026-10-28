@@ -1,0 +1,72 @@
+{
+  "release": "1.7.0",
+  "date": "2026-10-27",
+  "tests": {
+    "core": {
+      "tests": 54,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "phone": {
+      "tests": 21,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "wear": {
+      "tests": 78,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total_tests": 153,
+  "lint_errors": 0,
+  "lint_warnings": {
+    "phone": [
+      "NewerVersionAvailable"
+    ],
+    "wear": [
+      "GradleDependency",
+      "NewerVersionAvailable",
+      "SetTextI18n",
+      "SetTextI18n"
+    ]
+  },
+  "apks": {
+    "phone": {
+      "file": "WristLens-phone-1.7.0-release.apk",
+      "bytes": 13623001,
+      "sha256": "7c1f52f0d1ea0a4e16089bf94db98b11f5acecf02c2f8f1de3b1746049b56218",
+      "versionName": "1.7.0",
+      "versionCode": 1700,
+      "applicationId": "com.daniil.wristlens",
+      "debuggable": false,
+      "signer_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+      "classes": [
+        "VideoRecorder",
+        "MicrophoneHub",
+        "AudioSender",
+        "AudioOptions"
+      ]
+    },
+    "wear": {
+      "file": "WristLens-wear-1.7.0-release.apk",
+      "bytes": 7198349,
+      "sha256": "6593bbd11e0a7c313a81a8738a75830fb40e3423230afb5dd83c0cc5ac4f609c",
+      "versionName": "1.7.0",
+      "versionCode": 1701,
+      "applicationId": "com.daniil.wristlens",
+      "debuggable": false,
+      "signer_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+      "classes": [
+        "LiveAudio",
+        "Downloads",
+        "DownloadWorker",
+        "DownloadCancelReceiver"
+      ]
+    }
+  },
+  "physical_devices_tested": false
+}

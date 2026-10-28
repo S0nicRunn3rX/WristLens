@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=WristLens Development, OU=Test Builds, O=WristLens, C=XX
+Signer #1 certificate SHA-256 digest: 1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73
+Signer #1 certificate SHA-1 digest: 37170eb524671e016b1b6776e82514043f36162b
+Signer #1 certificate MD5 digest: 0526f57d9df08364cf3446b19db0c484
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: cc808c69903e8df3e1b1d224925261d879db86e8573f8d25dc76d01b05380b97
+Signer #1 public key SHA-1 digest: 3e38d04021f04a1345b3703aa2e3e007f8ef7fa1
+Signer #1 public key MD5 digest: 84a5fedb766f6df88bcf9aedb9d7e547

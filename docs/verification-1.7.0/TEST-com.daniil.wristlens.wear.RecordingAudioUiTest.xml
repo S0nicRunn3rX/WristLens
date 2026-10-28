@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.RecordingAudioUiTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-27T11:39:38.133Z" hostname="5502a5b8082e" time="0.897">
+  <properties/>
+  <testcase name="permissionRecoveryButtonAndMutedIconRender" classname="com.daniil.wristlens.wear.RecordingAudioUiTest" time="0.233"/>
+  <testcase name="micWorksWhilePausedAndCannotInventMissingAudioTrack" classname="com.daniil.wristlens.wear.RecordingAudioUiTest" time="0.065"/>
+  <testcase name="micReplacesCameraAndSendsQuietToggleInSameRecording" classname="com.daniil.wristlens.wear.RecordingAudioUiTest" time="0.055"/>
+  <testcase name="phoneConfirmedAudioChangesRefreshWithoutClosingSettings" classname="com.daniil.wristlens.wear.RecordingAudioUiTest" time="0.268"/>
+  <testcase name="separateSettingsStayOnSamePage" classname="com.daniil.wristlens.wear.RecordingAudioUiTest" time="0.274"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

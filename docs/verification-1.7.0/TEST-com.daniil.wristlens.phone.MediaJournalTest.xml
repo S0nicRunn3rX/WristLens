@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.phone.MediaJournalTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-27T11:39:27.289Z" hostname="5502a5b8082e" time="1.848">
+  <properties/>
+  <testcase name="malformedMetadataDoesNotHideIndexedPhoto" classname="com.daniil.wristlens.phone.MediaJournalTest" time="0.499"/>
+  <testcase name="deletingNewestFileDoesNotReuseSyncCursor" classname="com.daniil.wristlens.phone.MediaJournalTest" time="0.063"/>
+  <testcase name="failedOrPendingVideoIsAbsentFromSync" classname="com.daniil.wristlens.phone.MediaJournalTest" time="0.048"/>
+  <testcase name="indexCountsWholeGalleryAndPaginatesAcrossDeletion" classname="com.daniil.wristlens.phone.MediaJournalTest" time="1.144"/>
+  <testcase name="completedVideoAfterSnapshotIsNotSkipped" classname="com.daniil.wristlens.phone.MediaJournalTest" time="0.036"/>
+  <testcase name="galleryReadsDimensionsFromSavedFile" classname="com.daniil.wristlens.phone.MediaJournalTest" time="0.056"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

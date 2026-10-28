@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.GallerySelectionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-27T11:39:28.235Z" hostname="5502a5b8082e" time="4.194">
+  <properties/>
+  <testcase name="lateSelectAllCannotOverrideClearSelection" classname="com.daniil.wristlens.wear.GallerySelectionTest" time="3.311"/>
+  <testcase name="deletingAllUsesBatchesAndRefreshesCount" classname="com.daniil.wristlens.wear.GallerySelectionTest" time="0.452"/>
+  <testcase name="countIncludesUnloadedFilesAndSelectAllIncludesAllPages" classname="com.daniil.wristlens.wear.GallerySelectionTest" time="0.428"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>
