@@ -1,0 +1,2 @@
+7c1f52f0d1ea0a4e16089bf94db98b11f5acecf02c2f8f1de3b1746049b56218  WristLens-phone-1.7.0-release.apk
+6593bbd11e0a7c313a81a8738a75830fb40e3423230afb5dd83c0cc5ac4f609c  WristLens-wear-1.7.0-release.apk
