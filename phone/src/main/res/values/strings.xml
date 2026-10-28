@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">WristLens Camera</string>
+    <!-- Read dynamically by Google Play services, not by application code. -->
+    <string-array name="android_wear_capabilities" tools:ignore="UnusedResources"><item>wristlens_phone</item></string-array>
+    <style name="AppThemeBase" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item><item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">#82B1FF</item><item name="android:windowBackground">#080C12</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppTheme" parent="AppThemeBase"/>
+</resources>
