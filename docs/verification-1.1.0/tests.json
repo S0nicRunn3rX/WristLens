@@ -1,0 +1,65 @@
+[
+  {
+    "name": "com.daniil.wristlens.wear.GallerySettingsTest",
+    "tests": "7",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.wear.OriginalCopiesTest",
+    "tests": "5",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.wear.WatchLayoutTest",
+    "tests": "13",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.phone.SavedWatermarkTest",
+    "tests": "3",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.phone.CaptureOptionsTest",
+    "tests": "4",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.phone.MediaJournalTest",
+    "tests": "3",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.core.CaptureReleaseTest",
+    "tests": "7",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.core.ProtocolTest",
+    "tests": "7",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.daniil.wristlens.core.UpgradeTest",
+    "tests": "14",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  }
+]

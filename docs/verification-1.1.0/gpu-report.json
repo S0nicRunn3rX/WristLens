@@ -1,0 +1,328 @@
+{
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "passed": 32,
+  "preview_unmarked": true,
+  "scope": "Real External OES shader with Android text; no phone HAL or MediaRecorder validation",
+  "cases": [
+    {
+      "case": "0-top_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        17,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "0-top_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        18,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "0-top_right-white",
+      "pixels": 296,
+      "bounds": [
+        491,
+        17,
+        625,
+        28
+      ]
+    },
+    {
+      "case": "0-top_right-black",
+      "pixels": 208,
+      "bounds": [
+        491,
+        18,
+        625,
+        28
+      ]
+    },
+    {
+      "case": "0-bottom_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        450,
+        149,
+        461
+      ]
+    },
+    {
+      "case": "0-bottom_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        451,
+        149,
+        461
+      ]
+    },
+    {
+      "case": "0-bottom_right-white",
+      "pixels": 296,
+      "bounds": [
+        491,
+        450,
+        625,
+        461
+      ]
+    },
+    {
+      "case": "0-bottom_right-black",
+      "pixels": 208,
+      "bounds": [
+        491,
+        451,
+        625,
+        461
+      ]
+    },
+    {
+      "case": "90-top_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        17,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "90-top_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        18,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "90-top_right-white",
+      "pixels": 296,
+      "bounds": [
+        331,
+        17,
+        465,
+        28
+      ]
+    },
+    {
+      "case": "90-top_right-black",
+      "pixels": 208,
+      "bounds": [
+        331,
+        18,
+        465,
+        28
+      ]
+    },
+    {
+      "case": "90-bottom_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        610,
+        149,
+        621
+      ]
+    },
+    {
+      "case": "90-bottom_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        611,
+        149,
+        621
+      ]
+    },
+    {
+      "case": "90-bottom_right-white",
+      "pixels": 296,
+      "bounds": [
+        331,
+        610,
+        465,
+        621
+      ]
+    },
+    {
+      "case": "90-bottom_right-black",
+      "pixels": 208,
+      "bounds": [
+        331,
+        611,
+        465,
+        621
+      ]
+    },
+    {
+      "case": "180-top_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        17,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "180-top_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        18,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "180-top_right-white",
+      "pixels": 296,
+      "bounds": [
+        491,
+        17,
+        625,
+        28
+      ]
+    },
+    {
+      "case": "180-top_right-black",
+      "pixels": 208,
+      "bounds": [
+        491,
+        18,
+        625,
+        28
+      ]
+    },
+    {
+      "case": "180-bottom_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        450,
+        149,
+        461
+      ]
+    },
+    {
+      "case": "180-bottom_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        451,
+        149,
+        461
+      ]
+    },
+    {
+      "case": "180-bottom_right-white",
+      "pixels": 296,
+      "bounds": [
+        491,
+        450,
+        625,
+        461
+      ]
+    },
+    {
+      "case": "180-bottom_right-black",
+      "pixels": 208,
+      "bounds": [
+        491,
+        451,
+        625,
+        461
+      ]
+    },
+    {
+      "case": "270-top_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        17,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "270-top_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        18,
+        149,
+        28
+      ]
+    },
+    {
+      "case": "270-top_right-white",
+      "pixels": 296,
+      "bounds": [
+        331,
+        17,
+        465,
+        28
+      ]
+    },
+    {
+      "case": "270-top_right-black",
+      "pixels": 208,
+      "bounds": [
+        331,
+        18,
+        465,
+        28
+      ]
+    },
+    {
+      "case": "270-bottom_left-white",
+      "pixels": 296,
+      "bounds": [
+        15,
+        610,
+        149,
+        621
+      ]
+    },
+    {
+      "case": "270-bottom_left-black",
+      "pixels": 208,
+      "bounds": [
+        15,
+        611,
+        149,
+        621
+      ]
+    },
+    {
+      "case": "270-bottom_right-white",
+      "pixels": 296,
+      "bounds": [
+        331,
+        610,
+        465,
+        621
+      ]
+    },
+    {
+      "case": "270-bottom_right-black",
+      "pixels": 208,
+      "bounds": [
+        331,
+        611,
+        465,
+        621
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.phone.MediaJournalTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-24T09:16:05.364Z" hostname="29d558ef6cac" time="2.52">
+  <properties/>
+  <testcase name="deletingNewestFileDoesNotReuseSyncCursor" classname="com.daniil.wristlens.phone.MediaJournalTest" time="2.445"/>
+  <testcase name="failedOrPendingVideoIsAbsentFromSync" classname="com.daniil.wristlens.phone.MediaJournalTest" time="0.036"/>
+  <testcase name="completedVideoAfterSnapshotIsNotSkipped" classname="com.daniil.wristlens.phone.MediaJournalTest" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
