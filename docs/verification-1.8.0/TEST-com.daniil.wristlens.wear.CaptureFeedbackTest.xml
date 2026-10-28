@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.CaptureFeedbackTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:27:03.713Z" hostname="8234972091a4" time="10.126">
+  <properties/>
+  <testcase name="failedSoundLoadingDoesNotBlockPhotoFeedback" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="6.89"/>
+  <testcase name="soundSwitchMutesWithoutQueuingOldEvents" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.123"/>
+  <testcase name="timerCancelTextHasNoBurstInBothLanguages" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.111"/>
+  <testcase name="soundSwitchIsInlineIndependentAndPersists" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="1.514"/>
+  <testcase name="releaseStopsFeedbackAndDoesNotRestartAnimation" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.075"/>
+  <testcase name="burstPickerOffers200msAndSendsIt" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.321"/>
+  <testcase name="onlySettingsOriginShowsSavedEvenWhenAckArrivesAfterNavigation" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.683"/>
+  <testcase name="mutedVibrationDoesNotSuppressVisualFeedback" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.08"/>
+  <testcase name="burstFramesGiveHapticsAndAnimationWithoutReplayingSnapshots" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.077"/>
+  <testcase name="successfulEventsPlayDistinctSoundsOnce" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.098"/>
+  <testcase name="shutterAnimationIsTransparentAtRestAndNeverInterceptsControls" classname="com.daniil.wristlens.wear.CaptureFeedbackTest" time="0.15"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,59 @@
+{
+  "release": "1.8.0",
+  "date": "2026-10-27",
+  "tests": {
+    "core": {
+      "tests": 65,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "phone": {
+      "tests": 21,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "wear": {
+      "tests": 93,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total_tests": 179,
+  "lint_errors": 0,
+  "lint_warnings": {
+    "phone": [
+      "NewerVersionAvailable"
+    ],
+    "wear": [
+      "NewerVersionAvailable",
+      "SetTextI18n",
+      "SetTextI18n"
+    ]
+  },
+  "apks": {
+    "phone": {
+      "file": "WristLens-phone-1.8.0-release.apk",
+      "bytes": 13630797,
+      "sha256": "c3fd73747ac10efd15643c4589db36f013e03cf6707f6af687996d3264411df0",
+      "versionName": "1.8.0",
+      "versionCode": 1800,
+      "applicationId": "com.daniil.wristlens",
+      "debuggable": false,
+      "signer_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73"
+    },
+    "wear": {
+      "file": "WristLens-wear-1.8.0-release.apk",
+      "bytes": 7206957,
+      "sha256": "60a0a365638a78dad0995645224f33a0a76c36799498a38f91301630ac1340af",
+      "versionName": "1.8.0",
+      "versionCode": 1801,
+      "applicationId": "com.daniil.wristlens",
+      "debuggable": false,
+      "signer_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73"
+    }
+  },
+  "physical_devices_tested": false
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.RecordingTimelineTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:26:20.805Z" hostname="8234972091a4" time="0.002">
+  <properties/>
+  <testcase name="pausesAreRemovedFromBothTracks" classname="com.daniil.wristlens.core.RecordingTimelineTest" time="0.001"/>
+  <testcase name="lateBufferedSamplesKeepOriginalMuteState" classname="com.daniil.wristlens.core.RecordingTimelineTest" time="0.0"/>
+  <testcase name="blockAcrossPauseTrimsOnlyPausedSamples" classname="com.daniil.wristlens.core.RecordingTimelineTest" time="0.0"/>
+  <testcase name="mutePreservesDuration" classname="com.daniil.wristlens.core.RecordingTimelineTest" time="0.0"/>
+  <testcase name="muteDuringPauseAppliesOnResume" classname="com.daniil.wristlens.core.RecordingTimelineTest" time="0.0"/>
+  <testcase name="repeatedPauseAndStopNeverAddTime" classname="com.daniil.wristlens.core.RecordingTimelineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

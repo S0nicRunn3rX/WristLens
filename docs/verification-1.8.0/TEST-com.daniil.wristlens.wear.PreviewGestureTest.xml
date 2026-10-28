@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.PreviewGestureTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:27:24.370Z" hostname="8234972091a4" time="1.765">
+  <properties/>
+  <testcase name="doubleTapFromFittedViewDoesNotFocusOrQuickScale" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.124"/>
+  <testcase name="pinchStartedOnShutterCancelsItsPendingClickAndHeldBurst" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.071"/>
+  <testcase name="singleTapFocusIsDeferredAndUsesTheVisibleCrop" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.069"/>
+  <testcase name="watchActivityGesturesDoNotSendCameraCommandsAndControlsStayFixed" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.236"/>
+  <testcase name="tapInBlackMarginsOrOutsideCircleDoesNotFocus" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.1"/>
+  <testcase name="rotatedMirroredPannedFrameDrawsAndFocusesTheSamePoint" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.079"/>
+  <testcase name="changingOrientationOrAspectResetsAndCancelsPendingFocus" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.106"/>
+  <testcase name="pinchOutThenDragAndDoubleTapRestoresDefaultWithoutFocus" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.11"/>
+  <testcase name="singleFingerPanAtFillShowsLeftOrRightCropWithoutChangingCameraZoom" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.088"/>
+  <testcase name="phonePreviewKeepsImmediateTapFocusAndAspectFit" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.06"/>
+  <testcase name="pinchStartedOnOrdinaryButtonDoesNotClickOrOpenLongPressSettings" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.085"/>
+  <testcase name="liftingOneFingerAndAddingAnotherDoesNotJumpOrFocus" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.069"/>
+  <testcase name="pinchFitsAllFourFrameCornersInsideCircle" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.139"/>
+  <testcase name="portraitFrameFitsAndDoesNotResetWithEveryNewFrame" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.272"/>
+  <testcase name="windowFocusLossAndDisconnectCancelDelayedFocusAndGestures" classname="com.daniil.wristlens.wear.PreviewGestureTest" time="0.156"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

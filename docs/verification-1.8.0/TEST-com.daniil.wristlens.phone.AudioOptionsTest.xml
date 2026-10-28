@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.phone.AudioOptionsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:27:43.753Z" hostname="8234972091a4" time="2.783">
+  <properties/>
+  <testcase name="defaultsRecordOnMonitorOff" classname="com.daniil.wristlens.phone.AudioOptionsTest" time="2.656"/>
+  <testcase name="recordingAndPreviewAreIndependentAndPersistent" classname="com.daniil.wristlens.phone.AudioOptionsTest" time="0.07"/>
+  <testcase name="migratesExistingPhonePreferenceOnce" classname="com.daniil.wristlens.phone.AudioOptionsTest" time="0.056"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>

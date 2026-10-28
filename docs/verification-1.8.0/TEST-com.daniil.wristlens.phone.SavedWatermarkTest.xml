@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.phone.SavedWatermarkTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:27:55.630Z" hostname="8234972091a4" time="1.717">
+  <properties/>
+  <testcase name="savedPhotoFormatsContainWatermarkPixelsInAllCorners" classname="com.daniil.wristlens.phone.SavedWatermarkTest" time="1.644"/>
+  <testcase name="exportAndroidTextTexturesForActualShaderTest" classname="com.daniil.wristlens.phone.SavedWatermarkTest" time="0.046"/>
+  <testcase name="disabledJpegPreservesEveryOriginalByte" classname="com.daniil.wristlens.phone.SavedWatermarkTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

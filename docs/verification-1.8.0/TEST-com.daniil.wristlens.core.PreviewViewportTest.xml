@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.PreviewViewportTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:26:20.793Z" hostname="8234972091a4" time="0.003">
+  <properties/>
+  <testcase name="invalidInputsDoNotPoisonFutureFrames" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="rectangularScreensUseRectangleContainAndPhoneDefaultRemainsFit" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="minimumFitsEveryCornerInsideRoundScreensWithoutDistortion" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.001"/>
+  <testcase name="incomingFramesAndResolutionChangesKeepView" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="pinchKeepsOffCenterImagePointUnderFingers" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.001"/>
+  <testcase name="fullScreenCropCanMoveToEitherEdgeButCannotExposeBlankSpace" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="defaultFillsCircleAndCentersFourByThreeImage" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="zoomLimitAndPanLimitAreFinite" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="resetReturnsOriginalViewAfterFitAndAfterZoomAndPan" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="aspectChangeResetsAndFitSurvivesResolutionChange" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <testcase name="fourByThreeFitsAs384By288On480Circle" classname="com.daniil.wristlens.core.PreviewViewportTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

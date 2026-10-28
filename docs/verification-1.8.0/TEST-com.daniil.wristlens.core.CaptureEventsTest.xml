@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.CaptureEventsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:26:20.712Z" hostname="8234972091a4" time="0.008">
+  <properties/>
+  <testcase name="allVideoTransitionsHaveDistinctEvents" classname="com.daniil.wristlens.core.CaptureEventsTest" time="0.003"/>
+  <testcase name="eachOfFiftyBurstFramesIsDeliveredOnceAt200ms" classname="com.daniil.wristlens.core.CaptureEventsTest" time="0.003"/>
+  <testcase name="backlogDoesNotPlaySeveralSoundsAtOnceAndOldEventsExpire" classname="com.daniil.wristlens.core.CaptureEventsTest" time="0.0"/>
+  <testcase name="burstDefaultIs200AndOlderSlowerChoicesRemain" classname="com.daniil.wristlens.core.CaptureEventsTest" time="0.002"/>
+  <testcase name="resumeAndNewSessionSkipExistingHistory" classname="com.daniil.wristlens.core.CaptureEventsTest" time="0.0"/>
+  <testcase name="duplicateHeartbeatsAndOldPacketsDoNotReplayShutter" classname="com.daniil.wristlens.core.CaptureEventsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

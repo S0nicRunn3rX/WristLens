@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.OriginalCopiesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:27:24.023Z" hostname="8234972091a4" time="0.321">
+  <properties/>
+  <testcase name="orphanRecoveryKeepsLiveAndPublishedCopies" classname="com.daniil.wristlens.wear.OriginalCopiesTest" time="0.096"/>
+  <testcase name="pendingCrashEntryIsCleanedAndCanBeRetried" classname="com.daniil.wristlens.wear.OriginalCopiesTest" time="0.051"/>
+  <testcase name="failedPublicationNeverBecomesCompletedCopy" classname="com.daniil.wristlens.wear.OriginalCopiesTest" time="0.054"/>
+  <testcase name="simultaneousManualAndAutomaticCopyPublishesOnlyOne" classname="com.daniil.wristlens.wear.OriginalCopiesTest" time="0.046"/>
+  <testcase name="deletingWatchCopyAllowsFreshDownload" classname="com.daniil.wristlens.wear.OriginalCopiesTest" time="0.036"/>
+  <testcase name="automaticCopiesAreOptIn" classname="com.daniil.wristlens.wear.OriginalCopiesTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

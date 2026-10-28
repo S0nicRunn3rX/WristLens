@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.phone.CopyExporterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-27T17:27:53.454Z" hostname="8234972091a4" time="0.352">
+  <properties/>
+  <testcase name="requestedBitrateForcesEncodingEvenForH264Input" classname="com.daniil.wristlens.phone.CopyExporterTest" time="0.06"/>
+  <testcase name="photoCopyIsResizedAndOriginalRemainsIdentical" classname="com.daniil.wristlens.phone.CopyExporterTest" time="0.263"/>
+  <testcase name="originalNeverCreatesOrDeletesADerivative" classname="com.daniil.wristlens.phone.CopyExporterTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
