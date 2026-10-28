@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.GallerySettingsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-24T17:33:58.928Z" hostname="ac6afe52fe44" time="6.387">
+  <properties/>
+  <testcase name="englishIsFallbackAndRussianOnlyForPrimaryRussian" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="4.844"/>
+  <testcase name="multiSelectionSharesBothAndLayoutStaysOpen" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.614"/>
+  <testcase name="clockOverlaysMenuWithoutReservedTopRow" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.255"/>
+  <testcase name="failedSettingRollsBackWithoutClosing" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.181"/>
+  <testcase name="accessibilityCaptureCanStopVideoWithoutChangingTouchSnapshot" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.061"/>
+  <testcase name="settingsRemainOpenAndReflectConfirmedState" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.132"/>
+  <testcase name="deletingDetailRefreshesUnderlyingGallery" classname="com.daniil.wristlens.wear.GallerySettingsTest" time="0.297"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

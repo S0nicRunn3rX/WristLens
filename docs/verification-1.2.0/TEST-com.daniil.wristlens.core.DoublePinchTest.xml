@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.DoublePinchTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-24T17:33:40.654Z" hostname="ac6afe52fe44" time="0.054">
+  <properties/>
+  <testcase name="suppressesTouchesAndRecovers" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.017"/>
+  <testcase name="personalProfileToleratesSmallAmplitudeAndTimingJitter" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.014"/>
+  <testcase name="rejectsSustainedOscillation" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.001"/>
+  <testcase name="rejectsZeroSingleTripleAndWeakNoise" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.001"/>
+  <testcase name="learnedOrdinaryMotionCannotAlsoBeAnAcceptedExample" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.004"/>
+  <testcase name="missingOrInvalidSamplesResetPartialGesture" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.002"/>
+  <testcase name="recognizesTwoSeparatedImpulses" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.0"/>
+  <testcase name="rejectsFastArmMovement" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.001"/>
+  <testcase name="profileRoundTripAndCorruptionChecks" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.01"/>
+  <testcase name="requiresFiveExamples" classname="com.daniil.wristlens.core.DoublePinchTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

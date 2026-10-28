@@ -1,0 +1,125 @@
+{
+  "version": "1.2.0",
+  "unit_tests": 85,
+  "failures": 0,
+  "suites": [
+    {
+      "suite": "com.daniil.wristlens.core.DoublePinchTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.core.CaptureReleaseTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.core.ProtocolTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.core.UpgradeTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.phone.SavedWatermarkTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.phone.MediaJournalTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.phone.CaptureOptionsTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.WatchLayoutTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.RoundMenuTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.OriginalCopiesTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.PinchLifecycleTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "com.daniil.wristlens.wear.GallerySettingsTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "lint": {
+    "phone": {
+      "errors": 0,
+      "warnings": [
+        "NewerVersionAvailable"
+      ]
+    },
+    "wear": {
+      "errors": 0,
+      "warnings": [
+        "GradleDependency"
+      ]
+    }
+  },
+  "apks": [
+    {
+      "file": "WristLens-phone-1.2.0-release.apk",
+      "bytes": 2533365,
+      "sha256": "36c483620097040f8234788e0a14671d8511e855f2eecb96ebcafc657f03d661",
+      "versionCode": 1200,
+      "debuggable": false
+    },
+    {
+      "file": "WristLens-wear-1.2.0-release.apk",
+      "bytes": 7101541,
+      "sha256": "76752c03c2fb2efe24f18d8324993e4cbd7b40c44b01320f7c25980120f0b2b8",
+      "versionCode": 1201,
+      "debuggable": false
+    }
+  ],
+  "certificate_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+  "physical_device_verified": false,
+  "gesture_accuracy": "not measured on human gestures; synthetic signals and sensor lifecycle only",
+  "ui": "native round renders at 384,416,480 px; font scales 1,1.5,2; system font, not Samsung custom font"
+}
