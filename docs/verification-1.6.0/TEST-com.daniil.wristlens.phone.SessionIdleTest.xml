@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.phone.SessionIdleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-26T12:21:55.851Z" hostname="4056183bf377" time="1.222">
+  <properties/>
+  <testcase name="configuredTimerDoesNotCountAsRunningTimer" classname="com.daniil.wristlens.phone.SessionIdleTest" time="1.194"/>
+  <testcase name="everyCapturePhaseProtectsSessionForLongerThanOneMinute" classname="com.daniil.wristlens.phone.SessionIdleTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

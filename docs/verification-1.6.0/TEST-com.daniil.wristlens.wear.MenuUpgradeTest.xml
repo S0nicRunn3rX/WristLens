@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.MenuUpgradeTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-26T12:21:58.705Z" hostname="4056183bf377" time="1.81">
+  <properties/>
+  <testcase name="cameraAndCaptureAreOnePageAndLongHelpIsOnlyInInstructions" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.177"/>
+  <testcase name="menuButtonsHapticEvenWhenClickListenerIsReplacedAndRespectMute" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.077"/>
+  <testcase name="rejectedLiveSettingRollsBackOnTheSamePage" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.214"/>
+  <testcase name="savingCombinesPhoneAndWatchAndKeepsParentAfterPickingQuality" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.23"/>
+  <testcase name="bezelTicksOnlyWhenContentMovesAndHonoursMute" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.065"/>
+  <testcase name="fineSliderStepsGiveATickOnlyOnValueChange" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.171"/>
+  <testcase name="menuHasInlineFeedbackVersionAndNoSinglePurposeSection" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.206"/>
+  <testcase name="russianMenuAndVersionWrapOnSmallAndLargeRoundScreens" classname="com.daniil.wristlens.wear.MenuUpgradeTest" time="0.668"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

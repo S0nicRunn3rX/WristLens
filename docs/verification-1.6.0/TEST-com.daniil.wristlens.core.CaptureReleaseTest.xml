@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.CaptureReleaseTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-26T12:13:19.974Z" hostname="4056183bf377" time="0.033">
+  <properties/>
+  <testcase name="allRotationsRoundTripToDisplayedCoordinates" classname="com.daniil.wristlens.core.CaptureReleaseTest" time="0.005"/>
+  <testcase name="backgroundPreservesOnlySinglePhotoAndVideoTimers" classname="com.daniil.wristlens.core.CaptureReleaseTest" time="0.001"/>
+  <testcase name="everyExposedFormatProducesText" classname="com.daniil.wristlens.core.CaptureReleaseTest" time="0.017"/>
+  <testcase name="enabledEmptyAndUnknownFormatsAreRejected" classname="com.daniil.wristlens.core.CaptureReleaseTest" time="0.002"/>
+  <testcase name="gestureStartsStopsAndNeverFiresDuringCountdownOrPendingCapture" classname="com.daniil.wristlens.core.CaptureReleaseTest" time="0.0"/>
+  <testcase name="lifecycleRejectsReorderedPauseAndOldActivity" classname="com.daniil.wristlens.core.CaptureReleaseTest" time="0.0"/>
+  <testcase name="timestampUsesPhoneZoneAndRollover" classname="com.daniil.wristlens.core.CaptureReleaseTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

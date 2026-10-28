@@ -1,0 +1,103 @@
+{
+  "version": "1.6.0",
+  "tests": {
+    "core": {
+      "tests": 44,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "phone": {
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "wear": {
+      "tests": 65,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "lint": {
+    "phone": {
+      "errors": 0,
+      "warnings": 1,
+      "ids": [
+        "NewerVersionAvailable"
+      ]
+    },
+    "wear": {
+      "errors": 0,
+      "warnings": 3,
+      "ids": [
+        "NewerVersionAvailable",
+        "SetTextI18n",
+        "SetTextI18n"
+      ]
+    }
+  },
+  "apks": {
+    "phone": {
+      "file": "WristLens-phone-1.6.0-release.apk",
+      "versionCode": 1600,
+      "bytes": 13587025,
+      "sha256": "940f1658cb6f0800f62035e69d355c47bbbd49e4fd18a44044260691f77a8210",
+      "certificate_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+      "debuggable": false
+    },
+    "wear": {
+      "file": "WristLens-wear-1.6.0-release.apk",
+      "versionCode": 1601,
+      "bytes": 7157401,
+      "sha256": "042469ffca3a7267d1833252a0bcc51208e3408c39be7bde410fc8e9f6368263",
+      "certificate_sha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73",
+      "debuggable": false
+    }
+  },
+  "sounds": [
+    {
+      "file": "burst_shutter.wav",
+      "format": "PCM16 mono",
+      "sampleRate": 24000,
+      "durationMs": 65.0,
+      "peak": 16354
+    },
+    {
+      "file": "record_pause.wav",
+      "format": "PCM16 mono",
+      "sampleRate": 24000,
+      "durationMs": 75.0,
+      "peak": 11790
+    },
+    {
+      "file": "record_resume.wav",
+      "format": "PCM16 mono",
+      "sampleRate": 24000,
+      "durationMs": 75.0,
+      "peak": 11793
+    },
+    {
+      "file": "record_start.wav",
+      "format": "PCM16 mono",
+      "sampleRate": 24000,
+      "durationMs": 150.0,
+      "peak": 11789
+    },
+    {
+      "file": "record_stop.wav",
+      "format": "PCM16 mono",
+      "sampleRate": 24000,
+      "durationMs": 150.0,
+      "peak": 11790
+    },
+    {
+      "file": "shutter.wav",
+      "format": "PCM16 mono",
+      "sampleRate": 24000,
+      "durationMs": 105.0,
+      "peak": 16235
+    }
+  ]
+}

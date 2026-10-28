@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.WatchPreferencesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-26T12:22:04.008Z" hostname="4056183bf377" time="0.851">
+  <properties/>
+  <testcase name="vibrationSwitchPersistsAndGatesFeedback" classname="com.daniil.wristlens.wear.WatchPreferencesTest" time="0.321"/>
+  <testcase name="destinationAndProfilesUseSeparateDeduplicationKeys" classname="com.daniil.wristlens.wear.WatchPreferencesTest" time="0.084"/>
+  <testcase name="onlyFocusedCameraWindowKeepsScreenAwake" classname="com.daniil.wristlens.wear.WatchPreferencesTest" time="0.154"/>
+  <testcase name="copySettingsRemainOpenAndShowSaved" classname="com.daniil.wristlens.wear.WatchPreferencesTest" time="0.133"/>
+  <testcase name="indicatorAppearsForScrollingThenFadesAndShortPagesStayHidden" classname="com.daniil.wristlens.wear.WatchPreferencesTest" time="0.158"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

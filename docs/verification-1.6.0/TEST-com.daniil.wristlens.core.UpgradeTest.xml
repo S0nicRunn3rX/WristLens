@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.core.UpgradeTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-26T12:13:20.031Z" hostname="4056183bf377" time="0.039">
+  <properties/>
+  <testcase name="originalMultiChunkExact" classname="com.daniil.wristlens.core.UpgradeTest" time="0.029"/>
+  <testcase name="lostReleaseExpires" classname="com.daniil.wristlens.core.UpgradeTest" time="0.001"/>
+  <testcase name="countLimit" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <testcase name="releaseBeforeStart" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <testcase name="timeLimit" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <testcase name="timerDoesNotConsumeDuration" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <testcase name="corruptedOriginalRejected" classname="com.daniil.wristlens.core.UpgradeTest" time="0.001"/>
+  <testcase name="lowSpaceRejected" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <testcase name="truncatedOriginalRejected" classname="com.daniil.wristlens.core.UpgradeTest" time="0.001"/>
+  <testcase name="noUpscale" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <testcase name="fiftyFramesAt250ms" classname="com.daniil.wristlens.core.UpgradeTest" time="0.001"/>
+  <testcase name="rotatedScreenCap" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <testcase name="filenameDefaultsAndCollision" classname="com.daniil.wristlens.core.UpgradeTest" time="0.005"/>
+  <testcase name="unrelatedRenewDoesNotKeepBurstAlive" classname="com.daniil.wristlens.core.UpgradeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

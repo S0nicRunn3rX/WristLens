@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.13.2">
+
+    <issue
+        id="NewerVersionAvailable"
+        severity="Warning"
+        message="A newer version of org.robolectric:robolectric than 4.16.1 is available: 4.17"
+        category="Correctness"
+        priority="4"
+        summary="Newer Library Versions Available"
+        explanation="This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the `GradleDependency` check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also **much** slower."
+        errorLine1="    testImplementation &apos;org.robolectric:robolectric:4.16.1&apos;"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/workspace/scratch/18f0476b7b06/WristLens/wear/build.gradle"
+            line="33"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        severity="Warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        category="Internationalization"
+        priority="6"
+        summary="TextView Internationalization"
+        explanation="When calling `TextView#setText`&#xA;* Never call `Number#toString()` to format numbers; it will not handle fraction separators and locale-specific digits properly. Consider using `String#format` with proper format specifications (`%d` or `%f`) instead.&#xA;* Do not pass a string literal (e.g. &quot;Hello&quot;) to display text. Hardcoded text can not be properly translated to other languages. Consider using Android resource strings instead.&#xA;* Do not build messages by concatenating text chunks. Such messages can not be properly translated."
+        url="https://developer.android.com/guide/topics/resources/localization.html"
+        urls="https://developer.android.com/guide/topics/resources/localization.html"
+        errorLine1="  Button folder=Controls.button(a,&quot;&quot;,()->{});Runnable refresh=()->folder.setText(t(com.daniil.wristlens.shared.R.string.copy_folder)+&quot;\n&quot;+read(a).folder());refresh.run();folder.setOnClickListener(v->folder(a,refresh));col.addView(folder);"
+        errorLine2="                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/workspace/scratch/18f0476b7b06/WristLens/wear/src/main/java/com/daniil/wristlens/wear/CopySettings.java"
+            line="8"
+            column="82"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        severity="Warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        category="Internationalization"
+        priority="6"
+        summary="TextView Internationalization"
+        explanation="When calling `TextView#setText`&#xA;* Never call `Number#toString()` to format numbers; it will not handle fraction separators and locale-specific digits properly. Consider using `String#format` with proper format specifications (`%d` or `%f`) instead.&#xA;* Do not pass a string literal (e.g. &quot;Hello&quot;) to display text. Hardcoded text can not be properly translated to other languages. Consider using Android resource strings instead.&#xA;* Do not build messages by concatenating text chunks. Such messages can not be properly translated."
+        url="https://developer.android.com/guide/topics/resources/localization.html"
+        urls="https://developer.android.com/guide/topics/resources/localization.html"
+        errorLine1="  for(String kind:List.of(&quot;photo&quot;,&quot;video&quot;)){Button quality=Controls.button(a,&quot;&quot;,()->{});Runnable update=()->quality.setText(t(kind.equals(&quot;photo&quot;)?com.daniil.wristlens.shared.R.string.copy_photo:com.daniil.wristlens.shared.R.string.copy_video)+&quot;\n&quot;+label(a,kind,prefs(a).getString(kind,&quot;original&quot;)));update.run();quality.setOnClickListener(v->Controls.choose(a,true,t(kind.equals(&quot;photo&quot;)?com.daniil.wristlens.shared.R.string.copy_photo:com.daniil.wristlens.shared.R.string.copy_video),List.of(label(a,kind,&quot;original&quot;),label(a,kind,&quot;balanced&quot;),label(a,kind,&quot;compact&quot;)),i->{prefs(a).edit().putString(kind,List.of(&quot;original&quot;,&quot;balanced&quot;,&quot;compact&quot;).get(i)).apply();update.run();Controls.saved(a);}));col.addView(quality);}"
+        errorLine2="                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/workspace/scratch/18f0476b7b06/WristLens/wear/src/main/java/com/daniil/wristlens/wear/CopySettings.java"
+            line="9"
+            column="125"/>
+    </issue>
+
+</issues>
