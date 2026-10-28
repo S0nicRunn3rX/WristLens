@@ -1,0 +1,198 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :core:clean
+> Task :shared:clean
+> Task :shared:preBuild UP-TO-DATE
+> Task :shared:preDebugBuild UP-TO-DATE
+> Task :wear:clean
+> Task :wear:preBuild UP-TO-DATE
+> Task :wear:preDebugBuild UP-TO-DATE
+> Task :phone:clean
+> Task :phone:preBuild UP-TO-DATE
+> Task :phone:preDebugBuild UP-TO-DATE
+> Task :phone:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :wear:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :wear:generateDebugResValues
+> Task :phone:javaPreCompileDebug
+> Task :phone:generateDebugResValues
+> Task :shared:writeDebugAarMetadata
+> Task :wear:javaPreCompileDebug
+> Task :shared:processDebugNavigationResources
+> Task :shared:generateDebugResValues
+> Task :shared:generateDebugResources
+> Task :phone:generateDebugResources
+> Task :wear:generateDebugResources
+> Task :shared:packageDebugResources
+> Task :shared:extractDeepLinksDebug
+> Task :shared:compileDebugLibraryResources
+> Task :phone:checkDebugAarMetadata
+> Task :wear:checkDebugAarMetadata
+> Task :shared:javaPreCompileDebug
+> Task :phone:processDebugNavigationResources
+> Task :wear:processDebugNavigationResources
+> Task :phone:compileDebugNavigationResources
+> Task :wear:compileDebugNavigationResources
+> Task :shared:mergeDebugShaders
+> Task :shared:compileDebugShaders NO-SOURCE
+> Task :shared:generateDebugAssets UP-TO-DATE
+> Task :shared:processDebugManifest
+> Task :phone:mapDebugSourceSetPaths
+> Task :shared:mergeDebugAssets
+> Task :wear:mapDebugSourceSetPaths
+> Task :shared:processDebugJavaRes NO-SOURCE
+> Task :shared:parseDebugLocalResources
+> Task :shared:mergeDebugJniLibFolders
+> Task :shared:mergeDebugNativeLibs NO-SOURCE
+> Task :shared:copyDebugJniLibsProjectOnly
+> Task :shared:checkDebugAarMetadata
+> Task :shared:stripDebugDebugSymbols NO-SOURCE
+> Task :shared:copyDebugJniLibsProjectAndLocalJars
+> Task :shared:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :shared:prepareDebugArtProfile UP-TO-DATE
+> Task :shared:generateDebugRFile
+> Task :shared:prepareLintJarForPublish UP-TO-DATE
+> Task :shared:writeDebugLintModelMetadata
+> Task :shared:extractProguardFiles
+> Task :shared:preDebugAndroidTestBuild UP-TO-DATE
+> Task :shared:generateDebugAndroidTestResValues
+> Task :shared:preDebugUnitTestBuild UP-TO-DATE
+> Task :shared:mergeDebugJavaResource
+> Task :core:compileJava
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :phone:packageDebugResources
+> Task :phone:parseDebugLocalResources
+> Task :phone:createDebugCompatibleScreenManifests
+> Task :core:compileTestJava
+> Task :phone:extractDeepLinksDebug
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses
+> Task :wear:packageDebugResources
+> Task :wear:parseDebugLocalResources
+> Task :wear:createDebugCompatibleScreenManifests
+> Task :wear:extractDeepLinksDebug
+> Task :wear:mergeDebugResources
+> Task :phone:mergeDebugResources
+> Task :wear:processDebugMainManifest
+> Task :phone:processDebugMainManifest
+> Task :wear:processDebugManifest
+> Task :phone:processDebugManifest
+> Task :phone:mergeDebugShaders
+> Task :wear:mergeDebugShaders
+> Task :phone:compileDebugShaders NO-SOURCE
+> Task :phone:generateDebugAssets UP-TO-DATE
+> Task :wear:compileDebugShaders NO-SOURCE
+> Task :wear:generateDebugAssets UP-TO-DATE
+> Task :wear:mergeDebugAssets
+> Task :phone:mergeDebugAssets
+> Task :wear:compressDebugAssets
+> Task :phone:compressDebugAssets
+> Task :wear:desugarDebugFileDependencies
+> Task :wear:processDebugJavaRes NO-SOURCE
+> Task :phone:desugarDebugFileDependencies
+> Task :phone:processDebugJavaRes NO-SOURCE
+> Task :phone:processDebugManifestForPackage
+> Task :wear:processDebugManifestForPackage
+
+> Task :shared:compileDebugJavaWithJavac
+Note: /workspace/scratch/18f0476b7b06/WristLens/shared/src/main/java/com/daniil/wristlens/shared/PreviewView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :shared:bundleLibCompileToJarDebug
+> Task :shared:bundleLibRuntimeToJarDebug
+> Task :core:test
+> Task :phone:mergeDebugJavaResource
+> Task :phone:checkDebugDuplicateClasses
+> Task :wear:mergeDebugJavaResource
+> Task :shared:bundleLibRuntimeToDirDebug
+> Task :phone:processDebugResources
+> Task :wear:processDebugResources
+> Task :shared:extractDebugAnnotations
+> Task :shared:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :shared:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :shared:syncDebugLibJars
+> Task :shared:bundleDebugLocalLintAar
+> Task :shared:createFullJarDebug
+> Task :shared:generateDebugLintModel
+> Task :shared:generateDebugAndroidTestLintModel
+
+> Task :wear:compileDebugJavaWithJavac
+Note: /workspace/scratch/18f0476b7b06/WristLens/wear/src/main/java/com/daniil/wristlens/wear/RoundHud.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :shared:generateDebugUnitTestLintModel
+
+> Task :phone:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :wear:dexBuilderDebug
+> Task :phone:mergeExtDexDebug
+> Task :wear:mergeDebugGlobalSynthetics
+> Task :wear:checkDebugDuplicateClasses
+> Task :wear:mergeDebugJniLibFolders
+> Task :wear:mergeLibDexDebug
+> Task :wear:mergeDebugNativeLibs NO-SOURCE
+> Task :wear:stripDebugDebugSymbols NO-SOURCE
+> Task :wear:validateSigningDebug
+> Task :wear:writeDebugAppMetadata
+> Task :wear:writeDebugSigningConfigVersions
+> Task :wear:preDebugAndroidTestBuild SKIPPED
+> Task :wear:generateDebugAndroidTestResValues
+> Task :wear:mergeProjectDexDebug
+> Task :wear:bundleDebugClassesToCompileJar
+> Task :wear:extractProguardFiles
+> Task :wear:generateDebugAndroidTestLintModel
+> Task :wear:generateDebugLintReportModel
+> Task :wear:preDebugUnitTestBuild UP-TO-DATE
+> Task :phone:dexBuilderDebug
+> Task :phone:mergeDebugGlobalSynthetics
+> Task :wear:generateDebugUnitTestLintModel
+> Task :phone:mergeLibDexDebug
+> Task :phone:mergeDebugJniLibFolders
+> Task :phone:mergeDebugNativeLibs NO-SOURCE
+> Task :phone:stripDebugDebugSymbols NO-SOURCE
+> Task :phone:validateSigningDebug
+> Task :phone:writeDebugAppMetadata
+> Task :phone:writeDebugSigningConfigVersions
+> Task :phone:preDebugAndroidTestBuild SKIPPED
+> Task :phone:generateDebugAndroidTestResValues
+> Task :phone:bundleDebugClassesToCompileJar
+> Task :phone:extractProguardFiles
+> Task :phone:mergeProjectDexDebug
+> Task :phone:generateDebugAndroidTestLintModel
+> Task :phone:generateDebugLintReportModel
+> Task :phone:preDebugUnitTestBuild UP-TO-DATE
+> Task :phone:generateDebugUnitTestLintModel
+> Task :phone:packageDebug
+> Task :phone:createDebugApkListingFileRedirect
+> Task :phone:assembleDebug
+> Task :wear:mergeExtDexDebug
+> Task :wear:packageDebug
+> Task :wear:createDebugApkListingFileRedirect
+> Task :wear:assembleDebug
+> Task :shared:lintAnalyzeDebugUnitTest
+> Task :shared:lintAnalyzeDebugAndroidTest
+> Task :wear:lintAnalyzeDebugAndroidTest
+> Task :phone:lintAnalyzeDebugAndroidTest
+> Task :wear:lintAnalyzeDebugUnitTest
+> Task :phone:lintAnalyzeDebugUnitTest
+> Task :shared:lintAnalyzeDebug
+> Task :phone:lintAnalyzeDebug
+> Task :phone:lintReportDebug
+> Task :phone:lintDebug
+> Task :wear:lintAnalyzeDebug
+> Task :wear:lintReportDebug
+> Task :wear:lintDebug
+
+[Incubating] Problems report is available at: file:///workspace/scratch/18f0476b7b06/WristLens/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 40s
+138 actionable tasks: 133 executed, 5 up-to-date

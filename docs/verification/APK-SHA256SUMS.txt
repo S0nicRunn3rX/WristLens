@@ -1,0 +1,2 @@
+f580add4014f6c6e3d43e94c3b9596b74b98e74a8c2835d8ac59fce9fdd6d391  WristLens-phone-0.2.0-debug.apk
+e872019e58e9dbcea205b9c95572eb8a5a315613d16c334c311c2d7866c36a4d  WristLens-wear-0.2.0-debug.apk
