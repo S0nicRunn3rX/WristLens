@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_vibration">"Vibration for actions"</string>
+    <string name="screen_timeout_help">"The camera screen stays awake. In menus, the screen turns off after the normal system timeout."</string>
+    <string name="copy_folder">"Watch save folder"</string>
+    <string name="copy_photo">"Photo compression"</string>
+    <string name="copy_video">"Video compression"</string>
+    <string name="copy_original">"Original · no compression"</string>
+    <string name="copy_photo_balanced" formatted="false">"JPEG · 85% · up to 1920 px"</string>
+    <string name="copy_photo_compact" formatted="false">"JPEG · 70% · up to 1280 px"</string>
+    <string name="copy_video_balanced">"MP4 · up to 1280 px · 2 Mbps"</string>
+    <string name="copy_video_compact">"MP4 · up to 854 px · 1 Mbps"</string>
+    <string name="copy_settings_help">"Applies to manual downloads and auto-save. Compression runs on the phone before transfer. The longest edge is limited; images are not enlarged. Video copies use H.264/AAC, up to 30 fps. Originals on the phone stay unchanged. New settings apply to the next file; existing watch files are kept."</string>
+    <string name="copy_custom_folder">"Enter folder…"</string>
+    <string name="copy_folder_help">"Folder inside DCIM, for example DCIM/WristLens/Trips. It is created when the first file is saved."</string>
+    <string name="copy_folder_error">"Enter a valid folder inside DCIM, without . or .. components."</string>
+    <string name="copy_preparing">"Preparing download…"</string>
+    <string name="copy_deleting">"Deleting…"</string>
+    <string name="copy_downloaded">"Downloaded to watch"</string>
+    <string name="copy_downloaded_count">"Downloaded: %1$d"</string>
+    <string name="copy_deleted_count">"Deleted: %1$d"</string>
+    <string name="copy_export_failed">"Could not prepare the copy. Try Original quality."</string>
+    <string name="copy_export_space">"Not enough space on the phone to prepare the copy"</string>
+    <string name="copy_update_phone">"Update the phone app to use watch copy settings"</string>
+</resources>

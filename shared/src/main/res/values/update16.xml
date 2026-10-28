@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_sounds">Capture sounds</string>
+    <string name="help_capture_feedback">"Capture sounds is a switch in the main menu, independent of vibration. The watch plays a shutter click for photos and bursts and cues for video start, pause, resume and stop. Feedback follows confirmed camera actions; each saved burst frame gives a short vibration and shutter animation. Returning to the app does not replay earlier captures. System sound settings apply. Burst interval defaults to 200 ms after the previous photo is saved; exposure and processing take additional time. Quick camera icons and the bezel no longer show Saved; settings pages still do."</string>
+    <string name="capture_cancelled">Capture cancelled</string>
+</resources>

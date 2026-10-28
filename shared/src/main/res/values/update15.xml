@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="files_and_saving">Files and saving</string>
+    <string name="saving_phone">On the phone</string>
+    <string name="saving_watch">On the watch</string>
+    <string name="help_menu">"Camera settings includes capture, background mode and watermark options. Files and saving combines phone originals and watch copies. Vibration is a switch directly in the main menu. The version number is at the bottom."</string>
+    <string name="help_haptics">"Menu buttons and switches give tactile feedback. The bezel gives short ticks when the list or slider actually moves. Vibration for actions controls all app feedback; the system touch-feedback setting also applies."</string>
+    <string name="help_idle">"After the watch app goes into the background, the camera session ends after one full minute without capture. Recording (including pause), a pending timer, a burst or a photo being saved prevents automatic shutdown. The minute starts again after capture finishes. Opening the watch app reconnects. File-copy jobs run separately."</string>
+</resources>

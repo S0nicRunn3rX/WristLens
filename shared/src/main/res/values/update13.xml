@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_saved">"Saved"</string>
+    <string name="timer_photo_title">"Photo timer"</string>
+    <string name="timer_video_title">"Video timer"</string>
+    <string name="gallery_total">"Files: %d"</string>
+    <string name="gallery_select_all">"Select all"</string>
+    <string name="gallery_selecting">"Selecting all files…"</string>
+    <string name="gallery_share_limit">"Share up to 500 files at once. Reduce the selection."</string>
+    <string name="preview_help">"These settings control the live view on the watch. Actual frame rate depends on the connection. They do not change normal photos or recorded video. A snapshot taken from the preview during recording does depend on preview quality."</string>
+    <string name="preview_eco">"Economy · up to 3 fps\nUp to 320 px, lower data use"</string>
+    <string name="preview_auto">"Smooth · up to 15 fps\nScreen size, standard compression"</string>
+    <string name="preview_detail">"Detail · up to 8 fps\nScreen size, less compression"</string>
+</resources>

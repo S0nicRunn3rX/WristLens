@@ -1,0 +1,358 @@
+<resources>
+    <string name="wl_000" formatted="false">"Unknown watermark format"</string>
+    <string name="wl_001" formatted="false">"Choose date and/or time"</string>
+    <string name="wl_002" formatted="false">"Invalid file size"</string>
+    <string name="wl_003" formatted="false">"Unknown transfer format"</string>
+    <string name="wl_004" formatted="false">"Not enough storage or file too large"</string>
+    <string name="wl_005" formatted="false">"SHA-256 verification failed"</string>
+    <string name="wl_006" formatted="false">"Starting camera"</string>
+    <string name="wl_007" formatted="false">"Camera unavailable"</string>
+    <string name="wl_008" formatted="false">"Allow camera access in app settings"</string>
+    <string name="wl_009" formatted="false">"Camera disconnected"</string>
+    <string name="wl_010" formatted="false">"Camera error: "</string>
+    <string name="wl_011" formatted="false">"Watermark processing stopped: "</string>
+    <string name="wl_012" formatted="false">"Watch app closed; background capture is off"</string>
+    <string name="wl_013" formatted="false">"Recording started"</string>
+    <string name="wl_014" formatted="false">"Recording. Video snapshots use preview frames"</string>
+    <string name="wl_015" formatted="false">"Camera ready"</string>
+    <string name="wl_016" formatted="false">"Camera ready · compatible size "</string>
+    <string name="wl_017" formatted="false">"Could not start capture"</string>
+    <string name="wl_018" formatted="false">"Stream combination is unsupported. Choose another size / FPS."</string>
+    <string name="wl_019" formatted="false">"Could not create session"</string>
+    <string name="wl_020" formatted="false">"Camera is not ready yet"</string>
+    <string name="wl_021" formatted="false">"Recording has not started"</string>
+    <string name="wl_022" formatted="false">"Recording paused"</string>
+    <string name="wl_023" formatted="false">"Recording resumed"</string>
+    <string name="wl_024" formatted="false">"Wait for the photo to save"</string>
+    <string name="wl_025" formatted="false">"Timer cancelled"</string>
+    <string name="wl_026" formatted="false">"Point focus and metering are unsupported"</string>
+    <string name="wl_027" formatted="false">"HS mode only supports continuous autofocus"</string>
+    <string name="wl_028" formatted="false">"Manual focus is unsupported"</string>
+    <string name="wl_029" formatted="false">"Unknown flash mode"</string>
+    <string name="wl_030" formatted="false">"This camera has no flash"</string>
+    <string name="wl_031" formatted="false">"For video, select torch or off"</string>
+    <string name="wl_032" formatted="false">"Open the phone app to use screen flash"</string>
+    <string name="wl_033" formatted="false">"Size is unsupported"</string>
+    <string name="wl_034" formatted="false">"Video mode is unsupported"</string>
+    <string name="wl_035" formatted="false">"Cancel the active timer first"</string>
+    <string name="wl_036" formatted="false">"Unknown command"</string>
+    <string name="wl_037" formatted="false">"Please wait: configuring camera"</string>
+    <string name="wl_038" formatted="false">"Wait for the photo"</string>
+    <string name="wl_039" formatted="false">"Stop recording, timer or burst first"</string>
+    <string name="wl_040" formatted="false">"A timer or burst is already running"</string>
+    <string name="wl_041" formatted="false">"No compatible video mode"</string>
+    <string name="wl_042" formatted="false">"Stop recording first"</string>
+    <string name="wl_043" formatted="false">"Timer"</string>
+    <string name="wl_044" formatted="false">"Capture did not start"</string>
+    <string name="wl_045" formatted="false">"Watch app closed. Recording continues on phone"</string>
+    <string name="wl_046" formatted="false">"Watch app closed. Timer continues"</string>
+    <string name="wl_047" formatted="false">"Watch disconnected"</string>
+    <string name="wl_048" formatted="false">"Watch app closed. Background capture is off"</string>
+    <string name="wl_049" formatted="false">"Photo cancelled: phone screen closed"</string>
+    <string name="wl_050" formatted="false">"Screen flash off: phone app is hidden"</string>
+    <string name="wl_051" formatted="false">"No supported video mode"</string>
+    <string name="wl_052" formatted="false">"Watermark is unavailable in HS. Choose normal video mode or disable watermark."</string>
+    <string name="wl_053" formatted="false">"Select off or torch before recording"</string>
+    <string name="wl_054" formatted="false">"Open the phone to use screen flash"</string>
+    <string name="wl_055" formatted="false">"Codec does not support this mode"</string>
+    <string name="wl_056" formatted="false">"For WebM, disable audio or select MP4"</string>
+    <string name="wl_057" formatted="false">"Recording stopped: encoder error "</string>
+    <string name="wl_058" formatted="false">"Video saved"</string>
+    <string name="wl_059" formatted="false">"Could not save video (the recording may be too short): "</string>
+    <string name="wl_060" formatted="false">"Video publication error: "</string>
+    <string name="wl_061" formatted="false">"A photo is already being taken"</string>
+    <string name="wl_062" formatted="false">"Photo is not available yet"</string>
+    <string name="wl_063" formatted="false">"Open the phone screen for front screen flash"</string>
+    <string name="wl_064" formatted="false">"Camera did not return a photo within 8 seconds"</string>
+    <string name="wl_065" formatted="false">"Metering error: "</string>
+    <string name="wl_066" formatted="false">"Camera rejected the photo"</string>
+    <string name="wl_067" formatted="false">"Photo failed: "</string>
+    <string name="wl_068" formatted="false">"Save error: "</string>
+    <string name="wl_069" formatted="false">"JPEG error: "</string>
+    <string name="wl_070" formatted="false">"No recent frame for a photo"</string>
+    <string name="wl_071" formatted="false">"Frame was not saved: "</string>
+    <string name="wl_072" formatted="false">"Preview frame saved (reduced quality)"</string>
+    <string name="wl_073" formatted="false">"Photo saved"</string>
+    <string name="wl_074" formatted="false">"Burst: "</string>
+    <string name="wl_075" formatted="false">"File is empty or larger than 4 GB"</string>
+    <string name="wl_076" formatted="false">"Action unavailable"</string>
+    <string name="wl_077" formatted="false">"Unknown request"</string>
+    <string name="wl_078" formatted="false">"Could not complete request"</string>
+    <string name="wl_079" formatted="false">"Too many requests. Try again in a few minutes"</string>
+    <string name="wl_080" formatted="false">"Could not save request"</string>
+    <string name="wl_081" formatted="false">"Could not confirm request"</string>
+    <string name="wl_082" formatted="false">"Request expired"</string>
+    <string name="wl_083" formatted="false">"Processing stream closed"</string>
+    <string name="wl_084" formatted="false">"No EGL configuration for video"</string>
+    <string name="wl_085" formatted="false">"Encoder surface unavailable"</string>
+    <string name="wl_086" formatted="false">"Could not send frame to encoder"</string>
+    <string name="wl_087" formatted="false">"Phone camera · wrist remote"</string>
+    <string name="wl_088" formatted="false">"Grant permissions and start a session"</string>
+    <string name="wl_089" formatted="false">"Open WristLens on your paired watch. Originals are saved in DCIM/Camera."</string>
+    <string name="wl_090" formatted="false">"Record audio"</string>
+    <string name="wl_091" formatted="false">"Start camera session"</string>
+    <string name="wl_092" formatted="false">"Photo"</string>
+    <string name="wl_093" formatted="false">"Video"</string>
+    <string name="wl_094" formatted="false">"Pause"</string>
+    <string name="wl_095" formatted="false">"Stop"</string>
+    <string name="wl_096" formatted="false">"Photo burst"</string>
+    <string name="wl_097" formatted="false">"Cancel timer"</string>
+    <string name="wl_098" formatted="false">"Camera settings"</string>
+    <string name="wl_099" formatted="false">"File storage"</string>
+    <string name="wl_100" formatted="false">"Capture settings"</string>
+    <string name="wl_101" formatted="false">"Disconnect"</string>
+    <string name="wl_102" formatted="false">"Session is already off"</string>
+    <string name="wl_103" formatted="false">"Instructions"</string>
+    <string name="wl_104" formatted="false">"Share diagnostics"</string>
+    <string name="wl_105" formatted="false">"After initial permission setup, opening the watch app requests camera startup. Background capture controls what happens when you leave the watch app. End the session here or from the notification."</string>
+    <string name="wl_106" formatted="false">"Camera permission is required. Allow it in app settings."</string>
+    <string name="wl_107" formatted="false">"Start a session first"</string>
+    <string name="wl_108" formatted="false">"End session"</string>
+    <string name="wl_109" formatted="false">"PAUSED · "</string>
+    <string name="wl_110" formatted="false">"Capture in "</string>
+    <string name="wl_111" formatted="false">" s"</string>
+    <string name="wl_112" formatted="false">"Watch connected"</string>
+    <string name="wl_113" formatted="false">"Waiting for watch"</string>
+    <string name="wl_114" formatted="false">"Resume"</string>
+    <string name="wl_115" formatted="false">"Finish capture first"</string>
+    <string name="wl_116" formatted="false">"Folder saved"</string>
+    <string name="wl_117" formatted="false">"Could not open: "</string>
+    <string name="wl_118" formatted="false">"Camera capability diagnostics"</string>
+    <string name="wl_119" formatted="false">"File unavailable"</string>
+    <string name="wl_120" formatted="false">"File not verified"</string>
+    <string name="wl_121" formatted="false">"Invalid setting"</string>
+    <string name="wl_122" formatted="false">"Setting was not saved"</string>
+    <string name="wl_123" formatted="false">"Choose a DCIM subfolder or select a folder on the phone"</string>
+    <string name="wl_124" formatted="false">"Unknown filename pattern"</string>
+    <string name="wl_125" formatted="false">"Unknown photo format"</string>
+    <string name="wl_126" formatted="false">"Unknown video format"</string>
+    <string name="wl_127" formatted="false">"Unknown setting"</string>
+    <string name="wl_128" formatted="false">"Could not create file"</string>
+    <string name="wl_129" formatted="false">"File was not deleted"</string>
+    <string name="wl_130" formatted="false">"File is not in the WristLens gallery"</string>
+    <string name="wl_131" formatted="false">"Preview unavailable"</string>
+    <string name="wl_132" formatted="false">"Front"</string>
+    <string name="wl_133" formatted="false">"Rear"</string>
+    <string name="wl_134" formatted="false">"No compatible preview stream for this FPS"</string>
+    <string name="wl_135" formatted="false">"Starting"</string>
+    <string name="wl_136" formatted="false">"WristLens camera"</string>
+    <string name="wl_137" formatted="false">"WristLens · camera on"</string>
+    <string name="wl_138" formatted="false">"Controlled from your watch. Tap to open."</string>
+    <string name="wl_139" formatted="false">"End"</string>
+    <string name="wl_140" formatted="false">"Open the app and allow the camera: "</string>
+    <string name="wl_141" formatted="false">"Command expired. Retry after reconnecting."</string>
+    <string name="wl_142" formatted="false">"Session is closing. Try again later"</string>
+    <string name="wl_143" formatted="false">"Session changed. Reconnect"</string>
+    <string name="wl_144" formatted="false">"Session ended"</string>
+    <string name="wl_145" formatted="false">"Finding phone…"</string>
+    <string name="wl_146" formatted="false">"Switch photo / video mode"</string>
+    <string name="wl_147" formatted="false">"Take photo; hold for burst"</string>
+    <string name="wl_148" formatted="false">"Menu"</string>
+    <string name="wl_149" formatted="false">"Flash"</string>
+    <string name="wl_150" formatted="false">"Switch camera"</string>
+    <string name="wl_151" formatted="false">"Open WristLens on phone and start camera"</string>
+    <string name="wl_152" formatted="false">"Command not confirmed. Check the phone."</string>
+    <string name="wl_153" formatted="false">"Phone"</string>
+    <string name="wl_154" formatted="false">"Check pairing and Google Play Services"</string>
+    <string name="wl_155" formatted="false">"Session is closing on phone"</string>
+    <string name="wl_160" formatted="false">"Back"</string>
+    <string name="wl_168" formatted="false">"Start a session on the phone"</string>
+    <string name="wl_169" formatted="false">"Disconnected. Command not confirmed."</string>
+    <string name="wl_170" formatted="false">"PAUSED"</string>
+    <string name="wl_171" formatted="false">"VIDEO"</string>
+    <string name="wl_172" formatted="false">"PHOTO"</string>
+    <string name="wl_173" formatted="false">"Camera disconnected\nOpen on phone"</string>
+    <string name="wl_174" formatted="false">"Waiting for image…"</string>
+    <string name="wl_175" formatted="false">"Resume recording"</string>
+    <string name="wl_176" formatted="false">"Pause recording"</string>
+    <string name="wl_177" formatted="false">"Photo / video"</string>
+    <string name="wl_178" formatted="false">"Stop recording; hold for menu"</string>
+    <string name="wl_179" formatted="false">"Photo during video"</string>
+    <string name="wl_180" formatted="false">"Start video"</string>
+    <string name="wl_181" formatted="false">"Photo; hold for burst"</string>
+    <string name="wl_182" formatted="false">"Flash: "</string>
+    <string name="wl_183" formatted="false">"Timer "</string>
+    <string name="wl_184" formatted="false">" seconds"</string>
+    <string name="wl_185" formatted="false">"Configuring camera"</string>
+    <string name="wl_186" formatted="false">"Latest gallery file"</string>
+    <string name="wl_187" formatted="false">"Gallery"</string>
+    <string name="wl_189" formatted="false">"Open on phone"</string>
+    <string name="wl_190" formatted="false">"Phone not found. Check connection"</string>
+    <string name="wl_191" formatted="false">"No connection to phone"</string>
+    <string name="wl_192" formatted="false">"Phone did not respond. Open WristLens on the phone"</string>
+    <string name="wl_193" formatted="false">"Opening the phone app for setup"</string>
+    <string name="wl_194" formatted="false">"Request sent. Unlock the phone if needed"</string>
+    <string name="wl_195" formatted="false">"Could not open app. Check the phone"</string>
+    <string name="wl_196" formatted="false">"Transfer cancelled"</string>
+    <string name="wl_197" formatted="false">"Not enough watch storage"</string>
+    <string name="wl_198" formatted="false">"File was not created"</string>
+    <string name="wl_199" formatted="false">"Transfer interrupted or size changed"</string>
+    <string name="wl_200" formatted="false">"Could not transfer file"</string>
+    <string name="wl_207" formatted="false">"File preview"</string>
+    <string name="wl_208" formatted="false">"Play video"</string>
+    <string name="wl_209" formatted="false">"Loading video…"</string>
+    <string name="wl_210" formatted="false">"Downloaded %d KB"</string>
+    <string name="wl_211" formatted="false">"Watch does not support this codec. Open on phone"</string>
+    <string name="wl_212" formatted="false">"Download to watch"</string>
+    <string name="wl_213" formatted="false">"Received %d KB"</string>
+    <string name="wl_214" formatted="false">"Delete from phone"</string>
+    <string name="wl_215" formatted="false">"Delete file?"</string>
+    <string name="wl_216" formatted="false">"Delete"</string>
+    <string name="wl_217" formatted="false">"Deleted from phone"</string>
+    <string name="wl_218" formatted="false">"Cancel"</string>
+    <string name="wl_219" formatted="false">"Watch does not support this codec"</string>
+    <string name="wl_220" formatted="false">"Delete from watch"</string>
+    <string name="wl_221" formatted="false">"Delete watch copy?"</string>
+    <string name="wl_222" formatted="false">"PHOTO · 1.0×"</string>
+    <string name="wl_223" formatted="false">"Background capture"</string>
+    <string name="wl_224" formatted="false">"Video and timers continue after leaving the watch app. When off, timers are cancelled and video is saved and stopped. A held burst always stops."</string>
+    <string name="wl_225" formatted="false">"Watermark on photos and videos"</string>
+    <string name="wl_226" formatted="false">"Corner"</string>
+    <string name="wl_227" formatted="false">"Top left"</string>
+    <string name="wl_228" formatted="false">"Top right"</string>
+    <string name="wl_229" formatted="false">"Bottom left"</string>
+    <string name="wl_230" formatted="false">"Bottom right"</string>
+    <string name="wl_231" formatted="false">"Color"</string>
+    <string name="wl_232" formatted="false">"White"</string>
+    <string name="wl_233" formatted="false">"Black"</string>
+    <string name="wl_234" formatted="false">"Size"</string>
+    <string name="wl_235" formatted="false">"Small"</string>
+    <string name="wl_236" formatted="false">"Medium"</string>
+    <string name="wl_237" formatted="false">"Large"</string>
+    <string name="wl_238" formatted="false">"Show date"</string>
+    <string name="wl_239" formatted="false">"Show time"</string>
+    <string name="wl_240" formatted="false">"Date format"</string>
+    <string name="wl_241" formatted="false">"Time format"</string>
+    <string name="wl_242" formatted="false">"Date, time and time zone come from the phone. System font. The watermark is embedded in photos and videos; changes apply to the next capture. Watermark is unavailable in HS: choose normal video mode."</string>
+    <string name="wl_243" formatted="false">"How to use"</string>
+    <string name="wl_244" formatted="false">"1. Install WristLens on your phone and paired watch. On first phone launch, allow camera, microphone and notifications. Opening the watch app then requests camera startup automatically. Android may require you to unlock the phone."</string>
+    <string name="wl_245" formatted="false">"2. The central button takes a photo or starts video in the selected mode. Hold it in photo mode for a burst; release to stop. Maximum: 50 photos and 60 seconds after the first frame."</string>
+    <string name="wl_246" formatted="false">"3. Bottom left switches photo/video, or pauses/resumes while recording. Bottom right opens the menu, or stops recording. Hold Stop to open the menu during recording."</string>
+    <string name="wl_247" formatted="false">"4. Top buttons: flash, timer, switch camera. Tap the image for point focus. Use the rotating bezel/crown or camera settings to zoom."</string>
+    <string name="wl_248" formatted="false">"5. Vibration for actions is a switch in the main menu. Only the camera screen stays awake; menus use the normal system screen timeout."</string>
+    <string name="wl_249" formatted="false">"6. Photo and video timers are separate. Cancel a running timer with the central × button. Change resolution, FPS and format before recording. Only modes exposed to third-party Android apps are available."</string>
+    <string name="wl_250" formatted="false">"7. Gallery supports a list with properties and two-column tiles. The counter includes the whole gallery. Hold a file, then Select all to include unloaded pages. Sharing supports up to 500 files per action; large deletions are processed in batches."</string>
+    <string name="wl_251" formatted="false">"8. Camera settings includes background capture and watermark. Background capture keeps video and single timers running after leaving the watch app; a held burst always stops. Force stopping or restarting the phone interrupts capture."</string>
+    <string name="wl_252" formatted="false">"9. Watermark supports four corners, black/white, three sizes, phone date and/or time. It is embedded in photos and videos and adds processing load. Turn it off for HS. Normal modes are checked at startup without silently reducing quality."</string>
+    <string name="wl_253" formatted="false">"10. Disconnect on either device ends the session, saves recording and cancels timers, even with background capture enabled. Tap the phone button or reopen the watch app for a new session."</string>
+    <string name="wl_254" formatted="false">"11. Defaults: DCIM/Camera, IMG/VID_YYYYMMDD_HHMMSS, JPEG and MP4 H.264. On the watch, Files and saving contains phone originals and watch copies. On the phone, use File storage. Front screen flash requires the phone screen to stay open."</string>
+    <string name="wl_255" formatted="false">"Waiting for camera"</string>
+    <string name="wl_256" formatted="false">"Camera preview. Tap to focus"</string>
+    <string name="wl_257" formatted="false">"Settings"</string>
+    <string name="wl_258" formatted="false">"Camera · "</string>
+    <string name="wl_259" formatted="false">"Lens"</string>
+    <string name="wl_260" formatted="false">"Light · "</string>
+    <string name="wl_261" formatted="false">"Phone screen flash"</string>
+    <string name="wl_262" formatted="false">"Zoom · %.1f×"</string>
+    <string name="wl_263" formatted="false">"Zoom"</string>
+    <string name="wl_264" formatted="false">"Continuous autofocus"</string>
+    <string name="wl_265" formatted="false">"Manual focus"</string>
+    <string name="wl_266" formatted="false">"Focus · diopters\n0 = infinity"</string>
+    <string name="wl_267" formatted="false">"Photo · size / aspect ratio"</string>
+    <string name="wl_268" formatted="false">"Video · size / FPS / aspect ratio"</string>
+    <string name="wl_269" formatted="false">"Video timer · "</string>
+    <string name="wl_270" formatted="false">"Photo timer · "</string>
+    <string name="wl_271" formatted="false">"Off"</string>
+    <string name="wl_272" formatted="false">"2 s"</string>
+    <string name="wl_273" formatted="false">"3 s"</string>
+    <string name="wl_274" formatted="false">"5 s"</string>
+    <string name="wl_275" formatted="false">"10 s"</string>
+    <string name="wl_276" formatted="false">"15 s"</string>
+    <string name="wl_277" formatted="false">"30 s"</string>
+    <string name="wl_278" formatted="false">"60 s"</string>
+    <string name="wl_279" formatted="false">"Capture delay"</string>
+    <string name="wl_280" formatted="false">"Burst limit · "</string>
+    <string name="wl_281" formatted="false">" photos"</string>
+    <string name="wl_282" formatted="false">"Count"</string>
+    <string name="wl_283" formatted="false">"3 photos"</string>
+    <string name="wl_284" formatted="false">"5 photos"</string>
+    <string name="wl_285" formatted="false">"10 photos"</string>
+    <string name="wl_286" formatted="false">"20 photos"</string>
+    <string name="wl_287" formatted="false">"30 photos"</string>
+    <string name="wl_288" formatted="false">"50 photos"</string>
+    <string name="wl_289" formatted="false">"Burst interval · "</string>
+    <string name="wl_290" formatted="false">" ms"</string>
+    <string name="wl_291" formatted="false">"After frame is saved"</string>
+    <string name="wl_292" formatted="false">"250 ms"</string>
+    <string name="wl_293" formatted="false">"500 ms"</string>
+    <string name="wl_294" formatted="false">"1 s"</string>
+    <string name="wl_295" formatted="false">"Preview"</string>
+    <string name="wl_296" formatted="false">"Quality / battery usage"</string>
+    <string name="wl_297" formatted="false">"Economy · up to 3 FPS"</string>
+    <string name="wl_298" formatted="false">"Auto · up to 15 FPS"</string>
+    <string name="wl_299" formatted="false">"Detailed · up to 8 FPS"</string>
+    <string name="wl_300" formatted="false">"Zoom and focus are available while recording. Change camera, resolution and FPS before recording. Preview frame rate depends on the connection."</string>
+    <string name="wl_301" formatted="false">"Done"</string>
+    <string name="wl_302" formatted="false">"Aspect ratio"</string>
+    <string name="wl_303" formatted="false">"Resolution / FPS"</string>
+    <string name="wl_304" formatted="false">"Resolution"</string>
+    <string name="wl_305" formatted="false">"Storage"</string>
+    <string name="wl_306" formatted="false">"DCIM folder"</string>
+    <string name="wl_307" formatted="false">"Folder"</string>
+    <string name="wl_308" formatted="false">"Custom subfolder"</string>
+    <string name="wl_309" formatted="false">"Path inside DCIM"</string>
+    <string name="wl_310" formatted="false">"Save"</string>
+    <string name="wl_311" formatted="false">"Choose another folder on phone"</string>
+    <string name="wl_312" formatted="false">"Naming pattern"</string>
+    <string name="wl_313" formatted="false">"Filename"</string>
+    <string name="wl_314" formatted="false">"Photo · "</string>
+    <string name="wl_315" formatted="false">"Photo type"</string>
+    <string name="wl_316" formatted="false">"JPEG · original encoding when watermark is off"</string>
+    <string name="wl_317" formatted="false">"PNG · lossless after camera JPEG"</string>
+    <string name="wl_318" formatted="false">"WebP · quality 100"</string>
+    <string name="wl_319" formatted="false">"Video · "</string>
+    <string name="wl_320" formatted="false">"Video type"</string>
+    <string name="wl_321" formatted="false">"WebM with audio requires a Vorbis encoder. JPEG is recommended for maximum photo resolution. Change settings before capture."</string>
+    <string name="wl_322" formatted="false">"Auto"</string>
+    <string name="wl_323" formatted="false">"On for photos"</string>
+    <string name="wl_324" formatted="false">"Torch"</string>
+    <string name="wl_325" formatted="false">"Apply"</string>
+    <string name="wl_extra_00" formatted="false">"Save to watch"</string>
+    <string name="wl_extra_01" formatted="false">"Automatically save photos and videos"</string>
+    <string name="wl_extra_02" formatted="false">"New photos and completed videos are saved using the folder and quality selected above. The queue continues after leaving the app and waits for reconnection. Limit: 4 GB per source file."</string>
+    <string name="wl_extra_03" formatted="false">"Retry transfer"</string>
+    <string name="wl_extra_04" formatted="false">"Transfer scheduled"</string>
+    <string name="wl_extra_06" formatted="false">"Waiting for phone"</string>
+    <string name="wl_extra_07" formatted="false">"All new files saved to watch"</string>
+    <string name="wl_extra_09" formatted="false">"Queue checkpoint failed"</string>
+    <string name="wl_extra_10" formatted="false">"Transfer waiting to retry"</string>
+    <string name="wl_extra_11" formatted="false">"Saving files to watch"</string>
+    <string name="wl_extra_13" formatted="false">"Could not save copy index"</string>
+    <string name="wl_extra_14" formatted="false">"Could not publish copy"</string>
+    <string name="wl_extra_15" formatted="false">"Invalid image"</string>
+    <string name="wl_extra_16" formatted="false">"Not enough memory for watermarking. Reduce photo resolution"</string>
+    <string name="wl_extra_17" formatted="false">"Could not encode photo"</string>
+    <string name="wl_extra_18" formatted="false">"Could not save media sequence"</string>
+    <string name="wl_extra_19" formatted="false">"Select up to 50 files"</string>
+    <string name="wl_extra_20" formatted="false">"Select 1 to 500 files"</string>
+    <string name="wl_extra_21" formatted="false">"No composited video frames"</string>
+    <string name="wl_extra_22" formatted="false">"Share files"</string>
+    <string name="wl_extra_23" formatted="false">"Share on phone"</string>
+    <string name="wl_extra_24" formatted="false">"Share"</string>
+    <string name="wl_extra_25" formatted="false">"On watch"</string>
+    <string name="wl_extra_27" formatted="false">"Saved on watch"</string>
+    <string name="wl_extra_28" formatted="false">"View: list / tiles"</string>
+    <string name="wl_extra_29" formatted="false">"Layout"</string>
+    <string name="wl_extra_30" formatted="false">"List"</string>
+    <string name="wl_extra_31" formatted="false">"Tiles"</string>
+    <string name="wl_extra_32" formatted="false">"Could not read gallery"</string>
+    <string name="wl_extra_33" formatted="false">"Loading…"</string>
+    <string name="wl_extra_34" formatted="false">"Selected: "</string>
+    <string name="wl_extra_35" formatted="false">"Download selected"</string>
+    <string name="wl_extra_36" formatted="false">"Delete selected"</string>
+    <string name="wl_extra_37" formatted="false">"Clear selection"</string>
+    <string name="wl_extra_38" formatted="false">"Hold a file to select several."</string>
+    <string name="wl_extra_39" formatted="false">"Gallery is empty"</string>
+    <string name="wl_extra_40" formatted="false">"Load 20 more"</string>
+    <string name="wl_extra_41" formatted="false">"Refresh"</string>
+    <string name="wl_extra_42" formatted="false">"Delete copies from watch?"</string>
+    <string name="wl_extra_43" formatted="false">"Delete from phone?"</string>
+    <string name="wl_extra_44" formatted="false">"Files: "</string>
+    <string name="wl_extra_46" formatted="false">"Could not delete: "</string>
+    <string name="wl_extra_47" formatted="false">"Files saved to watch"</string>
+    <string name="wl_extra_48" formatted="false">"No sharing app on watch. Use Share on phone"</string>
+    <string name="wl_extra_49" formatted="false">" KB"</string>
+    <string name="wl_extra_50" formatted="false">"WristLens diagnostics"</string>
+    <string name="wl_delete_failed">Could not delete: %1$d</string>
+    <string name="wl_transfer_progress">%1$d / %2$d · %3$d KB</string>
+</resources>

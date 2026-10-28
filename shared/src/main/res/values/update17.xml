@@ -1,0 +1,19 @@
+<resources>
+  <string name="download_started">Download started</string>
+  <string name="download_queued">Queued</string>
+  <string name="download_running">Downloading · %1$d%%</string>
+  <string name="download_cancel">Cancel download</string>
+  <string name="download_cancelled">Download cancelled</string>
+  <string name="download_failed">Download failed</string>
+  <string name="download_batch">%1$d of %2$d</string>
+  <string name="record_audio">Record microphone audio</string>
+  <string name="preview_audio">Listen to phone microphone</string>
+  <string name="mic_on">Mute microphone</string>
+  <string name="mic_off">Unmute microphone</string>
+  <string name="mic_permission">Allow microphone on phone</string>
+  <string name="mic_required">Allow microphone access in the phone app</string>
+  <string name="mic_next_video">Microphone will be available in the next recording</string>
+  <string name="audio_unavailable">Preview audio unavailable</string>
+  <string name="help_audio">Audio: recording uses the phone microphone and is on by default. Live listening on the watch is a separate option, off by default; watch media volume controls playback. While recording, the camera switch becomes a microphone mute button, including during a pause. Muting records silence in this file and does not switch off live listening. Allow microphone access on the phone before recording. Without permission at the start, audio can only be added to the next recording. Leaving the watch app stops live listening; background recording follows the background setting. Use headphones to avoid feedback. Capture sounds are a separate setting.</string>
+  <string name="help_downloads">Downloads continue after closing the gallery. A notification shows preparation or download progress and Cancel. The gallery marks queued, downloading and completed files. Cancelling removes the unfinished copy and keeps completed files. Allow notifications on the watch to see progress outside the app. Compression happens on the phone before download.</string>
+</resources>
