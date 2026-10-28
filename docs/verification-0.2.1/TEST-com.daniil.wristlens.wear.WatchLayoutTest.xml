@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.WatchLayoutTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-23T07:49:19.971Z" hostname="67a18eb6d5b2" time="5.406">
+  <properties/>
+  <testcase name="offlineFirstTraversalHasOnlyOpenPhoneAndMenu" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="4.101"/>
+  <testcase name="reconnectRecordPauseCountdownAndDisconnectKeepLayout" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.17"/>
+  <testcase name="lowerDensityRoundScreenWorks" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.077"/>
+  <testcase name="largeFontKeepsHudStatusAndCountdownVisible" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.14"/>
+  <testcase name="offlineMenuOpensAfterRecordingConnectionIsLost" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.437"/>
+  <testcase name="curvedTextIsCenteredAboveDial" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.081"/>
+  <testcase name="allButtonsAndPreviewReceiveTheirOwnTouches" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.206"/>
+  <testcase name="onlineFirstTraversalHasSmallNonOverlappingControls" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.075"/>
+  <testcase name="resizeRepositionsControlsBeforeMeasuring" classname="com.daniil.wristlens.wear.WatchLayoutTest" time="0.116"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

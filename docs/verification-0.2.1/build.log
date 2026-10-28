@@ -1,0 +1,113 @@
+
+Welcome to Gradle 8.13!
+
+Here are the highlights of this release:
+ - Daemon JVM auto-provisioning
+ - Enhancements for Scala plugin and JUnit testing
+ - Improvements for build authors and plugin developers
+
+For more details see https://docs.gradle.org/8.13/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Checking the license for package Android SDK Platform-Tools in <workspace>/toolchain/android-sdk/licenses
+License for package Android SDK Platform-Tools accepted.
+Preparing "Install Android SDK Platform-Tools v.37.0.1".
+"Install Android SDK Platform-Tools v.37.0.1" ready.
+Installing Android SDK Platform-Tools in <workspace>/toolchain/android-sdk/platform-tools
+"Install Android SDK Platform-Tools v.37.0.1" complete.
+"Install Android SDK Platform-Tools v.37.0.1" finished.
+> Task :wear:preBuild UP-TO-DATE
+> Task :shared:preBuild UP-TO-DATE
+> Task :wear:preDebugBuild UP-TO-DATE
+> Task :shared:preDebugBuild UP-TO-DATE
+> Task :wear:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :shared:generateDebugResValues
+> Task :wear:generateDebugResValues
+> Task :shared:generateDebugResources
+> Task :wear:javaPreCompileDebug
+> Task :wear:generateDebugResources
+> Task :shared:packageDebugResources
+> Task :shared:processDebugNavigationResources
+> Task :wear:packageDebugResources
+> Task :shared:javaPreCompileDebug
+> Task :shared:parseDebugLocalResources
+> Task :core:compileJava
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :shared:compileDebugLibraryResources
+> Task :shared:writeDebugAarMetadata
+> Task :shared:extractDeepLinksDebug
+> Task :shared:generateDebugRFile
+> Task :shared:mergeDebugShaders
+> Task :shared:processDebugManifest
+> Task :wear:processDebugNavigationResources
+> Task :wear:checkDebugAarMetadata
+> Task :wear:compileDebugNavigationResources
+> Task :wear:mapDebugSourceSetPaths
+> Task :wear:createDebugCompatibleScreenManifests
+> Task :wear:extractDeepLinksDebug
+> Task :wear:parseDebugLocalResources
+> Task :wear:mergeDebugResources
+> Task :wear:processDebugMainManifest
+> Task :wear:processDebugManifest
+> Task :wear:mergeDebugShaders
+> Task :wear:compileDebugShaders NO-SOURCE
+> Task :wear:generateDebugAssets UP-TO-DATE
+> Task :wear:desugarDebugFileDependencies
+> Task :wear:processDebugJavaRes NO-SOURCE
+
+> Task :shared:compileDebugJavaWithJavac
+
+
+
+Note: <workspace>/WristLens/shared/src/main/java/com/daniil/wristlens/shared/PreviewView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :shared:compileDebugShaders NO-SOURCE
+> Task :shared:generateDebugAssets UP-TO-DATE
+> Task :shared:mergeDebugAssets
+> Task :shared:bundleLibCompileToJarDebug
+> Task :shared:bundleLibRuntimeToJarDebug
+> Task :shared:processDebugJavaRes NO-SOURCE
+> Task :shared:bundleLibRuntimeToDirDebug
+> Task :shared:mergeDebugJniLibFolders
+> Task :shared:mergeDebugNativeLibs NO-SOURCE
+> Task :shared:copyDebugJniLibsProjectOnly
+> Task :wear:checkDebugDuplicateClasses
+> Task :wear:mergeDebugAssets
+> Task :wear:compressDebugAssets
+> Task :wear:mergeDebugJavaResource
+> Task :wear:processDebugManifestForPackage
+> Task :wear:mergeDebugJniLibFolders
+> Task :wear:mergeDebugNativeLibs NO-SOURCE
+> Task :wear:stripDebugDebugSymbols NO-SOURCE
+> Task :wear:validateSigningDebug
+> Task :wear:writeDebugAppMetadata
+> Task :wear:mergeLibDexDebug
+> Task :wear:writeDebugSigningConfigVersions
+> Task :wear:processDebugResources
+
+> Task :wear:compileDebugJavaWithJavac
+Note: <workspace>/WristLens/wear/src/main/java/com/daniil/wristlens/wear/RoundHud.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :wear:mergeExtDexDebug
+> Task :wear:dexBuilderDebug
+> Task :wear:mergeDebugGlobalSynthetics
+> Task :wear:mergeProjectDexDebug
+> Task :wear:packageDebug
+> Task :wear:createDebugApkListingFileRedirect
+> Task :wear:assembleDebug
+
+[Incubating] Problems report is available at: file://<workspace>/WristLens/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 23s
+55 actionable tasks: 55 executed

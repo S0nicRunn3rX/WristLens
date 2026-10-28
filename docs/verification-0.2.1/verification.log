@@ -1,0 +1,120 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :wear:preBuild UP-TO-DATE
+> Task :shared:preBuild UP-TO-DATE
+> Task :shared:preDebugBuild UP-TO-DATE
+> Task :wear:preDebugBuild UP-TO-DATE
+> Task :core:compileJava UP-TO-DATE
+> Task :wear:javaPreCompileDebug UP-TO-DATE
+> Task :shared:generateDebugResValues UP-TO-DATE
+> Task :wear:generateDebugResValues UP-TO-DATE
+> Task :wear:generateDebugResources UP-TO-DATE
+> Task :shared:generateDebugResources UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :wear:packageDebugResources UP-TO-DATE
+> Task :shared:packageDebugResources UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :shared:processDebugNavigationResources UP-TO-DATE
+> Task :wear:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :shared:parseDebugLocalResources UP-TO-DATE
+> Task :shared:generateDebugRFile UP-TO-DATE
+> Task :shared:javaPreCompileDebug UP-TO-DATE
+> Task :wear:processDebugNavigationResources UP-TO-DATE
+> Task :wear:compileDebugNavigationResources UP-TO-DATE
+> Task :wear:mapDebugSourceSetPaths UP-TO-DATE
+> Task :shared:compileDebugJavaWithJavac UP-TO-DATE
+> Task :shared:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :shared:processDebugJavaRes NO-SOURCE
+> Task :shared:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :shared:compileDebugLibraryResources UP-TO-DATE
+> Task :shared:writeDebugAarMetadata UP-TO-DATE
+> Task :wear:mergeDebugResources UP-TO-DATE
+> Task :shared:extractDeepLinksDebug UP-TO-DATE
+> Task :shared:processDebugManifest UP-TO-DATE
+> Task :shared:mergeDebugShaders UP-TO-DATE
+> Task :shared:compileDebugShaders NO-SOURCE
+> Task :shared:generateDebugAssets UP-TO-DATE
+> Task :shared:mergeDebugAssets UP-TO-DATE
+> Task :wear:checkDebugAarMetadata UP-TO-DATE
+> Task :wear:parseDebugLocalResources UP-TO-DATE
+> Task :wear:extractDeepLinksDebug UP-TO-DATE
+> Task :wear:processDebugMainManifest UP-TO-DATE
+> Task :wear:processDebugManifest UP-TO-DATE
+> Task :wear:processDebugManifestForPackage UP-TO-DATE
+> Task :wear:processDebugResources UP-TO-DATE
+> Task :shared:mergeDebugJniLibFolders UP-TO-DATE
+> Task :shared:mergeDebugNativeLibs NO-SOURCE
+> Task :wear:compileDebugJavaWithJavac UP-TO-DATE
+> Task :shared:stripDebugDebugSymbols NO-SOURCE
+> Task :shared:checkDebugAarMetadata
+> Task :wear:preDebugUnitTestBuild UP-TO-DATE
+> Task :shared:copyDebugJniLibsProjectAndLocalJars
+> Task :wear:mergeDebugShaders UP-TO-DATE
+> Task :wear:javaPreCompileDebugUnitTest
+> Task :wear:compileDebugShaders NO-SOURCE
+> Task :wear:generateDebugAssets UP-TO-DATE
+> Task :wear:bundleDebugClassesToCompileJar
+> Task :wear:bundleDebugClassesToRuntimeJar
+> Task :wear:mergeDebugAssets UP-TO-DATE
+> Task :core:compileTestJava
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses
+
+> Task :core:test
+
+> Task :shared:extractDebugAnnotations
+> Task :shared:extractDeepLinksForAarDebug
+> Task :shared:mergeDebugGeneratedProguardFiles
+> Task :shared:mergeDebugConsumerProguardFiles
+> Task :shared:prepareDebugArtProfile
+> Task :shared:prepareLintJarForPublish
+> Task :shared:createFullJarDebug
+> Task :shared:preDebugAndroidTestBuild UP-TO-DATE
+> Task :shared:generateDebugAndroidTestResValues
+> Task :shared:writeDebugLintModelMetadata
+> Task :shared:extractProguardFiles
+> Task :shared:mergeDebugJavaResource
+> Task :shared:generateDebugLintModel
+> Task :shared:syncDebugLibJars
+> Task :shared:bundleDebugLocalLintAar
+> Task :shared:preDebugUnitTestBuild UP-TO-DATE
+> Task :shared:generateDebugAndroidTestLintModel
+> Task :shared:generateDebugUnitTestLintModel
+> Task :shared:lintAnalyzeDebugAndroidTest
+> Task :shared:lintAnalyzeDebugUnitTest
+> Task :wear:compileDebugUnitTestJavaWithJavac
+> Task :wear:packageDebugUnitTestForUnitTest
+> Task :wear:processDebugUnitTestManifest
+> Task :wear:processDebugJavaRes NO-SOURCE
+> Task :wear:generateDebugUnitTestConfig
+> Task :wear:processDebugUnitTestJavaRes NO-SOURCE
+> Task :shared:lintAnalyzeDebug
+
+> Task :wear:testDebugUnitTest
+
+> Task :wear:preDebugAndroidTestBuild SKIPPED
+> Task :wear:generateDebugAndroidTestResValues
+> Task :wear:generateDebugAndroidTestLintModel
+> Task :wear:extractProguardFiles
+> Task :wear:generateDebugLintReportModel
+> Task :wear:generateDebugUnitTestLintModel
+> Task :wear:lintAnalyzeDebugAndroidTest
+> Task :wear:lintAnalyzeDebugUnitTest
+> Task :wear:lintAnalyzeDebug
+
+> Task :wear:lintReportDebug
+Wrote HTML report to file://<workspace>/WristLens/wear/build/reports/lint-results-debug.html
+
+> Task :wear:lintDebug
+
+[Incubating] Problems report is available at: file://<workspace>/WristLens/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 21s
+79 actionable tasks: 41 executed, 38 up-to-date
