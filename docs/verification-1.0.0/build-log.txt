@@ -1,0 +1,223 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :phone:preBuild UP-TO-DATE
+> Task :wear:preBuild UP-TO-DATE
+> Task :shared:preBuild UP-TO-DATE
+> Task :phone:preReleaseBuild UP-TO-DATE
+> Task :shared:preReleaseBuild UP-TO-DATE
+> Task :wear:preReleaseBuild UP-TO-DATE
+> Task :shared:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :phone:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :wear:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :shared:generateReleaseResValues UP-TO-DATE
+> Task :shared:generateReleaseResources UP-TO-DATE
+> Task :shared:packageReleaseResources UP-TO-DATE
+> Task :shared:processReleaseNavigationResources UP-TO-DATE
+> Task :shared:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:generateReleaseRFile UP-TO-DATE
+> Task :shared:javaPreCompileRelease UP-TO-DATE
+> Task :shared:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:processReleaseManifest UP-TO-DATE
+> Task :shared:compileReleaseLibraryResources UP-TO-DATE
+> Task :shared:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared:mergeReleaseShaders UP-TO-DATE
+> Task :shared:compileReleaseShaders NO-SOURCE
+> Task :shared:generateReleaseAssets UP-TO-DATE
+> Task :phone:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :wear:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :shared:mergeReleaseAssets UP-TO-DATE
+> Task :phone:javaPreCompileRelease UP-TO-DATE
+> Task :shared:processReleaseJavaRes NO-SOURCE
+> Task :wear:javaPreCompileRelease UP-TO-DATE
+> Task :shared:extractProguardFiles UP-TO-DATE
+> Task :shared:prepareLintJarForPublish UP-TO-DATE
+> Task :wear:checkReleaseAarMetadata UP-TO-DATE
+> Task :shared:checkReleaseAarMetadata UP-TO-DATE
+> Task :phone:checkReleaseAarMetadata UP-TO-DATE
+> Task :shared:stripReleaseDebugSymbols NO-SOURCE
+> Task :shared:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :shared:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :wear:processReleaseNavigationResources UP-TO-DATE
+> Task :wear:compileReleaseNavigationResources UP-TO-DATE
+> Task :wear:generateReleaseResValues UP-TO-DATE
+> Task :phone:processReleaseNavigationResources UP-TO-DATE
+> Task :shared:mergeReleaseJavaResource UP-TO-DATE
+> Task :phone:compileReleaseNavigationResources UP-TO-DATE
+> Task :shared:writeReleaseLintModelMetadata UP-TO-DATE
+> Task :shared:preReleaseUnitTestBuild UP-TO-DATE
+> Task :phone:generateReleaseResValues UP-TO-DATE
+> Task :phone:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :wear:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :phone:generateReleaseResources UP-TO-DATE
+> Task :wear:generateReleaseResources UP-TO-DATE
+> Task :phone:mergeReleaseResources UP-TO-DATE
+> Task :phone:packageReleaseResources UP-TO-DATE
+> Task :phone:parseReleaseLocalResources UP-TO-DATE
+> Task :wear:mergeReleaseResources UP-TO-DATE
+> Task :phone:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :phone:extractDeepLinksRelease UP-TO-DATE
+> Task :wear:packageReleaseResources UP-TO-DATE
+> Task :wear:parseReleaseLocalResources UP-TO-DATE
+> Task :wear:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :wear:extractDeepLinksRelease UP-TO-DATE
+> Task :phone:processReleaseMainManifest UP-TO-DATE
+> Task :phone:processReleaseManifest UP-TO-DATE
+> Task :phone:processReleaseManifestForPackage UP-TO-DATE
+> Task :wear:processReleaseMainManifest UP-TO-DATE
+> Task :wear:processReleaseManifest UP-TO-DATE
+> Task :wear:processReleaseManifestForPackage UP-TO-DATE
+> Task :wear:processReleaseResources UP-TO-DATE
+> Task :phone:processReleaseResources UP-TO-DATE
+> Task :wear:desugarReleaseFileDependencies UP-TO-DATE
+> Task :phone:desugarReleaseFileDependencies UP-TO-DATE
+> Task :wear:mergeReleaseStartupProfile UP-TO-DATE
+> Task :phone:mergeReleaseStartupProfile UP-TO-DATE
+> Task :wear:mergeExtDexRelease UP-TO-DATE
+> Task :phone:mergeExtDexRelease UP-TO-DATE
+> Task :phone:mergeReleaseArtProfile UP-TO-DATE
+> Task :wear:mergeReleaseArtProfile UP-TO-DATE
+> Task :phone:mergeReleaseShaders UP-TO-DATE
+> Task :phone:compileReleaseShaders NO-SOURCE
+> Task :phone:generateReleaseAssets UP-TO-DATE
+> Task :wear:mergeReleaseShaders UP-TO-DATE
+> Task :wear:compileReleaseShaders NO-SOURCE
+> Task :wear:generateReleaseAssets UP-TO-DATE
+> Task :phone:mergeReleaseAssets UP-TO-DATE
+> Task :wear:mergeReleaseAssets UP-TO-DATE
+> Task :phone:compressReleaseAssets UP-TO-DATE
+> Task :wear:compressReleaseAssets UP-TO-DATE
+> Task :phone:extractReleaseVersionControlInfo UP-TO-DATE
+> Task :wear:extractReleaseVersionControlInfo UP-TO-DATE
+> Task :wear:extractProguardFiles UP-TO-DATE
+> Task :phone:extractProguardFiles UP-TO-DATE
+> Task :wear:processReleaseJavaRes NO-SOURCE
+> Task :phone:processReleaseJavaRes NO-SOURCE
+> Task :phone:optimizeReleaseResources UP-TO-DATE
+> Task :wear:optimizeReleaseResources UP-TO-DATE
+> Task :phone:collectReleaseDependencies UP-TO-DATE
+> Task :phone:sdkReleaseDependencyData UP-TO-DATE
+> Task :phone:validateSigningRelease UP-TO-DATE
+> Task :phone:writeReleaseAppMetadata UP-TO-DATE
+> Task :wear:collectReleaseDependencies UP-TO-DATE
+> Task :phone:writeReleaseSigningConfigVersions UP-TO-DATE
+> Task :wear:sdkReleaseDependencyData UP-TO-DATE
+> Task :phone:preReleaseUnitTestBuild UP-TO-DATE
+> Task :wear:validateSigningRelease UP-TO-DATE
+> Task :wear:writeReleaseAppMetadata UP-TO-DATE
+> Task :phone:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :wear:writeReleaseSigningConfigVersions UP-TO-DATE
+> Task :wear:preReleaseUnitTestBuild UP-TO-DATE
+> Task :phone:packageReleaseUnitTestForUnitTest UP-TO-DATE
+> Task :wear:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :wear:packageReleaseUnitTestForUnitTest UP-TO-DATE
+> Task :phone:processReleaseUnitTestManifest UP-TO-DATE
+> Task :wear:processReleaseUnitTestManifest UP-TO-DATE
+> Task :phone:generateReleaseUnitTestConfig UP-TO-DATE
+> Task :wear:generateReleaseUnitTestConfig UP-TO-DATE
+> Task :phone:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :wear:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :core:compileJava
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :phone:mergeReleaseNativeLibs NO-SOURCE
+> Task :wear:mergeReleaseNativeLibs NO-SOURCE
+> Task :phone:stripReleaseDebugSymbols NO-SOURCE
+> Task :phone:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :wear:stripReleaseDebugSymbols NO-SOURCE
+> Task :phone:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :wear:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :wear:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :core:compileTestJava
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses
+> Task :phone:mergeReleaseJavaResource
+> Task :wear:mergeReleaseJavaResource
+> Task :shared:compileReleaseJavaWithJavac
+> Task :shared:bundleLibRuntimeToDirRelease
+> Task :shared:bundleLibCompileToJarRelease
+> Task :shared:bundleLibRuntimeToJarRelease
+> Task :shared:generateReleaseLintModel
+> Task :shared:createFullJarRelease
+> Task :shared:extractReleaseAnnotations
+> Task :shared:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :shared:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :shared:syncReleaseLibJars
+> Task :shared:bundleReleaseLocalLintAar
+
+> Task :core:test
+
+> Task :shared:generateReleaseLintVitalModel
+> Task :shared:generateReleaseUnitTestLintModel
+
+> Task :phone:compileReleaseJavaWithJavac
+Note: /workspace/scratch/18f0476b7b06/WristLens/phone/src/main/java/com/daniil/wristlens/phone/PhoneActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :wear:compileReleaseJavaWithJavac
+> Task :phone:dexBuilderRelease
+> Task :phone:mergeReleaseGlobalSynthetics UP-TO-DATE
+> Task :phone:generateReleaseLintVitalReportModel
+> Task :phone:bundleReleaseClassesToCompileJar
+> Task :phone:bundleReleaseClassesToRuntimeJar
+> Task :phone:generateReleaseLintReportModel
+> Task :phone:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+> Task :wear:dexBuilderRelease
+> Task :wear:mergeReleaseGlobalSynthetics UP-TO-DATE
+> Task :wear:generateReleaseLintVitalReportModel
+> Task :wear:bundleReleaseClassesToRuntimeJar
+> Task :wear:bundleReleaseClassesToCompileJar
+> Task :wear:generateReleaseLintReportModel
+> Task :wear:compileReleaseUnitTestJavaWithJavac
+> Task :phone:mergeDexRelease
+
+> Task :phone:testReleaseUnitTest
+
+> Task :wear:mergeDexRelease
+
+> Task :wear:testReleaseUnitTest
+
+> Task :shared:lintAnalyzeReleaseUnitTest
+> Task :phone:compileReleaseArtProfile
+> Task :shared:lintAnalyzeRelease
+> Task :phone:generateReleaseUnitTestLintModel
+> Task :phone:lintAnalyzeReleaseUnitTest
+> Task :wear:compileReleaseArtProfile
+> Task :wear:generateReleaseUnitTestLintModel
+> Task :shared:lintVitalAnalyzeRelease
+> Task :phone:lintAnalyzeRelease
+> Task :wear:lintVitalAnalyzeRelease
+
+> Task :phone:lintReportRelease
+Wrote HTML report to file:///workspace/scratch/18f0476b7b06/WristLens/phone/build/reports/lint-results-release.html
+
+> Task :wear:lintVitalReportRelease SKIPPED
+> Task :wear:lintVitalRelease SKIPPED
+> Task :phone:lintRelease
+> Task :phone:lintVitalAnalyzeRelease
+> Task :phone:lintVitalReportRelease SKIPPED
+> Task :phone:lintVitalRelease SKIPPED
+> Task :wear:lintAnalyzeRelease
+> Task :wear:packageRelease
+> Task :phone:packageRelease
+> Task :wear:createReleaseApkListingFileRedirect UP-TO-DATE
+> Task :wear:assembleRelease
+> Task :phone:createReleaseApkListingFileRedirect UP-TO-DATE
+> Task :phone:assembleRelease
+> Task :wear:lintAnalyzeReleaseUnitTest
+> Task :wear:lintReportRelease
+> Task :wear:lintRelease
+
+[Incubating] Problems report is available at: file:///workspace/scratch/18f0476b7b06/WristLens/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 37s
+157 actionable tasks: 53 executed, 104 up-to-date

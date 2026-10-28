@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.phone.CaptureOptionsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-23T14:19:29.198Z" hostname="a42e3e051be1" time="7.36">
+  <properties/>
+  <testcase name="nativeTextDrawsInsideEveryDisplayedCornerAfterRotation" classname="com.daniil.wristlens.phone.CaptureOptionsTest" time="7.204"/>
+  <testcase name="emptyWatermarkCannotBeEnabled" classname="com.daniil.wristlens.phone.CaptureOptionsTest" time="0.055"/>
+  <testcase name="settingsSurviveNewInstanceAndRejectInvalidValues" classname="com.daniil.wristlens.phone.CaptureOptionsTest" time="0.042"/>
+  <testcase name="blackTextAndSizesAreRealPixels" classname="com.daniil.wristlens.phone.CaptureOptionsTest" time="0.057"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>
