@@ -1,0 +1,1662 @@
+{
+  "action_vibration": {
+    "en": "\"Vibration for actions\"",
+    "ru": "\"Вибрация действий\""
+  },
+  "screen_timeout_help": {
+    "en": "\"The camera screen stays awake. In menus, the screen turns off after the normal system timeout.\"",
+    "ru": "\"Экран камеры остаётся включённым. В меню экран гаснет по обычному системному тайм-ауту.\""
+  },
+  "copy_folder": {
+    "en": "\"Watch save folder\"",
+    "ru": "\"Папка на часах\""
+  },
+  "copy_photo": {
+    "en": "\"Photo compression\"",
+    "ru": "\"Сжатие фото\""
+  },
+  "copy_video": {
+    "en": "\"Video compression\"",
+    "ru": "\"Сжатие видео\""
+  },
+  "copy_original": {
+    "en": "\"Original · no compression\"",
+    "ru": "\"Оригинал · без сжатия\""
+  },
+  "copy_photo_balanced": {
+    "en": "\"JPEG · 85% · up to 1920 px\"",
+    "ru": "\"JPEG · 85% · до 1920 px\""
+  },
+  "copy_photo_compact": {
+    "en": "\"JPEG · 70% · up to 1280 px\"",
+    "ru": "\"JPEG · 70% · до 1280 px\""
+  },
+  "copy_video_balanced": {
+    "en": "\"MP4 · up to 1280 px · 2 Mbps\"",
+    "ru": "\"MP4 · до 1280 px · 2 Мбит/с\""
+  },
+  "copy_video_compact": {
+    "en": "\"MP4 · up to 854 px · 1 Mbps\"",
+    "ru": "\"MP4 · до 854 px · 1 Мбит/с\""
+  },
+  "copy_settings_help": {
+    "en": "\"Applies to manual downloads and auto-save. Compression runs on the phone before transfer. The longest edge is limited; images are not enlarged. Video copies use H.264/AAC, up to 30 fps. Originals on the phone stay unchanged. New settings apply to the next file; existing watch files are kept.\"",
+    "ru": "\"Для ручного скачивания и автосохранения. Сжатие выполняется на телефоне до передачи. Ограничивается длинная сторона; изображение не увеличивается. Копии видео: H.264/AAC, до 30 кадров/с. Оригиналы на телефоне не меняются. Новые параметры применяются к следующему файлу; прежние копии на часах сохраняются.\""
+  },
+  "copy_custom_folder": {
+    "en": "\"Enter folder…\"",
+    "ru": "\"Указать папку…\""
+  },
+  "copy_folder_help": {
+    "en": "\"Folder inside DCIM, for example DCIM/WristLens/Trips. It is created when the first file is saved.\"",
+    "ru": "\"Папка внутри DCIM, например DCIM/WristLens/Поездки. Создаётся при сохранении первого файла.\""
+  },
+  "copy_folder_error": {
+    "en": "\"Enter a valid folder inside DCIM, without . or .. components.\"",
+    "ru": "\"Укажи папку внутри DCIM без элементов . и ..\""
+  },
+  "copy_preparing": {
+    "en": "\"Preparing download…\"",
+    "ru": "\"Подготовка скачивания…\""
+  },
+  "copy_deleting": {
+    "en": "\"Deleting…\"",
+    "ru": "\"Удаление…\""
+  },
+  "copy_downloaded": {
+    "en": "\"Downloaded to watch\"",
+    "ru": "\"Скачано на часы\""
+  },
+  "copy_downloaded_count": {
+    "en": "\"Downloaded: %1$d\"",
+    "ru": "\"Скачано: %1$d\""
+  },
+  "copy_deleted_count": {
+    "en": "\"Deleted: %1$d\"",
+    "ru": "\"Удалено: %1$d\""
+  },
+  "copy_export_failed": {
+    "en": "\"Could not prepare the copy. Try Original quality.\"",
+    "ru": "\"Не удалось подготовить копию. Попробуй исходное качество.\""
+  },
+  "copy_export_space": {
+    "en": "\"Not enough space on the phone to prepare the copy\"",
+    "ru": "\"На телефоне недостаточно места для подготовки копии\""
+  },
+  "copy_update_phone": {
+    "en": "\"Update the phone app to use watch copy settings\"",
+    "ru": "\"Обнови приложение на телефоне для настроек копий на часах\""
+  },
+  "download_started": {
+    "en": "Download started",
+    "ru": "Скачивание началось"
+  },
+  "download_queued": {
+    "en": "Queued",
+    "ru": "В очереди"
+  },
+  "download_running": {
+    "en": "Downloading · %1$d%%",
+    "ru": "Скачивание · %1$d%%"
+  },
+  "download_cancel": {
+    "en": "Cancel download",
+    "ru": "Отменить скачивание"
+  },
+  "download_cancelled": {
+    "en": "Download cancelled",
+    "ru": "Скачивание отменено"
+  },
+  "download_failed": {
+    "en": "Download failed",
+    "ru": "Не удалось скачать"
+  },
+  "download_batch": {
+    "en": "%1$d of %2$d",
+    "ru": "%1$d из %2$d"
+  },
+  "record_audio": {
+    "en": "Record microphone audio",
+    "ru": "Записывать звук микрофона"
+  },
+  "preview_audio": {
+    "en": "Listen to phone microphone",
+    "ru": "Слушать микрофон телефона"
+  },
+  "mic_on": {
+    "en": "Mute microphone",
+    "ru": "Выключить микрофон"
+  },
+  "mic_off": {
+    "en": "Unmute microphone",
+    "ru": "Включить микрофон"
+  },
+  "mic_permission": {
+    "en": "Allow microphone on phone",
+    "ru": "Разрешить микрофон на телефоне"
+  },
+  "mic_required": {
+    "en": "Allow microphone access in the phone app",
+    "ru": "Разрешите доступ к микрофону в приложении на телефоне"
+  },
+  "mic_next_video": {
+    "en": "Microphone will be available in the next recording",
+    "ru": "Микрофон будет доступен в следующей записи"
+  },
+  "audio_unavailable": {
+    "en": "Preview audio unavailable",
+    "ru": "Звук предпросмотра недоступен"
+  },
+  "help_audio": {
+    "en": "Audio: recording uses the phone microphone and is on by default. Live listening on the watch is a separate option, off by default; watch media volume controls playback. While recording, the camera switch becomes a microphone mute button, including during a pause. Muting records silence in this file and does not switch off live listening. Allow microphone access on the phone before recording. Without permission at the start, audio can only be added to the next recording. Leaving the watch app stops live listening; background recording follows the background setting. Use headphones to avoid feedback. Capture sounds are a separate setting.",
+    "ru": "Звук: при записи используется микрофон телефона, по умолчанию он включён. Прослушивание на часах включается отдельно и по умолчанию выключено; громкость регулируется громкостью мультимедиа часов. При записи вместо смены камеры появляется кнопка микрофона, в том числе на паузе. Выключение записывает тишину в текущий файл и не отключает прослушивание. Разрешите микрофон на телефоне до записи. Если разрешения не было при старте, звук доступен только в следующем ролике. Выход из приложения часов выключает прослушивание; фоновая запись зависит от настройки работы в фоне. Наушники помогут избежать обратной связи. Звуки действий настраиваются отдельно."
+  },
+  "help_downloads": {
+    "en": "Downloads continue after closing the gallery. A notification shows preparation or download progress and Cancel. The gallery marks queued, downloading and completed files. Cancelling removes the unfinished copy and keeps completed files. Allow notifications on the watch to see progress outside the app. Compression happens on the phone before download.",
+    "ru": "Скачивание продолжается после закрытия галереи. В уведомлении отображаются подготовка или прогресс и кнопка отмены. В галерее отмечены ожидающие, скачиваемые и скачанные файлы. Отмена удаляет незавершённую копию, готовые сохраняются. Разрешите уведомления на часах, чтобы видеть прогресс вне приложения. Сжатие выполняется на телефоне до передачи."
+  },
+  "files_and_saving": {
+    "en": "Files and saving",
+    "ru": "Файлы и сохранение"
+  },
+  "saving_phone": {
+    "en": "On the phone",
+    "ru": "На телефоне"
+  },
+  "saving_watch": {
+    "en": "On the watch",
+    "ru": "На часах"
+  },
+  "help_menu": {
+    "en": "\"Camera settings includes capture, background mode and watermark options. Files and saving combines phone originals and watch copies. Vibration is a switch directly in the main menu. The version number is at the bottom.\"",
+    "ru": "\"В «Параметрах камеры» собраны съёмка, работа в фоне и водяной знак. «Файлы и сохранение» объединяет оригиналы на телефоне и копии на часах. Вибрация переключается прямо в главном меню. Номер версии — внизу.\""
+  },
+  "help_haptics": {
+    "en": "\"Menu buttons and switches give tactile feedback. The bezel gives short ticks when the list or slider actually moves. Vibration for actions controls all app feedback; the system touch-feedback setting also applies.\"",
+    "ru": "\"Кнопки и переключатели меню дают тактильный отклик. Безель даёт короткие импульсы при фактическом перемещении списка или слайдера. «Вибрация действий» управляет всем откликом приложения; также учитывается системная настройка тактильного отклика.\""
+  },
+  "help_idle": {
+    "en": "\"After the watch app goes into the background, the camera session ends after one full minute without capture. Recording (including pause), a pending timer, a burst or a photo being saved prevents automatic shutdown. The minute starts again after capture finishes. Opening the watch app reconnects. File-copy jobs run separately.\"",
+    "ru": "\"После ухода приложения часов в фон сессия камеры завершается через полную минуту без съёмки. Запись (включая паузу), активный таймер, серия и сохранение фото защищены от автоотключения. После завершения съёмки минута отсчитывается заново. Открытие приложения часов восстанавливает соединение. Копирование файлов работает отдельно.\""
+  },
+  "capture_sounds": {
+    "en": "Capture sounds",
+    "ru": "Звуки съёмки"
+  },
+  "help_capture_feedback": {
+    "en": "\"Capture sounds is a switch in the main menu, independent of vibration. The watch plays a shutter click for photos and bursts and cues for video start, pause, resume and stop. Feedback follows confirmed camera actions; each saved burst frame gives a short vibration and shutter animation. Returning to the app does not replay earlier captures. System sound settings apply. Burst interval defaults to 200 ms after the previous photo is saved; exposure and processing take additional time. Quick camera icons and the bezel no longer show Saved; settings pages still do.\"",
+    "ru": "\"«Звуки съёмки» переключаются в меню отдельно от вибрации. Часы воспроизводят щелчок затвора при фото и серии, сигналы начала, паузы, продолжения и окончания видео. Отклик следует подтверждённым действиям камеры; каждый сохранённый кадр серии даёт короткую вибрацию и анимацию затвора. При возврате в приложение прошлые кадры не озвучиваются. Учитываются системные настройки звука. Интервал серии по умолчанию — 200 мс после сохранения предыдущего фото; экспозиция и обработка требуют дополнительного времени. Быстрые иконки камеры и безель больше не показывают «Сохранено»; в страницах настроек подтверждение остаётся.\""
+  },
+  "capture_cancelled": {
+    "en": "Capture cancelled",
+    "ru": "Съёмка отменена"
+  },
+  "setting_saved": {
+    "en": "\"Saved\"",
+    "ru": "\"Сохранено\""
+  },
+  "timer_photo_title": {
+    "en": "\"Photo timer\"",
+    "ru": "\"Таймер фото\""
+  },
+  "timer_video_title": {
+    "en": "\"Video timer\"",
+    "ru": "\"Таймер видео\""
+  },
+  "gallery_total": {
+    "en": "\"Files: %d\"",
+    "ru": "\"Файлов: %d\""
+  },
+  "gallery_select_all": {
+    "en": "\"Select all\"",
+    "ru": "\"Выделить всё\""
+  },
+  "gallery_selecting": {
+    "en": "\"Selecting all files…\"",
+    "ru": "\"Выбираются все файлы…\""
+  },
+  "gallery_share_limit": {
+    "en": "\"Share up to 500 files at once. Reduce the selection.\"",
+    "ru": "\"За один раз можно поделиться 500 файлами. Уменьшите выделение.\""
+  },
+  "preview_help": {
+    "en": "\"These settings control the live view on the watch. Actual frame rate depends on the connection. They do not change normal photos or recorded video. A snapshot taken from the preview during recording does depend on preview quality.\"",
+    "ru": "\"Эти настройки меняют трансляцию на часы. Реальная частота зависит от связи. Разрешение обычных фото и записываемого видео не меняется. Если фото во время записи берётся из потока, его качество зависит от предпросмотра.\""
+  },
+  "preview_eco": {
+    "en": "\"Economy · up to 3 fps\\nUp to 320 px, lower data use\"",
+    "ru": "\"Экономия · до 3 кадров/с\\nДо 320 px, меньше трафика\""
+  },
+  "preview_auto": {
+    "en": "\"Smooth · up to 15 fps\\nScreen size, standard compression\"",
+    "ru": "\"Плавность · до 15 кадров/с\\nРазмер экрана, обычное сжатие\""
+  },
+  "preview_detail": {
+    "en": "\"Detail · up to 8 fps\\nScreen size, less compression\"",
+    "ru": "\"Детализация · до 8 кадров/с\\nРазмер экрана, меньше сжатие\""
+  },
+  "wl_000": {
+    "en": "\"Unknown watermark format\"",
+    "ru": "\"Неизвестный формат водяного знака\""
+  },
+  "wl_001": {
+    "en": "\"Choose date and/or time\"",
+    "ru": "\"Выберите дату и/или время\""
+  },
+  "wl_002": {
+    "en": "\"Invalid file size\"",
+    "ru": "\"Размер файла недопустим\""
+  },
+  "wl_003": {
+    "en": "\"Unknown transfer format\"",
+    "ru": "\"Неизвестный формат передачи\""
+  },
+  "wl_004": {
+    "en": "\"Not enough storage or file too large\"",
+    "ru": "\"Недостаточно памяти или файл слишком велик\""
+  },
+  "wl_005": {
+    "en": "\"SHA-256 verification failed\"",
+    "ru": "\"Проверка SHA-256 не пройдена\""
+  },
+  "wl_006": {
+    "en": "\"Starting camera\"",
+    "ru": "\"Запуск камеры\""
+  },
+  "wl_007": {
+    "en": "\"Camera unavailable\"",
+    "ru": "\"Камера недоступна\""
+  },
+  "wl_008": {
+    "en": "\"Allow camera access in app settings\"",
+    "ru": "\"Разрешите доступ к камере в настройках приложения\""
+  },
+  "wl_009": {
+    "en": "\"Camera disconnected\"",
+    "ru": "\"Камера отключена\""
+  },
+  "wl_010": {
+    "en": "\"Camera error: \"",
+    "ru": "\"Ошибка камеры: \""
+  },
+  "wl_011": {
+    "en": "\"Watermark processing stopped: \"",
+    "ru": "\"Обработка водяного знака остановлена: \""
+  },
+  "wl_012": {
+    "en": "\"Watch app closed; background capture is off\"",
+    "ru": "\"Часы закрыты; фоновая съёмка выключена\""
+  },
+  "wl_013": {
+    "en": "\"Recording started\"",
+    "ru": "\"Запись началась\""
+  },
+  "wl_014": {
+    "en": "\"Recording. Video snapshots use preview frames\"",
+    "ru": "\"Запись. Фото во время видео: кадр предпросмотра\""
+  },
+  "wl_015": {
+    "en": "\"Camera ready\"",
+    "ru": "\"Камера готова\""
+  },
+  "wl_016": {
+    "en": "\"Camera ready · compatible size \"",
+    "ru": "\"Камера готова · совместимый размер \""
+  },
+  "wl_017": {
+    "en": "\"Could not start capture\"",
+    "ru": "\"Не удалось запустить съёмку\""
+  },
+  "wl_018": {
+    "en": "\"Stream combination is unsupported. Choose another size / FPS.\"",
+    "ru": "\"Комбинация потоков не поддерживается. Выберите другой размер / FPS.\""
+  },
+  "wl_019": {
+    "en": "\"Could not create session\"",
+    "ru": "\"Не удалось создать сессию\""
+  },
+  "wl_020": {
+    "en": "\"Camera is not ready yet\"",
+    "ru": "\"Камера ещё не готова\""
+  },
+  "wl_021": {
+    "en": "\"Recording has not started\"",
+    "ru": "\"Запись не запущена\""
+  },
+  "wl_022": {
+    "en": "\"Recording paused\"",
+    "ru": "\"Запись приостановлена\""
+  },
+  "wl_023": {
+    "en": "\"Recording resumed\"",
+    "ru": "\"Запись продолжена\""
+  },
+  "wl_024": {
+    "en": "\"Wait for the photo to save\"",
+    "ru": "\"Дождитесь сохранения фотографии\""
+  },
+  "wl_025": {
+    "en": "\"Timer cancelled\"",
+    "ru": "\"Таймер отменён\""
+  },
+  "wl_026": {
+    "en": "\"Point focus and metering are unsupported\"",
+    "ru": "\"Точечный фокус и экспозамер не поддерживаются\""
+  },
+  "wl_027": {
+    "en": "\"HS mode only supports continuous autofocus\"",
+    "ru": "\"В режиме HS доступен только непрерывный автофокус\""
+  },
+  "wl_028": {
+    "en": "\"Manual focus is unsupported\"",
+    "ru": "\"Ручная фокусировка не поддерживается\""
+  },
+  "wl_029": {
+    "en": "\"Unknown flash mode\"",
+    "ru": "\"Неизвестная вспышка\""
+  },
+  "wl_030": {
+    "en": "\"This camera has no flash\"",
+    "ru": "\"У этой камеры нет вспышки\""
+  },
+  "wl_031": {
+    "en": "\"For video, select torch or off\"",
+    "ru": "\"Для видео выберите постоянный свет или выкл.\""
+  },
+  "wl_032": {
+    "en": "\"Open the phone app to use screen flash\"",
+    "ru": "\"Для света экраном откройте приложение на телефоне\""
+  },
+  "wl_033": {
+    "en": "\"Size is unsupported\"",
+    "ru": "\"Размер не поддерживается\""
+  },
+  "wl_034": {
+    "en": "\"Video mode is unsupported\"",
+    "ru": "\"Видеорежим не поддерживается\""
+  },
+  "wl_035": {
+    "en": "\"Cancel the active timer first\"",
+    "ru": "\"Сначала отмените активный таймер\""
+  },
+  "wl_036": {
+    "en": "\"Unknown command\"",
+    "ru": "\"Неизвестная команда\""
+  },
+  "wl_037": {
+    "en": "\"Please wait: configuring camera\"",
+    "ru": "\"Подождите: камера настраивается\""
+  },
+  "wl_038": {
+    "en": "\"Wait for the photo\"",
+    "ru": "\"Дождитесь фотографии\""
+  },
+  "wl_039": {
+    "en": "\"Stop recording, timer or burst first\"",
+    "ru": "\"Сначала завершите запись, таймер или серию\""
+  },
+  "wl_040": {
+    "en": "\"A timer or burst is already running\"",
+    "ru": "\"Таймер или серия уже запущены\""
+  },
+  "wl_041": {
+    "en": "\"No compatible video mode\"",
+    "ru": "\"Совместимого видеорежима нет\""
+  },
+  "wl_042": {
+    "en": "\"Stop recording first\"",
+    "ru": "\"Сначала завершите запись\""
+  },
+  "wl_043": {
+    "en": "\"Timer\"",
+    "ru": "\"Таймер\""
+  },
+  "wl_044": {
+    "en": "\"Capture did not start\"",
+    "ru": "\"Съёмка не началась\""
+  },
+  "wl_045": {
+    "en": "\"Watch app closed. Recording continues on phone\"",
+    "ru": "\"Часы закрыты. Запись продолжается на телефоне\""
+  },
+  "wl_046": {
+    "en": "\"Watch app closed. Timer continues\"",
+    "ru": "\"Часы закрыты. Таймер продолжается\""
+  },
+  "wl_047": {
+    "en": "\"Watch disconnected\"",
+    "ru": "\"Часы отключены\""
+  },
+  "wl_048": {
+    "en": "\"Watch app closed. Background capture is off\"",
+    "ru": "\"Часы закрыты. Фоновая съёмка выключена\""
+  },
+  "wl_049": {
+    "en": "\"Photo cancelled: phone screen closed\"",
+    "ru": "\"Фото отменено: экран телефона закрыт\""
+  },
+  "wl_050": {
+    "en": "\"Screen flash off: phone app is hidden\"",
+    "ru": "\"Подсветка экраном выключена: приложение телефона скрыто\""
+  },
+  "wl_051": {
+    "en": "\"No supported video mode\"",
+    "ru": "\"Нет поддерживаемого видеорежима\""
+  },
+  "wl_052": {
+    "en": "\"Watermark is unavailable in HS. Choose normal video mode or disable watermark.\"",
+    "ru": "\"Водяной знак недоступен в HS. Выберите обычный видеорежим или отключите знак.\""
+  },
+  "wl_053": {
+    "en": "\"Select off or torch before recording\"",
+    "ru": "\"Перед видео выберите свет: выкл. или постоянный\""
+  },
+  "wl_054": {
+    "en": "\"Open the phone to use screen flash\"",
+    "ru": "\"Для света экраном откройте телефон\""
+  },
+  "wl_055": {
+    "en": "\"Codec does not support this mode\"",
+    "ru": "\"Кодек не поддерживает этот режим\""
+  },
+  "wl_056": {
+    "en": "\"For WebM, disable audio or select MP4\"",
+    "ru": "\"Для WebM отключите звук или выберите MP4\""
+  },
+  "wl_057": {
+    "en": "\"Recording stopped: encoder error \"",
+    "ru": "\"Запись остановлена: ошибка кодировщика \""
+  },
+  "wl_058": {
+    "en": "\"Video saved\"",
+    "ru": "\"Видео сохранено\""
+  },
+  "wl_059": {
+    "en": "\"Could not save video (the recording may be too short): \"",
+    "ru": "\"Не удалось сохранить видео (возможно, запись слишком короткая): \""
+  },
+  "wl_060": {
+    "en": "\"Video publication error: \"",
+    "ru": "\"Ошибка публикации видео: \""
+  },
+  "wl_061": {
+    "en": "\"A photo is already being taken\"",
+    "ru": "\"Фотография уже снимается\""
+  },
+  "wl_062": {
+    "en": "\"Photo is not available yet\"",
+    "ru": "\"Фото пока недоступно\""
+  },
+  "wl_063": {
+    "en": "\"Open the phone screen for front screen flash\"",
+    "ru": "\"Откройте экран телефона для фронтальной подсветки\""
+  },
+  "wl_064": {
+    "en": "\"Camera did not return a photo within 8 seconds\"",
+    "ru": "\"Камера не вернула фотографию за 8 секунд\""
+  },
+  "wl_065": {
+    "en": "\"Metering error: \"",
+    "ru": "\"Ошибка экспозамера: \""
+  },
+  "wl_066": {
+    "en": "\"Camera rejected the photo\"",
+    "ru": "\"Камера отклонила фотографию\""
+  },
+  "wl_067": {
+    "en": "\"Photo failed: \"",
+    "ru": "\"Фото не снято: \""
+  },
+  "wl_068": {
+    "en": "\"Save error: \"",
+    "ru": "\"Ошибка сохранения: \""
+  },
+  "wl_069": {
+    "en": "\"JPEG error: \"",
+    "ru": "\"Ошибка JPEG: \""
+  },
+  "wl_070": {
+    "en": "\"No recent frame for a photo\"",
+    "ru": "\"Нет свежего кадра для фотографии\""
+  },
+  "wl_071": {
+    "en": "\"Frame was not saved: \"",
+    "ru": "\"Кадр не сохранён: \""
+  },
+  "wl_072": {
+    "en": "\"Preview frame saved (reduced quality)\"",
+    "ru": "\"Сохранён кадр предпросмотра (пониженное качество)\""
+  },
+  "wl_073": {
+    "en": "\"Photo saved\"",
+    "ru": "\"Фото сохранено\""
+  },
+  "wl_074": {
+    "en": "\"Burst: \"",
+    "ru": "\"Серия: \""
+  },
+  "wl_075": {
+    "en": "\"File is empty or larger than 4 GB\"",
+    "ru": "\"Файл пуст или больше 4 ГБ\""
+  },
+  "wl_076": {
+    "en": "\"Action unavailable\"",
+    "ru": "\"Действие недоступно\""
+  },
+  "wl_077": {
+    "en": "\"Unknown request\"",
+    "ru": "\"Неизвестный запрос\""
+  },
+  "wl_078": {
+    "en": "\"Could not complete request\"",
+    "ru": "\"Не удалось выполнить запрос\""
+  },
+  "wl_079": {
+    "en": "\"Too many requests. Try again in a few minutes\"",
+    "ru": "\"Слишком много запросов. Повторите через несколько минут\""
+  },
+  "wl_080": {
+    "en": "\"Could not save request\"",
+    "ru": "\"Не удалось сохранить запрос\""
+  },
+  "wl_081": {
+    "en": "\"Could not confirm request\"",
+    "ru": "\"Не удалось подтвердить запрос\""
+  },
+  "wl_082": {
+    "en": "\"Request expired\"",
+    "ru": "\"Запрос истёк\""
+  },
+  "wl_083": {
+    "en": "\"Processing stream closed\"",
+    "ru": "\"Поток обработки закрыт\""
+  },
+  "wl_084": {
+    "en": "\"No EGL configuration for video\"",
+    "ru": "\"Нет EGL-конфигурации для видео\""
+  },
+  "wl_085": {
+    "en": "\"Encoder surface unavailable\"",
+    "ru": "\"Поверхность кодировщика недоступна\""
+  },
+  "wl_086": {
+    "en": "\"Could not send frame to encoder\"",
+    "ru": "\"Не удалось передать кадр кодировщику\""
+  },
+  "wl_087": {
+    "en": "\"Phone camera · wrist remote\"",
+    "ru": "\"Камера телефона · пульт на запястье\""
+  },
+  "wl_088": {
+    "en": "\"Grant permissions and start a session\"",
+    "ru": "\"Разрешите доступ и включите сессию\""
+  },
+  "wl_089": {
+    "en": "\"Open WristLens on your paired watch. Originals are saved in DCIM/Camera.\"",
+    "ru": "\"Откройте WristLens на сопряжённых часах. Оригиналы сохраняются в DCIM/Camera.\""
+  },
+  "wl_090": {
+    "en": "\"Record audio\"",
+    "ru": "\"Записывать звук\""
+  },
+  "wl_091": {
+    "en": "\"Start camera session\"",
+    "ru": "\"Включить сессию камеры\""
+  },
+  "wl_092": {
+    "en": "\"Photo\"",
+    "ru": "\"Фото\""
+  },
+  "wl_093": {
+    "en": "\"Video\"",
+    "ru": "\"Видео\""
+  },
+  "wl_094": {
+    "en": "\"Pause\"",
+    "ru": "\"Пауза\""
+  },
+  "wl_095": {
+    "en": "\"Stop\"",
+    "ru": "\"Стоп\""
+  },
+  "wl_096": {
+    "en": "\"Photo burst\"",
+    "ru": "\"Серия фото\""
+  },
+  "wl_097": {
+    "en": "\"Cancel timer\"",
+    "ru": "\"Отмена таймера\""
+  },
+  "wl_098": {
+    "en": "\"Camera settings\"",
+    "ru": "\"Параметры камеры\""
+  },
+  "wl_099": {
+    "en": "\"File storage\"",
+    "ru": "\"Сохранение файлов\""
+  },
+  "wl_100": {
+    "en": "\"Capture settings\"",
+    "ru": "\"Настройки съёмки\""
+  },
+  "wl_101": {
+    "en": "\"Disconnect\"",
+    "ru": "\"Отключить соединение\""
+  },
+  "wl_102": {
+    "en": "\"Session is already off\"",
+    "ru": "\"Сессия уже выключена\""
+  },
+  "wl_103": {
+    "en": "\"Instructions\"",
+    "ru": "\"Инструкция\""
+  },
+  "wl_104": {
+    "en": "\"Share diagnostics\"",
+    "ru": "\"Поделиться диагностикой\""
+  },
+  "wl_105": {
+    "en": "\"After initial permission setup, opening the watch app requests camera startup. Background capture controls what happens when you leave the watch app. End the session here or from the notification.\"",
+    "ru": "\"После первой выдачи разрешений открытие приложения на часах запрашивает запуск камеры. Поведение при выходе с часов задаётся переключателем «Работа в фоне». Остановить сессию можно здесь или через уведомление.\""
+  },
+  "wl_106": {
+    "en": "\"Camera permission is required. Allow it in app settings.\"",
+    "ru": "\"Без разрешения камеры съёмка невозможна. Разрешите её в настройках приложения.\""
+  },
+  "wl_107": {
+    "en": "\"Start a session first\"",
+    "ru": "\"Сначала включите сессию\""
+  },
+  "wl_108": {
+    "en": "\"End session\"",
+    "ru": "\"Завершить сессию\""
+  },
+  "wl_109": {
+    "en": "\"PAUSED · \"",
+    "ru": "\"ПАУЗА · \""
+  },
+  "wl_110": {
+    "en": "\"Capture in \"",
+    "ru": "\"Съёмка через \""
+  },
+  "wl_111": {
+    "en": "\" s\"",
+    "ru": "\" с\""
+  },
+  "wl_112": {
+    "en": "\"Watch connected\"",
+    "ru": "\"Часы подключены\""
+  },
+  "wl_113": {
+    "en": "\"Waiting for watch\"",
+    "ru": "\"Ожидание часов\""
+  },
+  "wl_114": {
+    "en": "\"Resume\"",
+    "ru": "\"Продолжить\""
+  },
+  "wl_115": {
+    "en": "\"Finish capture first\"",
+    "ru": "\"Сначала завершите съёмку\""
+  },
+  "wl_116": {
+    "en": "\"Folder saved\"",
+    "ru": "\"Папка сохранена\""
+  },
+  "wl_117": {
+    "en": "\"Could not open: \"",
+    "ru": "\"Не удалось открыть: \""
+  },
+  "wl_118": {
+    "en": "\"Camera capability diagnostics\"",
+    "ru": "\"Диагностика возможностей камеры\""
+  },
+  "wl_119": {
+    "en": "\"File unavailable\"",
+    "ru": "\"Файл недоступен\""
+  },
+  "wl_120": {
+    "en": "\"File not verified\"",
+    "ru": "\"Файл не подтверждён\""
+  },
+  "wl_121": {
+    "en": "\"Invalid setting\"",
+    "ru": "\"Некорректная настройка\""
+  },
+  "wl_122": {
+    "en": "\"Setting was not saved\"",
+    "ru": "\"Настройка не сохранена\""
+  },
+  "wl_123": {
+    "en": "\"Choose a DCIM subfolder or select a folder on the phone\"",
+    "ru": "\"Выберите подпапку DCIM или папку через телефон\""
+  },
+  "wl_124": {
+    "en": "\"Unknown filename pattern\"",
+    "ru": "\"Неизвестный шаблон\""
+  },
+  "wl_125": {
+    "en": "\"Unknown photo format\"",
+    "ru": "\"Неизвестный формат фото\""
+  },
+  "wl_126": {
+    "en": "\"Unknown video format\"",
+    "ru": "\"Неизвестный формат видео\""
+  },
+  "wl_127": {
+    "en": "\"Unknown setting\"",
+    "ru": "\"Неизвестная настройка\""
+  },
+  "wl_128": {
+    "en": "\"Could not create file\"",
+    "ru": "\"Не удалось создать файл\""
+  },
+  "wl_129": {
+    "en": "\"File was not deleted\"",
+    "ru": "\"Файл не удалён\""
+  },
+  "wl_130": {
+    "en": "\"File is not in the WristLens gallery\"",
+    "ru": "\"Файл отсутствует в галерее WristLens\""
+  },
+  "wl_131": {
+    "en": "\"Preview unavailable\"",
+    "ru": "\"Предпросмотр недоступен\""
+  },
+  "wl_132": {
+    "en": "\"Front\"",
+    "ru": "\"Передняя\""
+  },
+  "wl_133": {
+    "en": "\"Rear\"",
+    "ru": "\"Задняя\""
+  },
+  "wl_134": {
+    "en": "\"No compatible preview stream for this FPS\"",
+    "ru": "\"Нет совместимого потока предпросмотра для этого FPS\""
+  },
+  "wl_135": {
+    "en": "\"Starting\"",
+    "ru": "\"Запуск\""
+  },
+  "wl_136": {
+    "en": "\"WristLens camera\"",
+    "ru": "\"Камера WristLens\""
+  },
+  "wl_137": {
+    "en": "\"WristLens · camera on\"",
+    "ru": "\"WristLens · камера включена\""
+  },
+  "wl_138": {
+    "en": "\"Controlled from your watch. Tap to open.\"",
+    "ru": "\"Управление с часов. Нажмите, чтобы открыть.\""
+  },
+  "wl_139": {
+    "en": "\"End\"",
+    "ru": "\"Завершить\""
+  },
+  "wl_140": {
+    "en": "\"Open the app and allow the camera: \"",
+    "ru": "\"Откройте приложение и разрешите камеру: \""
+  },
+  "wl_141": {
+    "en": "\"Command expired. Retry after reconnecting.\"",
+    "ru": "\"Команда устарела. Повторите после восстановления связи.\""
+  },
+  "wl_142": {
+    "en": "\"Session is closing. Try again later\"",
+    "ru": "\"Сессия завершается, повторите позже\""
+  },
+  "wl_143": {
+    "en": "\"Session changed. Reconnect\"",
+    "ru": "\"Сессия изменилась. Подключитесь заново\""
+  },
+  "wl_144": {
+    "en": "\"Session ended\"",
+    "ru": "\"Сессия завершена\""
+  },
+  "wl_145": {
+    "en": "\"Finding phone…\"",
+    "ru": "\"Поиск телефона…\""
+  },
+  "wl_146": {
+    "en": "\"Switch photo / video mode\"",
+    "ru": "\"Переключить режим фото / видео\""
+  },
+  "wl_147": {
+    "en": "\"Take photo; hold for burst\"",
+    "ru": "\"Снять фото; удерживать для серии\""
+  },
+  "wl_148": {
+    "en": "\"Menu\"",
+    "ru": "\"Меню\""
+  },
+  "wl_149": {
+    "en": "\"Flash\"",
+    "ru": "\"Вспышка\""
+  },
+  "wl_150": {
+    "en": "\"Switch camera\"",
+    "ru": "\"Переключить камеру\""
+  },
+  "wl_151": {
+    "en": "\"Open WristLens on phone and start camera\"",
+    "ru": "\"Открыть WristLens на телефоне и включить камеру\""
+  },
+  "wl_152": {
+    "en": "\"Command not confirmed. Check the phone.\"",
+    "ru": "\"Команда не подтверждена. Проверьте телефон.\""
+  },
+  "wl_153": {
+    "en": "\"Phone\"",
+    "ru": "\"Телефон\""
+  },
+  "wl_154": {
+    "en": "\"Check pairing and Google Play Services\"",
+    "ru": "\"Проверьте сопряжение и Google Play Services\""
+  },
+  "wl_155": {
+    "en": "\"Session is closing on phone\"",
+    "ru": "\"Сессия завершается на телефоне\""
+  },
+  "wl_160": {
+    "en": "\"Back\"",
+    "ru": "\"Назад\""
+  },
+  "wl_168": {
+    "en": "\"Start a session on the phone\"",
+    "ru": "\"Включите сессию на телефоне\""
+  },
+  "wl_169": {
+    "en": "\"Disconnected. Command not confirmed.\"",
+    "ru": "\"Нет связи. Команда не подтверждена.\""
+  },
+  "wl_170": {
+    "en": "\"PAUSED\"",
+    "ru": "\"ПАУЗА\""
+  },
+  "wl_171": {
+    "en": "\"VIDEO\"",
+    "ru": "\"ВИДЕО\""
+  },
+  "wl_172": {
+    "en": "\"PHOTO\"",
+    "ru": "\"ФОТО\""
+  },
+  "wl_173": {
+    "en": "\"Camera disconnected\\nOpen on phone\"",
+    "ru": "\"Камера не подключена\\nОткрыть на телефоне\""
+  },
+  "wl_174": {
+    "en": "\"Waiting for image…\"",
+    "ru": "\"Ожидание изображения…\""
+  },
+  "wl_175": {
+    "en": "\"Resume recording\"",
+    "ru": "\"Продолжить запись\""
+  },
+  "wl_176": {
+    "en": "\"Pause recording\"",
+    "ru": "\"Пауза записи\""
+  },
+  "wl_177": {
+    "en": "\"Photo / video\"",
+    "ru": "\"Фото / видео\""
+  },
+  "wl_178": {
+    "en": "\"Stop recording; hold for menu\"",
+    "ru": "\"Остановить запись; удерживать для меню\""
+  },
+  "wl_179": {
+    "en": "\"Photo during video\"",
+    "ru": "\"Фото во время видео\""
+  },
+  "wl_180": {
+    "en": "\"Start video\"",
+    "ru": "\"Начать видео\""
+  },
+  "wl_181": {
+    "en": "\"Photo; hold for burst\"",
+    "ru": "\"Фото; удерживать для серии\""
+  },
+  "wl_182": {
+    "en": "\"Flash: \"",
+    "ru": "\"Вспышка: \""
+  },
+  "wl_183": {
+    "en": "\"Timer \"",
+    "ru": "\"Таймер \""
+  },
+  "wl_184": {
+    "en": "\" seconds\"",
+    "ru": "\" секунд\""
+  },
+  "wl_185": {
+    "en": "\"Configuring camera\"",
+    "ru": "\"Камера настраивается\""
+  },
+  "wl_186": {
+    "en": "\"Latest gallery file\"",
+    "ru": "\"Последний файл в галерее\""
+  },
+  "wl_187": {
+    "en": "\"Gallery\"",
+    "ru": "\"Галерея\""
+  },
+  "wl_189": {
+    "en": "\"Open on phone\"",
+    "ru": "\"Открыть на телефоне\""
+  },
+  "wl_190": {
+    "en": "\"Phone not found. Check connection\"",
+    "ru": "\"Телефон не найден. Проверьте подключение\""
+  },
+  "wl_191": {
+    "en": "\"No connection to phone\"",
+    "ru": "\"Нет связи с телефоном\""
+  },
+  "wl_192": {
+    "en": "\"Phone did not respond. Open WristLens on the phone\"",
+    "ru": "\"Телефон не ответил. Откройте WristLens на телефоне\""
+  },
+  "wl_193": {
+    "en": "\"Opening the phone app for setup\"",
+    "ru": "\"Открываю приложение для настройки на телефоне\""
+  },
+  "wl_194": {
+    "en": "\"Request sent. Unlock the phone if needed\"",
+    "ru": "\"Запрос отправлен. При необходимости разблокируйте телефон\""
+  },
+  "wl_195": {
+    "en": "\"Could not open app. Check the phone\"",
+    "ru": "\"Не удалось открыть приложение. Проверьте телефон\""
+  },
+  "wl_196": {
+    "en": "\"Transfer cancelled\"",
+    "ru": "\"Передача отменена\""
+  },
+  "wl_197": {
+    "en": "\"Not enough watch storage\"",
+    "ru": "\"Недостаточно памяти на часах\""
+  },
+  "wl_198": {
+    "en": "\"File was not created\"",
+    "ru": "\"Файл не создан\""
+  },
+  "wl_199": {
+    "en": "\"Transfer interrupted or size changed\"",
+    "ru": "\"Передача прервана или размер изменился\""
+  },
+  "wl_200": {
+    "en": "\"Could not transfer file\"",
+    "ru": "\"Не удалось передать файл\""
+  },
+  "wl_207": {
+    "en": "\"File preview\"",
+    "ru": "\"Предпросмотр файла\""
+  },
+  "wl_208": {
+    "en": "\"Play video\"",
+    "ru": "\"Воспроизвести видео\""
+  },
+  "wl_209": {
+    "en": "\"Loading video…\"",
+    "ru": "\"Загрузка видео…\""
+  },
+  "wl_210": {
+    "en": "\"Downloaded %d KB\"",
+    "ru": "\"Загружено %d КБ\""
+  },
+  "wl_211": {
+    "en": "\"Watch does not support this codec. Open on phone\"",
+    "ru": "\"Часы не поддерживают кодек. Откройте файл на телефоне\""
+  },
+  "wl_212": {
+    "en": "\"Download to watch\"",
+    "ru": "\"Скачать на часы\""
+  },
+  "wl_213": {
+    "en": "\"Received %d KB\"",
+    "ru": "\"Получено %d КБ\""
+  },
+  "wl_214": {
+    "en": "\"Delete from phone\"",
+    "ru": "\"Удалить с телефона\""
+  },
+  "wl_215": {
+    "en": "\"Delete file?\"",
+    "ru": "\"Удалить файл?\""
+  },
+  "wl_216": {
+    "en": "\"Delete\"",
+    "ru": "\"Удалить\""
+  },
+  "wl_217": {
+    "en": "\"Deleted from phone\"",
+    "ru": "\"Удалён с телефона\""
+  },
+  "wl_218": {
+    "en": "\"Cancel\"",
+    "ru": "\"Отмена\""
+  },
+  "wl_219": {
+    "en": "\"Watch does not support this codec\"",
+    "ru": "\"Кодек не поддерживается часами\""
+  },
+  "wl_220": {
+    "en": "\"Delete from watch\"",
+    "ru": "\"Удалить с часов\""
+  },
+  "wl_221": {
+    "en": "\"Delete watch copy?\"",
+    "ru": "\"Удалить копию с часов?\""
+  },
+  "wl_222": {
+    "en": "\"PHOTO · 1.0×\"",
+    "ru": "\"ФОТО · 1.0×\""
+  },
+  "wl_223": {
+    "en": "\"Background capture\"",
+    "ru": "\"Работа в фоне\""
+  },
+  "wl_224": {
+    "en": "\"Video and timers continue after leaving the watch app. When off, timers are cancelled and video is saved and stopped. A held burst always stops.\"",
+    "ru": "\"Видео и таймеры продолжаются после выхода с часов. Выключено — таймер отменяется, видео сохраняется и останавливается. Удерживаемая серия всегда останавливается.\""
+  },
+  "wl_225": {
+    "en": "\"Watermark on photos and videos\"",
+    "ru": "\"Водяной знак на фото и видео\""
+  },
+  "wl_226": {
+    "en": "\"Corner\"",
+    "ru": "\"Угол\""
+  },
+  "wl_227": {
+    "en": "\"Top left\"",
+    "ru": "\"Сверху слева\""
+  },
+  "wl_228": {
+    "en": "\"Top right\"",
+    "ru": "\"Сверху справа\""
+  },
+  "wl_229": {
+    "en": "\"Bottom left\"",
+    "ru": "\"Снизу слева\""
+  },
+  "wl_230": {
+    "en": "\"Bottom right\"",
+    "ru": "\"Снизу справа\""
+  },
+  "wl_231": {
+    "en": "\"Color\"",
+    "ru": "\"Цвет\""
+  },
+  "wl_232": {
+    "en": "\"White\"",
+    "ru": "\"Белый\""
+  },
+  "wl_233": {
+    "en": "\"Black\"",
+    "ru": "\"Чёрный\""
+  },
+  "wl_234": {
+    "en": "\"Size\"",
+    "ru": "\"Размер\""
+  },
+  "wl_235": {
+    "en": "\"Small\"",
+    "ru": "\"Маленький\""
+  },
+  "wl_236": {
+    "en": "\"Medium\"",
+    "ru": "\"Средний\""
+  },
+  "wl_237": {
+    "en": "\"Large\"",
+    "ru": "\"Большой\""
+  },
+  "wl_238": {
+    "en": "\"Show date\"",
+    "ru": "\"Показывать дату\""
+  },
+  "wl_239": {
+    "en": "\"Show time\"",
+    "ru": "\"Показывать время\""
+  },
+  "wl_240": {
+    "en": "\"Date format\"",
+    "ru": "\"Формат даты\""
+  },
+  "wl_241": {
+    "en": "\"Time format\"",
+    "ru": "\"Формат времени\""
+  },
+  "wl_242": {
+    "en": "\"Date, time and time zone come from the phone. System font. The watermark is embedded in photos and videos; changes apply to the next capture. Watermark is unavailable in HS: choose normal video mode.\"",
+    "ru": "\"Дата, время и часовой пояс берутся с телефона. Шрифт системный. Знак встраивается в фото и видео; настройки применяются к следующей съёмке. В режиме HS знак недоступен: выберите обычный режим видео.\""
+  },
+  "wl_243": {
+    "en": "\"How to use\"",
+    "ru": "\"Как пользоваться\""
+  },
+  "wl_244": {
+    "en": "\"1. Install WristLens on your phone and paired watch. On first phone launch, allow camera, microphone and notifications. Opening the watch app then requests camera startup automatically. Android may require you to unlock the phone.\"",
+    "ru": "\"1. Установите WristLens на телефон и сопряжённые часы. При первом запуске на телефоне разрешите камеру, микрофон и уведомления. Затем открытие приложения на часах запрашивает запуск камеры автоматически. Иногда Android требует разблокировать телефон.\""
+  },
+  "wl_245": {
+    "en": "\"2. The central button takes a photo or starts video in the selected mode. Hold it in photo mode for a burst; release to stop. Maximum: 50 photos and 60 seconds after the first frame.\"",
+    "ru": "\"2. Центральная кнопка снимает фото или запускает видео в выбранном режиме. Удерживайте её в режиме фото для серии, отпустите для остановки. Лимит — до 50 фото и 60 секунд съёмки после первого кадра.\""
+  },
+  "wl_246": {
+    "en": "\"3. Bottom left switches photo/video, or pauses/resumes while recording. Bottom right opens the menu, or stops recording. Hold Stop to open the menu during recording.\"",
+    "ru": "\"3. Слева внизу переключается фото/видео, при записи — пауза/продолжение. Справа — меню, при записи — стоп. Чтобы открыть меню во время записи, удерживайте кнопку стоп.\""
+  },
+  "wl_247": {
+    "en": "\"4. Top buttons: flash, timer, switch camera. Tap the image for point focus. Use the rotating bezel/crown or camera settings to zoom.\"",
+    "ru": "\"4. Три верхние кнопки: вспышка, таймер, переключение камеры. Для точечного фокуса коснитесь изображения; для масштаба используйте вращение безеля/колёсика или параметры камеры.\""
+  },
+  "wl_248": {
+    "en": "\"5. Vibration for actions is a switch in the main menu. Only the camera screen stays awake; menus use the normal system screen timeout.\"",
+    "ru": "\"5. «Вибрация действий» переключается прямо в меню. Только экран камеры остаётся включённым; в меню действует обычный тайм-аут экрана.\""
+  },
+  "wl_249": {
+    "en": "\"6. Photo and video timers are separate. Cancel a running timer with the central × button. Change resolution, FPS and format before recording. Only modes exposed to third-party Android apps are available.\"",
+    "ru": "\"6. Таймеры фото и видео настраиваются раздельно. Отменить активный таймер можно центральной кнопкой ×. Разрешение, FPS и формат меняются до записи. Доступны только режимы, открытые камерой Android сторонним приложениям.\""
+  },
+  "wl_250": {
+    "en": "\"7. Gallery supports a list with properties and two-column tiles. The counter includes the whole gallery. Hold a file, then Select all to include unloaded pages. Sharing supports up to 500 files per action; large deletions are processed in batches.\"",
+    "ru": "\"7. В галерее есть список со свойствами и плитка в две колонки. Счётчик учитывает всю галерею. Удерживайте файл и нажмите «Выделить всё», чтобы включить ещё не загруженные страницы. За раз можно поделиться 500 файлами; большие удаления выполняются порциями.\""
+  },
+  "wl_251": {
+    "en": "\"8. Camera settings includes background capture and watermark. Background capture keeps video and single timers running after leaving the watch app; a held burst always stops. Force stopping or restarting the phone interrupts capture.\"",
+    "ru": "\"8. В «Параметрах камеры» включаются работа в фоне и водяной знак. При фоне видео и одиночные таймеры сохраняют работу после выхода с часов; серия по удержанию останавливается всегда. Принудительная остановка приложения или перезагрузка телефона прерывает съёмку.\""
+  },
+  "wl_252": {
+    "en": "\"9. Watermark supports four corners, black/white, three sizes, phone date and/or time. It is embedded in photos and videos and adds processing load. Turn it off for HS. Normal modes are checked at startup without silently reducing quality.\"",
+    "ru": "\"9. Водяной знак: четыре угла, чёрный/белый, три размера, дата и/или время телефона. Он встраивается в фото и видео и повышает нагрузку. HS требует отключить знак; обычные режимы проверяются при старте, без скрытого снижения качества.\""
+  },
+  "wl_253": {
+    "en": "\"10. Disconnect on either device ends the session, saves recording and cancels timers, even with background capture enabled. Tap the phone button or reopen the watch app for a new session.\"",
+    "ru": "\"10. «Отключить соединение» на любом устройстве завершает сессию, сохраняет начатое видео и отменяет таймеры, даже при включённом фоне. Для новой сессии нажмите кнопку телефона или заново откройте приложение на часах.\""
+  },
+  "wl_254": {
+    "en": "\"11. Defaults: DCIM/Camera, IMG/VID_YYYYMMDD_HHMMSS, JPEG and MP4 H.264. On the watch, Files and saving contains phone originals and watch copies. On the phone, use File storage. Front screen flash requires the phone screen to stay open.\"",
+    "ru": "\"11. По умолчанию: DCIM/Camera, IMG/VID_YYYYMMDD_HHMMSS, JPEG и MP4 H.264. На часах «Файлы и сохранение» объединяет оригиналы телефона и копии часов. На телефоне — «Сохранение файлов». Фронтальный свет экраном требует открытого экрана телефона.\""
+  },
+  "wl_255": {
+    "en": "\"Waiting for camera\"",
+    "ru": "\"Ожидание камеры\""
+  },
+  "wl_256": {
+    "en": "\"Camera preview. Tap to focus\"",
+    "ru": "\"Предпросмотр камеры. Нажмите для фокусировки\""
+  },
+  "wl_257": {
+    "en": "\"Settings\"",
+    "ru": "\"Параметры\""
+  },
+  "wl_258": {
+    "en": "\"Camera · \"",
+    "ru": "\"Камера · \""
+  },
+  "wl_259": {
+    "en": "\"Lens\"",
+    "ru": "\"Объектив\""
+  },
+  "wl_260": {
+    "en": "\"Light · \"",
+    "ru": "\"Свет · \""
+  },
+  "wl_261": {
+    "en": "\"Phone screen flash\"",
+    "ru": "\"Свет экраном телефона\""
+  },
+  "wl_262": {
+    "en": "\"Zoom · %.1f×\"",
+    "ru": "\"Зум · %.1f×\""
+  },
+  "wl_263": {
+    "en": "\"Zoom\"",
+    "ru": "\"Масштаб\""
+  },
+  "wl_264": {
+    "en": "\"Continuous autofocus\"",
+    "ru": "\"Непрерывный автофокус\""
+  },
+  "wl_265": {
+    "en": "\"Manual focus\"",
+    "ru": "\"Фокус вручную\""
+  },
+  "wl_266": {
+    "en": "\"Focus · diopters\\n0 = infinity\"",
+    "ru": "\"Фокус · диоптрии\\n0 = бесконечность\""
+  },
+  "wl_267": {
+    "en": "\"Photo · size / aspect ratio\"",
+    "ru": "\"Фото · размер / пропорции\""
+  },
+  "wl_268": {
+    "en": "\"Video · size / FPS / aspect ratio\"",
+    "ru": "\"Видео · размер / FPS / пропорции\""
+  },
+  "wl_269": {
+    "en": "\"Video timer · \"",
+    "ru": "\"Таймер видео · \""
+  },
+  "wl_270": {
+    "en": "\"Photo timer · \"",
+    "ru": "\"Таймер фото · \""
+  },
+  "wl_271": {
+    "en": "\"Off\"",
+    "ru": "\"Выкл.\""
+  },
+  "wl_272": {
+    "en": "\"2 s\"",
+    "ru": "\"2 с\""
+  },
+  "wl_273": {
+    "en": "\"3 s\"",
+    "ru": "\"3 с\""
+  },
+  "wl_274": {
+    "en": "\"5 s\"",
+    "ru": "\"5 с\""
+  },
+  "wl_275": {
+    "en": "\"10 s\"",
+    "ru": "\"10 с\""
+  },
+  "wl_276": {
+    "en": "\"15 s\"",
+    "ru": "\"15 с\""
+  },
+  "wl_277": {
+    "en": "\"30 s\"",
+    "ru": "\"30 с\""
+  },
+  "wl_278": {
+    "en": "\"60 s\"",
+    "ru": "\"60 с\""
+  },
+  "wl_279": {
+    "en": "\"Capture delay\"",
+    "ru": "\"Задержка съёмки\""
+  },
+  "wl_280": {
+    "en": "\"Burst limit · \"",
+    "ru": "\"Лимит серии · \""
+  },
+  "wl_281": {
+    "en": "\" photos\"",
+    "ru": "\" фото\""
+  },
+  "wl_282": {
+    "en": "\"Count\"",
+    "ru": "\"Количество\""
+  },
+  "wl_283": {
+    "en": "\"3 photos\"",
+    "ru": "\"3 фото\""
+  },
+  "wl_284": {
+    "en": "\"5 photos\"",
+    "ru": "\"5 фото\""
+  },
+  "wl_285": {
+    "en": "\"10 photos\"",
+    "ru": "\"10 фото\""
+  },
+  "wl_286": {
+    "en": "\"20 photos\"",
+    "ru": "\"20 фото\""
+  },
+  "wl_287": {
+    "en": "\"30 photos\"",
+    "ru": "\"30 фото\""
+  },
+  "wl_288": {
+    "en": "\"50 photos\"",
+    "ru": "\"50 фото\""
+  },
+  "wl_289": {
+    "en": "\"Burst interval · \"",
+    "ru": "\"Интервал серии · \""
+  },
+  "wl_290": {
+    "en": "\" ms\"",
+    "ru": "\" мс\""
+  },
+  "wl_291": {
+    "en": "\"After frame is saved\"",
+    "ru": "\"После сохранения кадра\""
+  },
+  "wl_292": {
+    "en": "\"250 ms\"",
+    "ru": "\"250 мс\""
+  },
+  "wl_293": {
+    "en": "\"500 ms\"",
+    "ru": "\"500 мс\""
+  },
+  "wl_294": {
+    "en": "\"1 s\"",
+    "ru": "\"1 с\""
+  },
+  "wl_295": {
+    "en": "\"Preview\"",
+    "ru": "\"Предпросмотр\""
+  },
+  "wl_296": {
+    "en": "\"Quality / battery usage\"",
+    "ru": "\"Качество / расход батареи\""
+  },
+  "wl_297": {
+    "en": "\"Economy · up to 3 FPS\"",
+    "ru": "\"Экономный · до 3 FPS\""
+  },
+  "wl_298": {
+    "en": "\"Auto · up to 15 FPS\"",
+    "ru": "\"Авто · до 15 FPS\""
+  },
+  "wl_299": {
+    "en": "\"Detailed · up to 8 FPS\"",
+    "ru": "\"Детальный · до 8 FPS\""
+  },
+  "wl_300": {
+    "en": "\"Zoom and focus are available while recording. Change camera, resolution and FPS before recording. Preview frame rate depends on the connection.\"",
+    "ru": "\"Зум и фокус доступны при записи. Камера, разрешение и FPS меняются до её начала. Частота предпросмотра зависит от связи.\""
+  },
+  "wl_301": {
+    "en": "\"Done\"",
+    "ru": "\"Готово\""
+  },
+  "wl_302": {
+    "en": "\"Aspect ratio\"",
+    "ru": "\"Пропорции\""
+  },
+  "wl_303": {
+    "en": "\"Resolution / FPS\"",
+    "ru": "\"Разрешение / FPS\""
+  },
+  "wl_304": {
+    "en": "\"Resolution\"",
+    "ru": "\"Разрешение\""
+  },
+  "wl_305": {
+    "en": "\"Storage\"",
+    "ru": "\"Сохранение\""
+  },
+  "wl_306": {
+    "en": "\"DCIM folder\"",
+    "ru": "\"Папка DCIM\""
+  },
+  "wl_307": {
+    "en": "\"Folder\"",
+    "ru": "\"Папка\""
+  },
+  "wl_308": {
+    "en": "\"Custom subfolder\"",
+    "ru": "\"Своя подпапка\""
+  },
+  "wl_309": {
+    "en": "\"Path inside DCIM\"",
+    "ru": "\"Путь внутри DCIM\""
+  },
+  "wl_310": {
+    "en": "\"Save\"",
+    "ru": "\"Сохранить\""
+  },
+  "wl_311": {
+    "en": "\"Choose another folder on phone\"",
+    "ru": "\"Выбрать другую папку на телефоне\""
+  },
+  "wl_312": {
+    "en": "\"Naming pattern\"",
+    "ru": "\"Формат имени\""
+  },
+  "wl_313": {
+    "en": "\"Filename\"",
+    "ru": "\"Имя файла\""
+  },
+  "wl_314": {
+    "en": "\"Photo · \"",
+    "ru": "\"Фото · \""
+  },
+  "wl_315": {
+    "en": "\"Photo type\"",
+    "ru": "\"Тип фото\""
+  },
+  "wl_316": {
+    "en": "\"JPEG · original encoding when watermark is off\"",
+    "ru": "\"JPEG · без перекодирования, если знак выключен\""
+  },
+  "wl_317": {
+    "en": "\"PNG · lossless after camera JPEG\"",
+    "ru": "\"PNG · без потерь после JPEG камеры\""
+  },
+  "wl_318": {
+    "en": "\"WebP · quality 100\"",
+    "ru": "\"WebP · качество 100\""
+  },
+  "wl_319": {
+    "en": "\"Video · \"",
+    "ru": "\"Видео · \""
+  },
+  "wl_320": {
+    "en": "\"Video type\"",
+    "ru": "\"Тип видео\""
+  },
+  "wl_321": {
+    "en": "\"WebM with audio requires a Vorbis encoder. JPEG is recommended for maximum photo resolution. Change settings before capture.\"",
+    "ru": "\"WebM со звуком требует кодировщика Vorbis. Для максимальных фото рекомендуется JPEG. Настройки меняются до съёмки.\""
+  },
+  "wl_322": {
+    "en": "\"Auto\"",
+    "ru": "\"Авто\""
+  },
+  "wl_323": {
+    "en": "\"On for photos\"",
+    "ru": "\"Вкл. для фото\""
+  },
+  "wl_324": {
+    "en": "\"Torch\"",
+    "ru": "\"Постоянный\""
+  },
+  "wl_325": {
+    "en": "\"Apply\"",
+    "ru": "\"Применить\""
+  },
+  "wl_extra_00": {
+    "en": "\"Save to watch\"",
+    "ru": "\"Сохранение на часы\""
+  },
+  "wl_extra_01": {
+    "en": "\"Automatically save photos and videos\"",
+    "ru": "\"Автоматически сохранять фото и видео\""
+  },
+  "wl_extra_02": {
+    "en": "\"New photos and completed videos are saved using the folder and quality selected above. The queue continues after leaving the app and waits for reconnection. Limit: 4 GB per source file.\"",
+    "ru": "\"Новые фото и завершённые видео сохраняются в выбранную выше папку с указанным качеством. Очередь продолжает работу после выхода и ждёт восстановления связи. Лимит — 4 ГБ на исходный файл.\""
+  },
+  "wl_extra_03": {
+    "en": "\"Retry transfer\"",
+    "ru": "\"Повторить передачу\""
+  },
+  "wl_extra_04": {
+    "en": "\"Transfer scheduled\"",
+    "ru": "\"Передача запланирована\""
+  },
+  "wl_extra_06": {
+    "en": "\"Waiting for phone\"",
+    "ru": "\"Ожидание телефона\""
+  },
+  "wl_extra_07": {
+    "en": "\"All new files saved to watch\"",
+    "ru": "\"Все новые файлы сохранены на часы\""
+  },
+  "wl_extra_09": {
+    "en": "\"Queue checkpoint failed\"",
+    "ru": "\"Не удалось сохранить состояние очереди\""
+  },
+  "wl_extra_10": {
+    "en": "\"Transfer waiting to retry\"",
+    "ru": "\"Ожидание повторной передачи\""
+  },
+  "wl_extra_11": {
+    "en": "\"Saving files to watch\"",
+    "ru": "\"Сохранение файлов на часы\""
+  },
+  "wl_extra_13": {
+    "en": "\"Could not save copy index\"",
+    "ru": "\"Не удалось сохранить список копий\""
+  },
+  "wl_extra_14": {
+    "en": "\"Could not publish copy\"",
+    "ru": "\"Не удалось сохранить копию\""
+  },
+  "wl_extra_15": {
+    "en": "\"Invalid image\"",
+    "ru": "\"Некорректное изображение\""
+  },
+  "wl_extra_16": {
+    "en": "\"Not enough memory for watermarking. Reduce photo resolution\"",
+    "ru": "\"Недостаточно памяти для водяного знака. Уменьшите разрешение фото\""
+  },
+  "wl_extra_17": {
+    "en": "\"Could not encode photo\"",
+    "ru": "\"Не удалось закодировать фото\""
+  },
+  "wl_extra_18": {
+    "en": "\"Could not save media sequence\"",
+    "ru": "\"Не удалось сохранить порядок файлов\""
+  },
+  "wl_extra_19": {
+    "en": "\"Select up to 50 files\"",
+    "ru": "\"Выберите до 50 файлов\""
+  },
+  "wl_extra_20": {
+    "en": "\"Select 1 to 500 files\"",
+    "ru": "\"Выберите от 1 до 500 файлов\""
+  },
+  "wl_extra_21": {
+    "en": "\"No composited video frames\"",
+    "ru": "\"Нет кадров видео со встроенным водяным знаком\""
+  },
+  "wl_extra_22": {
+    "en": "\"Share files\"",
+    "ru": "\"Поделиться файлами\""
+  },
+  "wl_extra_23": {
+    "en": "\"Share on phone\"",
+    "ru": "\"Поделиться на телефоне\""
+  },
+  "wl_extra_24": {
+    "en": "\"Share\"",
+    "ru": "\"Поделиться\""
+  },
+  "wl_extra_25": {
+    "en": "\"On watch\"",
+    "ru": "\"На часах\""
+  },
+  "wl_extra_27": {
+    "en": "\"Saved on watch\"",
+    "ru": "\"Сохранённое на часах\""
+  },
+  "wl_extra_28": {
+    "en": "\"View: list / tiles\"",
+    "ru": "\"Вид: список / плитка\""
+  },
+  "wl_extra_29": {
+    "en": "\"Layout\"",
+    "ru": "\"Отображение\""
+  },
+  "wl_extra_30": {
+    "en": "\"List\"",
+    "ru": "\"Список\""
+  },
+  "wl_extra_31": {
+    "en": "\"Tiles\"",
+    "ru": "\"Плитка\""
+  },
+  "wl_extra_32": {
+    "en": "\"Could not read gallery\"",
+    "ru": "\"Не удалось прочитать галерею\""
+  },
+  "wl_extra_33": {
+    "en": "\"Loading…\"",
+    "ru": "\"Загрузка…\""
+  },
+  "wl_extra_34": {
+    "en": "\"Selected: \"",
+    "ru": "\"Выбрано: \""
+  },
+  "wl_extra_35": {
+    "en": "\"Download selected\"",
+    "ru": "\"Скачать выбранное\""
+  },
+  "wl_extra_36": {
+    "en": "\"Delete selected\"",
+    "ru": "\"Удалить выбранное\""
+  },
+  "wl_extra_37": {
+    "en": "\"Clear selection\"",
+    "ru": "\"Снять выделение\""
+  },
+  "wl_extra_38": {
+    "en": "\"Hold a file to select several.\"",
+    "ru": "\"Удерживайте файл для выбора нескольких.\""
+  },
+  "wl_extra_39": {
+    "en": "\"Gallery is empty\"",
+    "ru": "\"Галерея пуста\""
+  },
+  "wl_extra_40": {
+    "en": "\"Load 20 more\"",
+    "ru": "\"Ещё 20 файлов\""
+  },
+  "wl_extra_41": {
+    "en": "\"Refresh\"",
+    "ru": "\"Обновить\""
+  },
+  "wl_extra_42": {
+    "en": "\"Delete copies from watch?\"",
+    "ru": "\"Удалить копии с часов?\""
+  },
+  "wl_extra_43": {
+    "en": "\"Delete from phone?\"",
+    "ru": "\"Удалить с телефона?\""
+  },
+  "wl_extra_44": {
+    "en": "\"Files: \"",
+    "ru": "\"Файлов: \""
+  },
+  "wl_extra_46": {
+    "en": "\"Could not delete: \"",
+    "ru": "\"Не удалось удалить: \""
+  },
+  "wl_extra_47": {
+    "en": "\"Files saved to watch\"",
+    "ru": "\"Файлы сохранены на часы\""
+  },
+  "wl_extra_48": {
+    "en": "\"No sharing app on watch. Use Share on phone\"",
+    "ru": "\"На часах нет приложения для отправки. Выберите «Поделиться на телефоне»\""
+  },
+  "wl_extra_49": {
+    "en": "\" KB\"",
+    "ru": "\" КБ\""
+  },
+  "wl_extra_50": {
+    "en": "\"WristLens diagnostics\"",
+    "ru": "\"Диагностика WristLens\""
+  },
+  "wl_delete_failed": {
+    "en": "Could not delete: %1$d",
+    "ru": "Не удалось удалить: %1$d"
+  },
+  "wl_transfer_progress": {
+    "en": "%1$d / %2$d · %3$d KB",
+    "ru": "%1$d / %2$d · %3$d КБ"
+  }
+}
