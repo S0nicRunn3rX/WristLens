@@ -1,0 +1,20 @@
+[
+  {
+    "file": "WristLens-phone-1.1.0-release.apk",
+    "versionName": "1.1.0",
+    "versionCode": 1100,
+    "debuggable": false,
+    "bytes": 2521985,
+    "sha256": "f57536db126464a796434380cd50cbf779a34167eae62fb119664cc9cc838fb8",
+    "certificateSha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73"
+  },
+  {
+    "file": "WristLens-wear-1.1.0-release.apk",
+    "versionName": "1.1.0",
+    "versionCode": 1101,
+    "debuggable": false,
+    "bytes": 7065489,
+    "sha256": "ca972cec51490a90a554e7463216bc66eb8b70d6619ca1ae65f18adb04862490",
+    "certificateSha256": "1c8dee161a0c28fca4629da32fa8342006840918b2459a615ead005337156a73"
+  }
+]
