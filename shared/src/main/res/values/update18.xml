@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_preview_gestures">Watch preview: pinch in to fit the entire frame inside the round screen with black margins; spread two fingers to enlarge it. Drag the image to move the visible area. Double-tap the preview outside the buttons to restore the default centered, full-screen view. These gestures only change the watch display. Use the bezel or camera settings to change the phone camera zoom. A single tap focuses at that point after a brief delay to distinguish it from a double tap. Changing the camera orientation or frame aspect ratio resets the view.</string>
+</resources>
