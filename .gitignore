@@ -1,0 +1,14 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+*.keystore
+*.jks
+
+# Private signing material
+/signing/
+*.jks
+*.keystore
+*.p12
+keystore.properties
