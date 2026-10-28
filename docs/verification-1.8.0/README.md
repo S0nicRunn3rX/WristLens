@@ -1,0 +1,1 @@
+Native Android renderings use a synthetic camera frame. The white outline and corner markers belong to that test image, not the application UI. See PreviewGestureTest and WatchLayoutTest. Physical devices were not tested.
