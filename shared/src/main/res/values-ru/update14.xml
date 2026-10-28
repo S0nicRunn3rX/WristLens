@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_vibration">"Вибрация действий"</string>
+    <string name="screen_timeout_help">"Экран камеры остаётся включённым. В меню экран гаснет по обычному системному тайм-ауту."</string>
+    <string name="copy_folder">"Папка на часах"</string>
+    <string name="copy_photo">"Сжатие фото"</string>
+    <string name="copy_video">"Сжатие видео"</string>
+    <string name="copy_original">"Оригинал · без сжатия"</string>
+    <string name="copy_photo_balanced" formatted="false">"JPEG · 85% · до 1920 px"</string>
+    <string name="copy_photo_compact" formatted="false">"JPEG · 70% · до 1280 px"</string>
+    <string name="copy_video_balanced">"MP4 · до 1280 px · 2 Мбит/с"</string>
+    <string name="copy_video_compact">"MP4 · до 854 px · 1 Мбит/с"</string>
+    <string name="copy_settings_help">"Для ручного скачивания и автосохранения. Сжатие выполняется на телефоне до передачи. Ограничивается длинная сторона; изображение не увеличивается. Копии видео: H.264/AAC, до 30 кадров/с. Оригиналы на телефоне не меняются. Новые параметры применяются к следующему файлу; прежние копии на часах сохраняются."</string>
+    <string name="copy_custom_folder">"Указать папку…"</string>
+    <string name="copy_folder_help">"Папка внутри DCIM, например DCIM/WristLens/Поездки. Создаётся при сохранении первого файла."</string>
+    <string name="copy_folder_error">"Укажи папку внутри DCIM без элементов . и .."</string>
+    <string name="copy_preparing">"Подготовка скачивания…"</string>
+    <string name="copy_deleting">"Удаление…"</string>
+    <string name="copy_downloaded">"Скачано на часы"</string>
+    <string name="copy_downloaded_count">"Скачано: %1$d"</string>
+    <string name="copy_deleted_count">"Удалено: %1$d"</string>
+    <string name="copy_export_failed">"Не удалось подготовить копию. Попробуй исходное качество."</string>
+    <string name="copy_export_space">"На телефоне недостаточно места для подготовки копии"</string>
+    <string name="copy_update_phone">"Обнови приложение на телефоне для настроек копий на часах"</string>
+</resources>

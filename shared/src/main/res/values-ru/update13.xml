@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_saved">"Сохранено"</string>
+    <string name="timer_photo_title">"Таймер фото"</string>
+    <string name="timer_video_title">"Таймер видео"</string>
+    <string name="gallery_total">"Файлов: %d"</string>
+    <string name="gallery_select_all">"Выделить всё"</string>
+    <string name="gallery_selecting">"Выбираются все файлы…"</string>
+    <string name="gallery_share_limit">"За один раз можно поделиться 500 файлами. Уменьшите выделение."</string>
+    <string name="preview_help">"Эти настройки меняют трансляцию на часы. Реальная частота зависит от связи. Разрешение обычных фото и записываемого видео не меняется. Если фото во время записи берётся из потока, его качество зависит от предпросмотра."</string>
+    <string name="preview_eco">"Экономия · до 3 кадров/с\nДо 320 px, меньше трафика"</string>
+    <string name="preview_auto">"Плавность · до 15 кадров/с\nРазмер экрана, обычное сжатие"</string>
+    <string name="preview_detail">"Детализация · до 8 кадров/с\nРазмер экрана, меньше сжатие"</string>
+</resources>

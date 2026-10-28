@@ -1,0 +1,358 @@
+<resources>
+    <string name="wl_000" formatted="false">"Неизвестный формат водяного знака"</string>
+    <string name="wl_001" formatted="false">"Выберите дату и/или время"</string>
+    <string name="wl_002" formatted="false">"Размер файла недопустим"</string>
+    <string name="wl_003" formatted="false">"Неизвестный формат передачи"</string>
+    <string name="wl_004" formatted="false">"Недостаточно памяти или файл слишком велик"</string>
+    <string name="wl_005" formatted="false">"Проверка SHA-256 не пройдена"</string>
+    <string name="wl_006" formatted="false">"Запуск камеры"</string>
+    <string name="wl_007" formatted="false">"Камера недоступна"</string>
+    <string name="wl_008" formatted="false">"Разрешите доступ к камере в настройках приложения"</string>
+    <string name="wl_009" formatted="false">"Камера отключена"</string>
+    <string name="wl_010" formatted="false">"Ошибка камеры: "</string>
+    <string name="wl_011" formatted="false">"Обработка водяного знака остановлена: "</string>
+    <string name="wl_012" formatted="false">"Часы закрыты; фоновая съёмка выключена"</string>
+    <string name="wl_013" formatted="false">"Запись началась"</string>
+    <string name="wl_014" formatted="false">"Запись. Фото во время видео: кадр предпросмотра"</string>
+    <string name="wl_015" formatted="false">"Камера готова"</string>
+    <string name="wl_016" formatted="false">"Камера готова · совместимый размер "</string>
+    <string name="wl_017" formatted="false">"Не удалось запустить съёмку"</string>
+    <string name="wl_018" formatted="false">"Комбинация потоков не поддерживается. Выберите другой размер / FPS."</string>
+    <string name="wl_019" formatted="false">"Не удалось создать сессию"</string>
+    <string name="wl_020" formatted="false">"Камера ещё не готова"</string>
+    <string name="wl_021" formatted="false">"Запись не запущена"</string>
+    <string name="wl_022" formatted="false">"Запись приостановлена"</string>
+    <string name="wl_023" formatted="false">"Запись продолжена"</string>
+    <string name="wl_024" formatted="false">"Дождитесь сохранения фотографии"</string>
+    <string name="wl_025" formatted="false">"Таймер отменён"</string>
+    <string name="wl_026" formatted="false">"Точечный фокус и экспозамер не поддерживаются"</string>
+    <string name="wl_027" formatted="false">"В режиме HS доступен только непрерывный автофокус"</string>
+    <string name="wl_028" formatted="false">"Ручная фокусировка не поддерживается"</string>
+    <string name="wl_029" formatted="false">"Неизвестная вспышка"</string>
+    <string name="wl_030" formatted="false">"У этой камеры нет вспышки"</string>
+    <string name="wl_031" formatted="false">"Для видео выберите постоянный свет или выкл."</string>
+    <string name="wl_032" formatted="false">"Для света экраном откройте приложение на телефоне"</string>
+    <string name="wl_033" formatted="false">"Размер не поддерживается"</string>
+    <string name="wl_034" formatted="false">"Видеорежим не поддерживается"</string>
+    <string name="wl_035" formatted="false">"Сначала отмените активный таймер"</string>
+    <string name="wl_036" formatted="false">"Неизвестная команда"</string>
+    <string name="wl_037" formatted="false">"Подождите: камера настраивается"</string>
+    <string name="wl_038" formatted="false">"Дождитесь фотографии"</string>
+    <string name="wl_039" formatted="false">"Сначала завершите запись, таймер или серию"</string>
+    <string name="wl_040" formatted="false">"Таймер или серия уже запущены"</string>
+    <string name="wl_041" formatted="false">"Совместимого видеорежима нет"</string>
+    <string name="wl_042" formatted="false">"Сначала завершите запись"</string>
+    <string name="wl_043" formatted="false">"Таймер"</string>
+    <string name="wl_044" formatted="false">"Съёмка не началась"</string>
+    <string name="wl_045" formatted="false">"Часы закрыты. Запись продолжается на телефоне"</string>
+    <string name="wl_046" formatted="false">"Часы закрыты. Таймер продолжается"</string>
+    <string name="wl_047" formatted="false">"Часы отключены"</string>
+    <string name="wl_048" formatted="false">"Часы закрыты. Фоновая съёмка выключена"</string>
+    <string name="wl_049" formatted="false">"Фото отменено: экран телефона закрыт"</string>
+    <string name="wl_050" formatted="false">"Подсветка экраном выключена: приложение телефона скрыто"</string>
+    <string name="wl_051" formatted="false">"Нет поддерживаемого видеорежима"</string>
+    <string name="wl_052" formatted="false">"Водяной знак недоступен в HS. Выберите обычный видеорежим или отключите знак."</string>
+    <string name="wl_053" formatted="false">"Перед видео выберите свет: выкл. или постоянный"</string>
+    <string name="wl_054" formatted="false">"Для света экраном откройте телефон"</string>
+    <string name="wl_055" formatted="false">"Кодек не поддерживает этот режим"</string>
+    <string name="wl_056" formatted="false">"Для WebM отключите звук или выберите MP4"</string>
+    <string name="wl_057" formatted="false">"Запись остановлена: ошибка кодировщика "</string>
+    <string name="wl_058" formatted="false">"Видео сохранено"</string>
+    <string name="wl_059" formatted="false">"Не удалось сохранить видео (возможно, запись слишком короткая): "</string>
+    <string name="wl_060" formatted="false">"Ошибка публикации видео: "</string>
+    <string name="wl_061" formatted="false">"Фотография уже снимается"</string>
+    <string name="wl_062" formatted="false">"Фото пока недоступно"</string>
+    <string name="wl_063" formatted="false">"Откройте экран телефона для фронтальной подсветки"</string>
+    <string name="wl_064" formatted="false">"Камера не вернула фотографию за 8 секунд"</string>
+    <string name="wl_065" formatted="false">"Ошибка экспозамера: "</string>
+    <string name="wl_066" formatted="false">"Камера отклонила фотографию"</string>
+    <string name="wl_067" formatted="false">"Фото не снято: "</string>
+    <string name="wl_068" formatted="false">"Ошибка сохранения: "</string>
+    <string name="wl_069" formatted="false">"Ошибка JPEG: "</string>
+    <string name="wl_070" formatted="false">"Нет свежего кадра для фотографии"</string>
+    <string name="wl_071" formatted="false">"Кадр не сохранён: "</string>
+    <string name="wl_072" formatted="false">"Сохранён кадр предпросмотра (пониженное качество)"</string>
+    <string name="wl_073" formatted="false">"Фото сохранено"</string>
+    <string name="wl_074" formatted="false">"Серия: "</string>
+    <string name="wl_075" formatted="false">"Файл пуст или больше 4 ГБ"</string>
+    <string name="wl_076" formatted="false">"Действие недоступно"</string>
+    <string name="wl_077" formatted="false">"Неизвестный запрос"</string>
+    <string name="wl_078" formatted="false">"Не удалось выполнить запрос"</string>
+    <string name="wl_079" formatted="false">"Слишком много запросов. Повторите через несколько минут"</string>
+    <string name="wl_080" formatted="false">"Не удалось сохранить запрос"</string>
+    <string name="wl_081" formatted="false">"Не удалось подтвердить запрос"</string>
+    <string name="wl_082" formatted="false">"Запрос истёк"</string>
+    <string name="wl_083" formatted="false">"Поток обработки закрыт"</string>
+    <string name="wl_084" formatted="false">"Нет EGL-конфигурации для видео"</string>
+    <string name="wl_085" formatted="false">"Поверхность кодировщика недоступна"</string>
+    <string name="wl_086" formatted="false">"Не удалось передать кадр кодировщику"</string>
+    <string name="wl_087" formatted="false">"Камера телефона · пульт на запястье"</string>
+    <string name="wl_088" formatted="false">"Разрешите доступ и включите сессию"</string>
+    <string name="wl_089" formatted="false">"Откройте WristLens на сопряжённых часах. Оригиналы сохраняются в DCIM/Camera."</string>
+    <string name="wl_090" formatted="false">"Записывать звук"</string>
+    <string name="wl_091" formatted="false">"Включить сессию камеры"</string>
+    <string name="wl_092" formatted="false">"Фото"</string>
+    <string name="wl_093" formatted="false">"Видео"</string>
+    <string name="wl_094" formatted="false">"Пауза"</string>
+    <string name="wl_095" formatted="false">"Стоп"</string>
+    <string name="wl_096" formatted="false">"Серия фото"</string>
+    <string name="wl_097" formatted="false">"Отмена таймера"</string>
+    <string name="wl_098" formatted="false">"Параметры камеры"</string>
+    <string name="wl_099" formatted="false">"Сохранение файлов"</string>
+    <string name="wl_100" formatted="false">"Настройки съёмки"</string>
+    <string name="wl_101" formatted="false">"Отключить соединение"</string>
+    <string name="wl_102" formatted="false">"Сессия уже выключена"</string>
+    <string name="wl_103" formatted="false">"Инструкция"</string>
+    <string name="wl_104" formatted="false">"Поделиться диагностикой"</string>
+    <string name="wl_105" formatted="false">"После первой выдачи разрешений открытие приложения на часах запрашивает запуск камеры. Поведение при выходе с часов задаётся переключателем «Работа в фоне». Остановить сессию можно здесь или через уведомление."</string>
+    <string name="wl_106" formatted="false">"Без разрешения камеры съёмка невозможна. Разрешите её в настройках приложения."</string>
+    <string name="wl_107" formatted="false">"Сначала включите сессию"</string>
+    <string name="wl_108" formatted="false">"Завершить сессию"</string>
+    <string name="wl_109" formatted="false">"ПАУЗА · "</string>
+    <string name="wl_110" formatted="false">"Съёмка через "</string>
+    <string name="wl_111" formatted="false">" с"</string>
+    <string name="wl_112" formatted="false">"Часы подключены"</string>
+    <string name="wl_113" formatted="false">"Ожидание часов"</string>
+    <string name="wl_114" formatted="false">"Продолжить"</string>
+    <string name="wl_115" formatted="false">"Сначала завершите съёмку"</string>
+    <string name="wl_116" formatted="false">"Папка сохранена"</string>
+    <string name="wl_117" formatted="false">"Не удалось открыть: "</string>
+    <string name="wl_118" formatted="false">"Диагностика возможностей камеры"</string>
+    <string name="wl_119" formatted="false">"Файл недоступен"</string>
+    <string name="wl_120" formatted="false">"Файл не подтверждён"</string>
+    <string name="wl_121" formatted="false">"Некорректная настройка"</string>
+    <string name="wl_122" formatted="false">"Настройка не сохранена"</string>
+    <string name="wl_123" formatted="false">"Выберите подпапку DCIM или папку через телефон"</string>
+    <string name="wl_124" formatted="false">"Неизвестный шаблон"</string>
+    <string name="wl_125" formatted="false">"Неизвестный формат фото"</string>
+    <string name="wl_126" formatted="false">"Неизвестный формат видео"</string>
+    <string name="wl_127" formatted="false">"Неизвестная настройка"</string>
+    <string name="wl_128" formatted="false">"Не удалось создать файл"</string>
+    <string name="wl_129" formatted="false">"Файл не удалён"</string>
+    <string name="wl_130" formatted="false">"Файл отсутствует в галерее WristLens"</string>
+    <string name="wl_131" formatted="false">"Предпросмотр недоступен"</string>
+    <string name="wl_132" formatted="false">"Передняя"</string>
+    <string name="wl_133" formatted="false">"Задняя"</string>
+    <string name="wl_134" formatted="false">"Нет совместимого потока предпросмотра для этого FPS"</string>
+    <string name="wl_135" formatted="false">"Запуск"</string>
+    <string name="wl_136" formatted="false">"Камера WristLens"</string>
+    <string name="wl_137" formatted="false">"WristLens · камера включена"</string>
+    <string name="wl_138" formatted="false">"Управление с часов. Нажмите, чтобы открыть."</string>
+    <string name="wl_139" formatted="false">"Завершить"</string>
+    <string name="wl_140" formatted="false">"Откройте приложение и разрешите камеру: "</string>
+    <string name="wl_141" formatted="false">"Команда устарела. Повторите после восстановления связи."</string>
+    <string name="wl_142" formatted="false">"Сессия завершается, повторите позже"</string>
+    <string name="wl_143" formatted="false">"Сессия изменилась. Подключитесь заново"</string>
+    <string name="wl_144" formatted="false">"Сессия завершена"</string>
+    <string name="wl_145" formatted="false">"Поиск телефона…"</string>
+    <string name="wl_146" formatted="false">"Переключить режим фото / видео"</string>
+    <string name="wl_147" formatted="false">"Снять фото; удерживать для серии"</string>
+    <string name="wl_148" formatted="false">"Меню"</string>
+    <string name="wl_149" formatted="false">"Вспышка"</string>
+    <string name="wl_150" formatted="false">"Переключить камеру"</string>
+    <string name="wl_151" formatted="false">"Открыть WristLens на телефоне и включить камеру"</string>
+    <string name="wl_152" formatted="false">"Команда не подтверждена. Проверьте телефон."</string>
+    <string name="wl_153" formatted="false">"Телефон"</string>
+    <string name="wl_154" formatted="false">"Проверьте сопряжение и Google Play Services"</string>
+    <string name="wl_155" formatted="false">"Сессия завершается на телефоне"</string>
+    <string name="wl_160" formatted="false">"Назад"</string>
+    <string name="wl_168" formatted="false">"Включите сессию на телефоне"</string>
+    <string name="wl_169" formatted="false">"Нет связи. Команда не подтверждена."</string>
+    <string name="wl_170" formatted="false">"ПАУЗА"</string>
+    <string name="wl_171" formatted="false">"ВИДЕО"</string>
+    <string name="wl_172" formatted="false">"ФОТО"</string>
+    <string name="wl_173" formatted="false">"Камера не подключена\nОткрыть на телефоне"</string>
+    <string name="wl_174" formatted="false">"Ожидание изображения…"</string>
+    <string name="wl_175" formatted="false">"Продолжить запись"</string>
+    <string name="wl_176" formatted="false">"Пауза записи"</string>
+    <string name="wl_177" formatted="false">"Фото / видео"</string>
+    <string name="wl_178" formatted="false">"Остановить запись; удерживать для меню"</string>
+    <string name="wl_179" formatted="false">"Фото во время видео"</string>
+    <string name="wl_180" formatted="false">"Начать видео"</string>
+    <string name="wl_181" formatted="false">"Фото; удерживать для серии"</string>
+    <string name="wl_182" formatted="false">"Вспышка: "</string>
+    <string name="wl_183" formatted="false">"Таймер "</string>
+    <string name="wl_184" formatted="false">" секунд"</string>
+    <string name="wl_185" formatted="false">"Камера настраивается"</string>
+    <string name="wl_186" formatted="false">"Последний файл в галерее"</string>
+    <string name="wl_187" formatted="false">"Галерея"</string>
+    <string name="wl_189" formatted="false">"Открыть на телефоне"</string>
+    <string name="wl_190" formatted="false">"Телефон не найден. Проверьте подключение"</string>
+    <string name="wl_191" formatted="false">"Нет связи с телефоном"</string>
+    <string name="wl_192" formatted="false">"Телефон не ответил. Откройте WristLens на телефоне"</string>
+    <string name="wl_193" formatted="false">"Открываю приложение для настройки на телефоне"</string>
+    <string name="wl_194" formatted="false">"Запрос отправлен. При необходимости разблокируйте телефон"</string>
+    <string name="wl_195" formatted="false">"Не удалось открыть приложение. Проверьте телефон"</string>
+    <string name="wl_196" formatted="false">"Передача отменена"</string>
+    <string name="wl_197" formatted="false">"Недостаточно памяти на часах"</string>
+    <string name="wl_198" formatted="false">"Файл не создан"</string>
+    <string name="wl_199" formatted="false">"Передача прервана или размер изменился"</string>
+    <string name="wl_200" formatted="false">"Не удалось передать файл"</string>
+    <string name="wl_207" formatted="false">"Предпросмотр файла"</string>
+    <string name="wl_208" formatted="false">"Воспроизвести видео"</string>
+    <string name="wl_209" formatted="false">"Загрузка видео…"</string>
+    <string name="wl_210" formatted="false">"Загружено %d КБ"</string>
+    <string name="wl_211" formatted="false">"Часы не поддерживают кодек. Откройте файл на телефоне"</string>
+    <string name="wl_212" formatted="false">"Скачать на часы"</string>
+    <string name="wl_213" formatted="false">"Получено %d КБ"</string>
+    <string name="wl_214" formatted="false">"Удалить с телефона"</string>
+    <string name="wl_215" formatted="false">"Удалить файл?"</string>
+    <string name="wl_216" formatted="false">"Удалить"</string>
+    <string name="wl_217" formatted="false">"Удалён с телефона"</string>
+    <string name="wl_218" formatted="false">"Отмена"</string>
+    <string name="wl_219" formatted="false">"Кодек не поддерживается часами"</string>
+    <string name="wl_220" formatted="false">"Удалить с часов"</string>
+    <string name="wl_221" formatted="false">"Удалить копию с часов?"</string>
+    <string name="wl_222" formatted="false">"ФОТО · 1.0×"</string>
+    <string name="wl_223" formatted="false">"Работа в фоне"</string>
+    <string name="wl_224" formatted="false">"Видео и таймеры продолжаются после выхода с часов. Выключено — таймер отменяется, видео сохраняется и останавливается. Удерживаемая серия всегда останавливается."</string>
+    <string name="wl_225" formatted="false">"Водяной знак на фото и видео"</string>
+    <string name="wl_226" formatted="false">"Угол"</string>
+    <string name="wl_227" formatted="false">"Сверху слева"</string>
+    <string name="wl_228" formatted="false">"Сверху справа"</string>
+    <string name="wl_229" formatted="false">"Снизу слева"</string>
+    <string name="wl_230" formatted="false">"Снизу справа"</string>
+    <string name="wl_231" formatted="false">"Цвет"</string>
+    <string name="wl_232" formatted="false">"Белый"</string>
+    <string name="wl_233" formatted="false">"Чёрный"</string>
+    <string name="wl_234" formatted="false">"Размер"</string>
+    <string name="wl_235" formatted="false">"Маленький"</string>
+    <string name="wl_236" formatted="false">"Средний"</string>
+    <string name="wl_237" formatted="false">"Большой"</string>
+    <string name="wl_238" formatted="false">"Показывать дату"</string>
+    <string name="wl_239" formatted="false">"Показывать время"</string>
+    <string name="wl_240" formatted="false">"Формат даты"</string>
+    <string name="wl_241" formatted="false">"Формат времени"</string>
+    <string name="wl_242" formatted="false">"Дата, время и часовой пояс берутся с телефона. Шрифт системный. Знак встраивается в фото и видео; настройки применяются к следующей съёмке. В режиме HS знак недоступен: выберите обычный режим видео."</string>
+    <string name="wl_243" formatted="false">"Как пользоваться"</string>
+    <string name="wl_244" formatted="false">"1. Установите WristLens на телефон и сопряжённые часы. При первом запуске на телефоне разрешите камеру, микрофон и уведомления. Затем открытие приложения на часах запрашивает запуск камеры автоматически. Иногда Android требует разблокировать телефон."</string>
+    <string name="wl_245" formatted="false">"2. Центральная кнопка снимает фото или запускает видео в выбранном режиме. Удерживайте её в режиме фото для серии, отпустите для остановки. Лимит — до 50 фото и 60 секунд съёмки после первого кадра."</string>
+    <string name="wl_246" formatted="false">"3. Слева внизу переключается фото/видео, при записи — пауза/продолжение. Справа — меню, при записи — стоп. Чтобы открыть меню во время записи, удерживайте кнопку стоп."</string>
+    <string name="wl_247" formatted="false">"4. Три верхние кнопки: вспышка, таймер, переключение камеры. Для точечного фокуса коснитесь изображения; для масштаба используйте вращение безеля/колёсика или параметры камеры."</string>
+    <string name="wl_248" formatted="false">"5. «Вибрация действий» переключается прямо в меню. Только экран камеры остаётся включённым; в меню действует обычный тайм-аут экрана."</string>
+    <string name="wl_249" formatted="false">"6. Таймеры фото и видео настраиваются раздельно. Отменить активный таймер можно центральной кнопкой ×. Разрешение, FPS и формат меняются до записи. Доступны только режимы, открытые камерой Android сторонним приложениям."</string>
+    <string name="wl_250" formatted="false">"7. В галерее есть список со свойствами и плитка в две колонки. Счётчик учитывает всю галерею. Удерживайте файл и нажмите «Выделить всё», чтобы включить ещё не загруженные страницы. За раз можно поделиться 500 файлами; большие удаления выполняются порциями."</string>
+    <string name="wl_251" formatted="false">"8. В «Параметрах камеры» включаются работа в фоне и водяной знак. При фоне видео и одиночные таймеры сохраняют работу после выхода с часов; серия по удержанию останавливается всегда. Принудительная остановка приложения или перезагрузка телефона прерывает съёмку."</string>
+    <string name="wl_252" formatted="false">"9. Водяной знак: четыре угла, чёрный/белый, три размера, дата и/или время телефона. Он встраивается в фото и видео и повышает нагрузку. HS требует отключить знак; обычные режимы проверяются при старте, без скрытого снижения качества."</string>
+    <string name="wl_253" formatted="false">"10. «Отключить соединение» на любом устройстве завершает сессию, сохраняет начатое видео и отменяет таймеры, даже при включённом фоне. Для новой сессии нажмите кнопку телефона или заново откройте приложение на часах."</string>
+    <string name="wl_254" formatted="false">"11. По умолчанию: DCIM/Camera, IMG/VID_YYYYMMDD_HHMMSS, JPEG и MP4 H.264. На часах «Файлы и сохранение» объединяет оригиналы телефона и копии часов. На телефоне — «Сохранение файлов». Фронтальный свет экраном требует открытого экрана телефона."</string>
+    <string name="wl_255" formatted="false">"Ожидание камеры"</string>
+    <string name="wl_256" formatted="false">"Предпросмотр камеры. Нажмите для фокусировки"</string>
+    <string name="wl_257" formatted="false">"Параметры"</string>
+    <string name="wl_258" formatted="false">"Камера · "</string>
+    <string name="wl_259" formatted="false">"Объектив"</string>
+    <string name="wl_260" formatted="false">"Свет · "</string>
+    <string name="wl_261" formatted="false">"Свет экраном телефона"</string>
+    <string name="wl_262" formatted="false">"Зум · %.1f×"</string>
+    <string name="wl_263" formatted="false">"Масштаб"</string>
+    <string name="wl_264" formatted="false">"Непрерывный автофокус"</string>
+    <string name="wl_265" formatted="false">"Фокус вручную"</string>
+    <string name="wl_266" formatted="false">"Фокус · диоптрии\n0 = бесконечность"</string>
+    <string name="wl_267" formatted="false">"Фото · размер / пропорции"</string>
+    <string name="wl_268" formatted="false">"Видео · размер / FPS / пропорции"</string>
+    <string name="wl_269" formatted="false">"Таймер видео · "</string>
+    <string name="wl_270" formatted="false">"Таймер фото · "</string>
+    <string name="wl_271" formatted="false">"Выкл."</string>
+    <string name="wl_272" formatted="false">"2 с"</string>
+    <string name="wl_273" formatted="false">"3 с"</string>
+    <string name="wl_274" formatted="false">"5 с"</string>
+    <string name="wl_275" formatted="false">"10 с"</string>
+    <string name="wl_276" formatted="false">"15 с"</string>
+    <string name="wl_277" formatted="false">"30 с"</string>
+    <string name="wl_278" formatted="false">"60 с"</string>
+    <string name="wl_279" formatted="false">"Задержка съёмки"</string>
+    <string name="wl_280" formatted="false">"Лимит серии · "</string>
+    <string name="wl_281" formatted="false">" фото"</string>
+    <string name="wl_282" formatted="false">"Количество"</string>
+    <string name="wl_283" formatted="false">"3 фото"</string>
+    <string name="wl_284" formatted="false">"5 фото"</string>
+    <string name="wl_285" formatted="false">"10 фото"</string>
+    <string name="wl_286" formatted="false">"20 фото"</string>
+    <string name="wl_287" formatted="false">"30 фото"</string>
+    <string name="wl_288" formatted="false">"50 фото"</string>
+    <string name="wl_289" formatted="false">"Интервал серии · "</string>
+    <string name="wl_290" formatted="false">" мс"</string>
+    <string name="wl_291" formatted="false">"После сохранения кадра"</string>
+    <string name="wl_292" formatted="false">"250 мс"</string>
+    <string name="wl_293" formatted="false">"500 мс"</string>
+    <string name="wl_294" formatted="false">"1 с"</string>
+    <string name="wl_295" formatted="false">"Предпросмотр"</string>
+    <string name="wl_296" formatted="false">"Качество / расход батареи"</string>
+    <string name="wl_297" formatted="false">"Экономный · до 3 FPS"</string>
+    <string name="wl_298" formatted="false">"Авто · до 15 FPS"</string>
+    <string name="wl_299" formatted="false">"Детальный · до 8 FPS"</string>
+    <string name="wl_300" formatted="false">"Зум и фокус доступны при записи. Камера, разрешение и FPS меняются до её начала. Частота предпросмотра зависит от связи."</string>
+    <string name="wl_301" formatted="false">"Готово"</string>
+    <string name="wl_302" formatted="false">"Пропорции"</string>
+    <string name="wl_303" formatted="false">"Разрешение / FPS"</string>
+    <string name="wl_304" formatted="false">"Разрешение"</string>
+    <string name="wl_305" formatted="false">"Сохранение"</string>
+    <string name="wl_306" formatted="false">"Папка DCIM"</string>
+    <string name="wl_307" formatted="false">"Папка"</string>
+    <string name="wl_308" formatted="false">"Своя подпапка"</string>
+    <string name="wl_309" formatted="false">"Путь внутри DCIM"</string>
+    <string name="wl_310" formatted="false">"Сохранить"</string>
+    <string name="wl_311" formatted="false">"Выбрать другую папку на телефоне"</string>
+    <string name="wl_312" formatted="false">"Формат имени"</string>
+    <string name="wl_313" formatted="false">"Имя файла"</string>
+    <string name="wl_314" formatted="false">"Фото · "</string>
+    <string name="wl_315" formatted="false">"Тип фото"</string>
+    <string name="wl_316" formatted="false">"JPEG · без перекодирования, если знак выключен"</string>
+    <string name="wl_317" formatted="false">"PNG · без потерь после JPEG камеры"</string>
+    <string name="wl_318" formatted="false">"WebP · качество 100"</string>
+    <string name="wl_319" formatted="false">"Видео · "</string>
+    <string name="wl_320" formatted="false">"Тип видео"</string>
+    <string name="wl_321" formatted="false">"WebM со звуком требует кодировщика Vorbis. Для максимальных фото рекомендуется JPEG. Настройки меняются до съёмки."</string>
+    <string name="wl_322" formatted="false">"Авто"</string>
+    <string name="wl_323" formatted="false">"Вкл. для фото"</string>
+    <string name="wl_324" formatted="false">"Постоянный"</string>
+    <string name="wl_325" formatted="false">"Применить"</string>
+    <string name="wl_extra_00" formatted="false">"Сохранение на часы"</string>
+    <string name="wl_extra_01" formatted="false">"Автоматически сохранять фото и видео"</string>
+    <string name="wl_extra_02" formatted="false">"Новые фото и завершённые видео сохраняются в выбранную выше папку с указанным качеством. Очередь продолжает работу после выхода и ждёт восстановления связи. Лимит — 4 ГБ на исходный файл."</string>
+    <string name="wl_extra_03" formatted="false">"Повторить передачу"</string>
+    <string name="wl_extra_04" formatted="false">"Передача запланирована"</string>
+    <string name="wl_extra_06" formatted="false">"Ожидание телефона"</string>
+    <string name="wl_extra_07" formatted="false">"Все новые файлы сохранены на часы"</string>
+    <string name="wl_extra_09" formatted="false">"Не удалось сохранить состояние очереди"</string>
+    <string name="wl_extra_10" formatted="false">"Ожидание повторной передачи"</string>
+    <string name="wl_extra_11" formatted="false">"Сохранение файлов на часы"</string>
+    <string name="wl_extra_13" formatted="false">"Не удалось сохранить список копий"</string>
+    <string name="wl_extra_14" formatted="false">"Не удалось сохранить копию"</string>
+    <string name="wl_extra_15" formatted="false">"Некорректное изображение"</string>
+    <string name="wl_extra_16" formatted="false">"Недостаточно памяти для водяного знака. Уменьшите разрешение фото"</string>
+    <string name="wl_extra_17" formatted="false">"Не удалось закодировать фото"</string>
+    <string name="wl_extra_18" formatted="false">"Не удалось сохранить порядок файлов"</string>
+    <string name="wl_extra_19" formatted="false">"Выберите до 50 файлов"</string>
+    <string name="wl_extra_20" formatted="false">"Выберите от 1 до 500 файлов"</string>
+    <string name="wl_extra_21" formatted="false">"Нет кадров видео со встроенным водяным знаком"</string>
+    <string name="wl_extra_22" formatted="false">"Поделиться файлами"</string>
+    <string name="wl_extra_23" formatted="false">"Поделиться на телефоне"</string>
+    <string name="wl_extra_24" formatted="false">"Поделиться"</string>
+    <string name="wl_extra_25" formatted="false">"На часах"</string>
+    <string name="wl_extra_27" formatted="false">"Сохранённое на часах"</string>
+    <string name="wl_extra_28" formatted="false">"Вид: список / плитка"</string>
+    <string name="wl_extra_29" formatted="false">"Отображение"</string>
+    <string name="wl_extra_30" formatted="false">"Список"</string>
+    <string name="wl_extra_31" formatted="false">"Плитка"</string>
+    <string name="wl_extra_32" formatted="false">"Не удалось прочитать галерею"</string>
+    <string name="wl_extra_33" formatted="false">"Загрузка…"</string>
+    <string name="wl_extra_34" formatted="false">"Выбрано: "</string>
+    <string name="wl_extra_35" formatted="false">"Скачать выбранное"</string>
+    <string name="wl_extra_36" formatted="false">"Удалить выбранное"</string>
+    <string name="wl_extra_37" formatted="false">"Снять выделение"</string>
+    <string name="wl_extra_38" formatted="false">"Удерживайте файл для выбора нескольких."</string>
+    <string name="wl_extra_39" formatted="false">"Галерея пуста"</string>
+    <string name="wl_extra_40" formatted="false">"Ещё 20 файлов"</string>
+    <string name="wl_extra_41" formatted="false">"Обновить"</string>
+    <string name="wl_extra_42" formatted="false">"Удалить копии с часов?"</string>
+    <string name="wl_extra_43" formatted="false">"Удалить с телефона?"</string>
+    <string name="wl_extra_44" formatted="false">"Файлов: "</string>
+    <string name="wl_extra_46" formatted="false">"Не удалось удалить: "</string>
+    <string name="wl_extra_47" formatted="false">"Файлы сохранены на часы"</string>
+    <string name="wl_extra_48" formatted="false">"На часах нет приложения для отправки. Выберите «Поделиться на телефоне»"</string>
+    <string name="wl_extra_49" formatted="false">" КБ"</string>
+    <string name="wl_extra_50" formatted="false">"Диагностика WristLens"</string>
+    <string name="wl_delete_failed">Не удалось удалить: %1$d</string>
+    <string name="wl_transfer_progress">%1$d / %2$d · %3$d КБ</string>
+</resources>
