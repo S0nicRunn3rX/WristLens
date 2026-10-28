@@ -1,0 +1,248 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=40589 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=40589
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :core:clean
+> Task :shared:clean
+> Task :shared:preBuild UP-TO-DATE
+> Task :shared:preReleaseBuild UP-TO-DATE
+> Task :wear:clean
+> Task :wear:preBuild UP-TO-DATE
+> Task :wear:preReleaseBuild UP-TO-DATE
+> Task :phone:clean
+> Task :phone:preBuild UP-TO-DATE
+> Task :phone:preReleaseBuild UP-TO-DATE
+> Task :shared:mergeReleaseJniLibFolders
+> Task :phone:mergeReleaseJniLibFolders
+> Task :wear:mergeReleaseJniLibFolders
+> Task :shared:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:copyReleaseJniLibsProjectOnly
+> Task :shared:generateReleaseResValues
+> Task :shared:generateReleaseResources
+> Task :phone:checkReleaseDuplicateClasses
+> Task :phone:generateReleaseResValues
+> Task :phone:javaPreCompileRelease
+> Task :phone:generateReleaseResources
+> Task :wear:javaPreCompileRelease
+> Task :shared:packageReleaseResources
+> Task :wear:generateReleaseResValues
+> Task :shared:processReleaseNavigationResources
+> Task :wear:checkReleaseDuplicateClasses
+> Task :phone:packageReleaseResources
+> Task :shared:javaPreCompileRelease
+> Task :shared:extractDeepLinksRelease
+> Task :shared:writeReleaseAarMetadata
+> Task :phone:processReleaseNavigationResources
+> Task :wear:mapReleaseSourceSetPaths
+> Task :wear:processReleaseNavigationResources
+> Task :shared:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared:compileReleaseLibraryResources
+> Task :phone:compileReleaseNavigationResources
+> Task :shared:mergeReleaseShaders
+> Task :shared:compileReleaseShaders NO-SOURCE
+> Task :shared:generateReleaseAssets UP-TO-DATE
+> Task :shared:mergeReleaseAssets
+> Task :shared:processReleaseJavaRes NO-SOURCE
+> Task :phone:checkReleaseAarMetadata
+> Task :wear:checkReleaseAarMetadata
+> Task :shared:extractProguardFiles
+> Task :wear:generateReleaseResources
+> Task :shared:processReleaseManifest
+> Task :shared:prepareLintJarForPublish UP-TO-DATE
+> Task :wear:compileReleaseNavigationResources
+> Task :shared:parseReleaseLocalResources
+> Task :phone:mapReleaseSourceSetPaths
+> Task :shared:checkReleaseAarMetadata
+> Task :shared:stripReleaseDebugSymbols NO-SOURCE
+> Task :shared:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :shared:copyReleaseJniLibsProjectAndLocalJars
+> Task :shared:writeReleaseLintModelMetadata
+> Task :shared:preReleaseUnitTestBuild UP-TO-DATE
+> Task :shared:generateReleaseRFile
+> Task :shared:mergeReleaseJavaResource
+> Task :core:compileJava
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :phone:parseReleaseLocalResources
+> Task :phone:mergeReleaseResources
+> Task :phone:mergeReleaseNativeLibs NO-SOURCE
+> Task :phone:stripReleaseDebugSymbols NO-SOURCE
+> Task :wear:mergeReleaseNativeLibs NO-SOURCE
+> Task :phone:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :wear:stripReleaseDebugSymbols NO-SOURCE
+> Task :phone:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :wear:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :wear:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :phone:createReleaseCompatibleScreenManifests
+> Task :phone:extractDeepLinksRelease
+> Task :wear:packageReleaseResources
+> Task :wear:createReleaseCompatibleScreenManifests
+> Task :wear:extractDeepLinksRelease
+> Task :wear:mergeReleaseResources
+> Task :wear:parseReleaseLocalResources
+> Task :phone:processReleaseMainManifest
+> Task :wear:processReleaseMainManifest
+> Task :core:compileTestJava
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses
+> Task :phone:processReleaseManifest
+> Task :wear:processReleaseManifest
+> Task :phone:desugarReleaseFileDependencies
+> Task :wear:desugarReleaseFileDependencies
+> Task :phone:mergeReleaseStartupProfile UP-TO-DATE
+> Task :wear:mergeReleaseStartupProfile UP-TO-DATE
+
+> Task :shared:compileReleaseJavaWithJavac
+Note: /workspace/scratch/18f0476b7b06/WristLens/shared/src/main/java/com/daniil/wristlens/shared/PreviewView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :core:test
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=40589 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=40589
+
+> Task :shared:bundleLibCompileToJarRelease
+> Task :shared:bundleLibRuntimeToJarRelease
+> Task :shared:bundleLibRuntimeToDirRelease
+> Task :phone:mergeReleaseArtProfile UP-TO-DATE
+> Task :phone:mergeReleaseShaders
+> Task :phone:compileReleaseShaders NO-SOURCE
+> Task :phone:generateReleaseAssets UP-TO-DATE
+> Task :shared:createFullJarRelease
+> Task :phone:mergeReleaseAssets
+> Task :phone:compressReleaseAssets
+> Task :phone:extractReleaseVersionControlInfo
+> Task :phone:extractProguardFiles
+> Task :phone:processReleaseJavaRes NO-SOURCE
+> Task :phone:processReleaseManifestForPackage
+> Task :shared:generateReleaseLintModel
+> Task :phone:mergeReleaseJavaResource
+> Task :phone:collectReleaseDependencies
+> Task :phone:sdkReleaseDependencyData
+> Task :phone:validateSigningRelease
+> Task :phone:writeReleaseAppMetadata
+> Task :phone:writeReleaseSigningConfigVersions
+> Task :phone:preReleaseUnitTestBuild UP-TO-DATE
+> Task :phone:javaPreCompileReleaseUnitTest
+> Task :phone:processReleaseResources
+> Task :phone:processReleaseUnitTestManifest
+> Task :phone:mergeExtDexRelease
+
+> Task :phone:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :phone:dexBuilderRelease
+> Task :phone:mergeReleaseGlobalSynthetics
+> Task :phone:generateReleaseLintVitalReportModel
+> Task :phone:bundleReleaseClassesToRuntimeJar
+> Task :phone:bundleReleaseClassesToCompileJar
+> Task :phone:packageReleaseUnitTestForUnitTest
+> Task :phone:compileReleaseUnitTestJavaWithJavac
+> Task :phone:generateReleaseUnitTestConfig
+> Task :phone:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :phone:mergeDexRelease
+> Task :wear:mergeReleaseArtProfile
+> Task :wear:mergeReleaseShaders
+> Task :wear:compileReleaseShaders NO-SOURCE
+> Task :wear:generateReleaseAssets UP-TO-DATE
+> Task :wear:mergeReleaseAssets
+> Task :wear:compressReleaseAssets
+> Task :wear:extractReleaseVersionControlInfo
+> Task :wear:extractProguardFiles
+> Task :wear:processReleaseJavaRes NO-SOURCE
+> Task :wear:processReleaseManifestForPackage
+> Task :wear:collectReleaseDependencies
+> Task :wear:sdkReleaseDependencyData
+> Task :wear:validateSigningRelease
+> Task :wear:writeReleaseAppMetadata
+> Task :wear:writeReleaseSigningConfigVersions
+> Task :wear:preReleaseUnitTestBuild UP-TO-DATE
+> Task :wear:javaPreCompileReleaseUnitTest
+> Task :wear:mergeReleaseJavaResource
+> Task :wear:processReleaseUnitTestManifest
+> Task :wear:processReleaseUnitTestJavaRes NO-SOURCE
+
+> Task :phone:testReleaseUnitTest
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=40589 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=40589
+
+> Task :wear:processReleaseResources
+> Task :wear:mergeExtDexRelease
+
+> Task :wear:compileReleaseJavaWithJavac
+Note: /workspace/scratch/18f0476b7b06/WristLens/wear/src/main/java/com/daniil/wristlens/wear/RoundHud.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :wear:dexBuilderRelease
+> Task :wear:mergeReleaseGlobalSynthetics
+> Task :wear:generateReleaseLintVitalReportModel
+> Task :wear:bundleReleaseClassesToRuntimeJar
+> Task :wear:bundleReleaseClassesToCompileJar
+> Task :wear:packageReleaseUnitTestForUnitTest
+
+> Task :wear:compileReleaseUnitTestJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :wear:generateReleaseUnitTestConfig
+> Task :wear:generateReleaseLintReportModel
+> Task :wear:mergeDexRelease
+
+> Task :wear:testReleaseUnitTest
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=40589 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=40589
+
+--- Failed to create image decoder with message 'unimplemented'
+--- Failed to create image decoder with message 'unimplemented'
+
+> Task :phone:compileReleaseArtProfile
+> Task :phone:generateReleaseLintReportModel
+> Task :phone:optimizeReleaseResources
+> Task :wear:optimizeReleaseResources
+> Task :wear:compileReleaseArtProfile
+> Task :shared:extractReleaseAnnotations
+> Task :shared:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :shared:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :shared:syncReleaseLibJars
+> Task :shared:bundleReleaseLocalLintAar
+> Task :shared:generateReleaseLintVitalModel
+> Task :phone:generateReleaseUnitTestLintModel
+> Task :wear:generateReleaseUnitTestLintModel
+> Task :shared:generateReleaseUnitTestLintModel
+> Task :phone:lintAnalyzeReleaseUnitTest
+> Task :shared:lintAnalyzeReleaseUnitTest
+> Task :wear:lintAnalyzeReleaseUnitTest
+> Task :shared:lintVitalAnalyzeRelease
+> Task :shared:lintAnalyzeRelease
+> Task :phone:lintVitalAnalyzeRelease
+> Task :phone:lintAnalyzeRelease
+> Task :phone:lintVitalReportRelease SKIPPED
+> Task :phone:lintVitalRelease SKIPPED
+> Task :wear:lintVitalAnalyzeRelease
+> Task :wear:lintVitalReportRelease SKIPPED
+> Task :wear:lintVitalRelease SKIPPED
+
+> Task :phone:lintReportRelease
+Wrote HTML report to file:///workspace/scratch/18f0476b7b06/WristLens/phone/build/reports/lint-results-release.html
+
+> Task :phone:lintRelease
+> Task :phone:packageRelease
+> Task :phone:createReleaseApkListingFileRedirect
+> Task :phone:assembleRelease
+> Task :wear:packageRelease
+> Task :wear:createReleaseApkListingFileRedirect
+> Task :wear:assembleRelease
+> Task :wear:lintAnalyzeRelease
+
+> Task :wear:lintReportRelease
+Wrote HTML report to file:///workspace/scratch/18f0476b7b06/WristLens/wear/build/reports/lint-results-release.html
+
+> Task :wear:lintRelease
+
+[Incubating] Problems report is available at: file:///workspace/scratch/18f0476b7b06/WristLens/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 30s
+161 actionable tasks: 153 executed, 8 up-to-date

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.daniil.wristlens.wear.MenuInputTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-24T22:26:47.492Z" hostname="5b7f4bc4ecf8" time="1.292">
+  <properties/>
+  <testcase name="mainMenuRemainsUnderCameraSettings" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.201"/>
+  <testcase name="zoomUsesFineRotaryStepsAndKeepsItsParent" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.123"/>
+  <testcase name="quickIconsOpenCorrespondingSettingsAndPreviewHasOneStatus" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.118"/>
+  <testcase name="rotaryScrollAndClockDoNotOverlap" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.382"/>
+  <testcase name="quickSettingsSendOnlyTheirSetting" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.063"/>
+  <testcase name="confirmedSaveShowsSavedAndFailureDoesNot" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.223"/>
+  <testcase name="touchBezelScrollsWithoutAFrame" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.074"/>
+  <testcase name="resolutionBackReturnsToAspectPicker" classname="com.daniil.wristlens.wear.MenuInputTest" time="0.107"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>
