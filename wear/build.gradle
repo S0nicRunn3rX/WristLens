@@ -1,0 +1,46 @@
+plugins { id 'com.android.application' }
+
+// Public source export: signing credentials stay outside the repository.
+def signingPath = System.getenv('WRISTLENS_KEYSTORE')
+def signingReady = signingPath != null && !signingPath.isBlank()
+
+android {
+    namespace 'com.daniil.wristlens.wear'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.daniil.wristlens'
+        minSdk 30
+        targetSdk 36
+        versionCode 1801
+        versionName '1.8.0'
+    }
+    signingConfigs {
+        if (signingReady) {
+            personal {
+                storeFile file(signingPath)
+                storePassword System.getenv('WRISTLENS_STORE_PASSWORD')
+                keyAlias System.getenv('WRISTLENS_KEY_ALIAS')
+                keyPassword System.getenv('WRISTLENS_KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        debug {
+            if (signingReady) signingConfig signingConfigs.personal
+        }
+        release {
+            if (signingReady) signingConfig signingConfigs.personal
+            debuggable false
+            minifyEnabled false
+        }
+    }
+    testOptions { unitTests.includeAndroidResources = true }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies {
+    implementation project(':shared')
+    implementation 'androidx.work:work-runtime:2.10.5'
+    implementation 'androidx.wear:wear-remote-interactions:1.2.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.16.1'
+}
